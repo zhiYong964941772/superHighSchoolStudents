@@ -1,0 +1,24 @@
+//
+//  ZYSupperHighStudent.pch
+//  超级高考生
+//
+//  Created by 赖志勇 on 2017/7/29.
+//  Copyright © 2017年 赖志勇. All rights reserved.
+//
+
+#ifndef ZYSupperHighStudent_pch
+#define ZYSupperHighStudent_pch
+#import <UIKit/UIKit.h>
+#import "ZYSupperHighStudentHeader.h"
+#import "NSString+Extension.h"
+#import "MBProgressHUD+Extension.h"
+#import "UIView+Extension.h"
+#import <Masonry.h>
+#import <MJRefresh.h>
+#import <MJExtension.h>
+#import "UILabel+Extension.h"
+#import "UIImageView+pd.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ZYSupperHighStudent_pch */

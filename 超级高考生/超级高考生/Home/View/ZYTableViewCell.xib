@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZYTableViewCell" rowHeight="240" id="KGk-i7-Jjw" customClass="ZYTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="239.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="“超级创作者”火热招募中......" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cA1-Fb-bwc">
+                        <rect key="frame" x="28" y="60" width="264" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最新活动" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2CI-HA-mBI">
+                        <rect key="frame" x="129.5" y="15" width="61.5" height="18"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lGJ-an-Wdk">
+                        <rect key="frame" x="148" y="38" width="25" height="2"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="DTy-fo-nhD"/>
+                            <constraint firstAttribute="width" constant="25" id="sEm-P8-tx5"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sa4-q0-PPn">
+                        <rect key="frame" x="40" y="101" width="240" height="120"/>
+                        <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="UGR-VC-X5N"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="sa4-q0-PPn" secondAttribute="trailing" constant="32" id="5Ld-ME-kKP"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cA1-Fb-bwc" secondAttribute="trailing" constant="20" id="6h9-mv-TvX"/>
+                    <constraint firstItem="cA1-Fb-bwc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="L6f-sP-O44"/>
+                    <constraint firstItem="lGJ-an-Wdk" firstAttribute="top" secondItem="2CI-HA-mBI" secondAttribute="bottom" constant="5" id="SaN-ju-JnA"/>
+                    <constraint firstItem="sa4-q0-PPn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="32" id="W2c-T0-yTz"/>
+                    <constraint firstItem="cA1-Fb-bwc" firstAttribute="top" secondItem="lGJ-an-Wdk" secondAttribute="bottom" constant="20" id="YrE-kz-uqR"/>
+                    <constraint firstItem="2CI-HA-mBI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="cG7-hj-z5K"/>
+                    <constraint firstItem="sa4-q0-PPn" firstAttribute="top" secondItem="cA1-Fb-bwc" secondAttribute="bottom" constant="20" id="mW0-VT-Ack"/>
+                    <constraint firstItem="2CI-HA-mBI" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="osp-pA-hFu"/>
+                    <constraint firstItem="2CI-HA-mBI" firstAttribute="centerX" secondItem="lGJ-an-Wdk" secondAttribute="centerX" id="wxg-KA-jcD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-13" y="87"/>
+        </tableViewCell>
+    </objects>
+</document>

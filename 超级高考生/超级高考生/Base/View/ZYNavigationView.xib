@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYNavigationView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jvk-F1-Xde">
+                    <rect key="frame" x="10" y="7" width="30" height="30"/>
+                    <state key="normal" backgroundImage="矢量智能对象5-拷贝"/>
+                    <connections>
+                        <action selector="userAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="C4G-01-xjn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMp-a2-2be">
+                    <rect key="frame" x="265" y="7" width="30" height="30"/>
+                    <state key="normal" backgroundImage="矢量智能对象"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSf-56-5Xr">
+                    <rect key="frame" x="335" y="7" width="30" height="30"/>
+                    <state key="normal" backgroundImage="组-16"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fb-bf-sUj">
+                    <rect key="frame" x="300" y="7" width="30" height="30"/>
+                    <state key="normal" backgroundImage="组-15"/>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="搜索" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zox-1x-Kou">
+                    <rect key="frame" x="50" y="7" width="205" height="30"/>
+                    <nil key="textColor"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ZSf-56-5Xr" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="3Bk-gh-aGF"/>
+                <constraint firstAttribute="trailing" secondItem="ZSf-56-5Xr" secondAttribute="trailing" constant="10" id="8IG-fS-BfK"/>
+                <constraint firstItem="Zox-1x-Kou" firstAttribute="leading" secondItem="Jvk-F1-Xde" secondAttribute="trailing" constant="10" id="8zo-oU-jk8"/>
+                <constraint firstItem="Jvk-F1-Xde" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="AoQ-CR-0nG"/>
+                <constraint firstItem="AMp-a2-2be" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="EYz-Xz-BDm"/>
+                <constraint firstItem="AMp-a2-2be" firstAttribute="leading" secondItem="Zox-1x-Kou" secondAttribute="trailing" constant="10" id="MSo-eO-7By"/>
+                <constraint firstItem="Jvk-F1-Xde" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="cXC-Hm-qoT"/>
+                <constraint firstItem="0fb-bf-sUj" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="de2-Xd-aNl"/>
+                <constraint firstItem="ZSf-56-5Xr" firstAttribute="leading" secondItem="0fb-bf-sUj" secondAttribute="trailing" constant="5" id="e0w-29-Qcd"/>
+                <constraint firstItem="Zox-1x-Kou" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="k1R-BI-lPv"/>
+                <constraint firstItem="0fb-bf-sUj" firstAttribute="leading" secondItem="AMp-a2-2be" secondAttribute="trailing" constant="5" id="vnK-DV-EaH"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="searchTextField" destination="Zox-1x-Kou" id="msc-oQ-e5D"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="220"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="矢量智能对象" width="30" height="30"/>
+        <image name="矢量智能对象5-拷贝" width="30" height="30"/>
+        <image name="组-15" width="30" height="30"/>
+        <image name="组-16" width="30" height="30"/>
+    </resources>
+</document>

@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+
+target '超级高考生' do
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MJExtension'
+pod 'ReactiveObjC'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'Masonry'  
+end

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZYNavigationSubView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CZN-0Z-hkD">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
+                    <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CBD-fj-RxV">
+                    <rect key="frame" x="171" y="138" width="33" height="32"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="精评"/>
+                    <connections>
+                        <action selector="userAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="0pE-J1-4Rk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpN-7w-EFP">
+                    <rect key="frame" x="10" y="10" width="24" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="创作矢量智能对象5-拷贝"/>
+                    <connections>
+                        <action selector="userAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Dxv-eX-Al4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ib8-0u-LMj">
+                    <rect key="frame" x="25" y="138" width="33" height="32"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="原创"/>
+                    <connections>
+                        <action selector="userAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="73a-bf-mCo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8tA-Sy-ZV8">
+                    <rect key="frame" x="175" y="10" width="25" height="25"/>
+                    <state key="normal" backgroundImage="矩形-20-拷贝"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YlO-bm-vep">
+                    <rect key="frame" x="341" y="10" width="24" height="24"/>
+                    <state key="normal" backgroundImage="矢量智能对象@3x_89"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtV-Mg-hph">
+                    <rect key="frame" x="317" y="138" width="33" height="32"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="成果"/>
+                    <connections>
+                        <action selector="userAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="C2X-98-4XB"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="YlO-bm-vep" secondAttribute="trailing" constant="10" id="2wR-6r-24x"/>
+                <constraint firstAttribute="trailing" secondItem="CZN-0Z-hkD" secondAttribute="trailing" id="BRa-zY-7Y0"/>
+                <constraint firstItem="CZN-0Z-hkD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Fm6-R5-fQH"/>
+                <constraint firstItem="CBD-fj-RxV" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="K4K-bh-esz"/>
+                <constraint firstAttribute="bottom" secondItem="CZN-0Z-hkD" secondAttribute="bottom" id="LZ6-gS-lZ8"/>
+                <constraint firstItem="8tA-Sy-ZV8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="WnB-0q-hYB"/>
+                <constraint firstItem="CZN-0Z-hkD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Z5R-AX-8lC"/>
+                <constraint firstAttribute="bottom" secondItem="CBD-fj-RxV" secondAttribute="bottom" constant="10" id="c3c-HB-93z"/>
+                <constraint firstItem="ib8-0u-LMj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="dkh-P6-m50"/>
+                <constraint firstAttribute="trailing" secondItem="WtV-Mg-hph" secondAttribute="trailing" constant="25" id="mYf-8b-4ZU"/>
+                <constraint firstItem="8tA-Sy-ZV8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qGc-wu-IDE"/>
+                <constraint firstAttribute="bottom" secondItem="WtV-Mg-hph" secondAttribute="bottom" constant="10" id="qq9-Yk-ZTa"/>
+                <constraint firstItem="YlO-bm-vep" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="rvc-5A-EnR"/>
+                <constraint firstAttribute="bottom" secondItem="ib8-0u-LMj" secondAttribute="bottom" constant="10" id="yNC-8e-BNi"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="85.5" y="195"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="创作矢量智能对象5-拷贝" width="24" height="24"/>
+        <image name="矢量智能对象@3x_89" width="24" height="24"/>
+        <image name="矩形-20-拷贝" width="25" height="25"/>
+    </resources>
+</document>
