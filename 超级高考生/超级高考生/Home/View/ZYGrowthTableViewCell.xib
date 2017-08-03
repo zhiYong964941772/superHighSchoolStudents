@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZYGrowthTableViewCell" id="CpQ-Hj-doh" userLabel="ZYGrowthTableViewCell" customClass="ZYGrowthTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CpQ-Hj-doh" id="keO-t4-1dC">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4个考点|20个视频" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAw-rH-Bx9">
+                        <rect key="frame" x="5" y="175" width="100.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已获学分20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mq-4Q-oWQ">
+                        <rect key="frame" x="177" y="175" width="64" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GQ6-qk-aB9">
+                        <rect key="frame" x="5" y="0.0" width="310" height="165"/>
+                        <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未获学分20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4m-gY-pLU">
+                        <rect key="frame" x="251" y="175" width="64" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="m4m-gY-pLU" firstAttribute="trailing" secondItem="GQ6-qk-aB9" secondAttribute="trailing" id="3cm-dc-XUR"/>
+                    <constraint firstItem="m4m-gY-pLU" firstAttribute="bottom" secondItem="3mq-4Q-oWQ" secondAttribute="bottom" id="487-bq-luC"/>
+                    <constraint firstItem="GQ6-qk-aB9" firstAttribute="top" secondItem="keO-t4-1dC" secondAttribute="top" id="5fD-ut-kBT"/>
+                    <constraint firstItem="hAw-rH-Bx9" firstAttribute="top" secondItem="GQ6-qk-aB9" secondAttribute="bottom" constant="10" id="72R-Mi-0eD"/>
+                    <constraint firstItem="hAw-rH-Bx9" firstAttribute="leading" secondItem="keO-t4-1dC" secondAttribute="leading" constant="5" id="ILi-ke-FbG"/>
+                    <constraint firstItem="m4m-gY-pLU" firstAttribute="top" secondItem="3mq-4Q-oWQ" secondAttribute="top" id="VBY-j2-3af"/>
+                    <constraint firstAttribute="trailing" secondItem="GQ6-qk-aB9" secondAttribute="trailing" constant="5" id="cA5-70-6CE"/>
+                    <constraint firstItem="m4m-gY-pLU" firstAttribute="leading" secondItem="3mq-4Q-oWQ" secondAttribute="trailing" constant="10" id="gZY-It-fYd"/>
+                    <constraint firstItem="GQ6-qk-aB9" firstAttribute="leading" secondItem="keO-t4-1dC" secondAttribute="leading" constant="5" id="ihL-mu-DBF"/>
+                    <constraint firstAttribute="bottom" secondItem="hAw-rH-Bx9" secondAttribute="bottom" constant="10" id="m6A-zw-B5v"/>
+                    <constraint firstItem="m4m-gY-pLU" firstAttribute="centerY" secondItem="hAw-rH-Bx9" secondAttribute="centerY" id="yLc-R0-0ar"/>
+                </constraints>
+            </tableViewCellContentView>
+        </tableViewCell>
+    </objects>
+</document>
