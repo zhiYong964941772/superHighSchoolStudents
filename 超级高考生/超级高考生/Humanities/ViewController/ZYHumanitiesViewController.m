@@ -9,6 +9,7 @@
 #import "ZYHumanitiesViewController.h"
 #import "ZYNavigationController.h"
 #import "ZYHumanitieTableView.h"
+#import "ZYTabBarViewController.h"
 @interface ZYHumanitiesViewController ()
 
 @end
@@ -17,20 +18,39 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:YES];
-    [self.view setBackgroundColor:[UIColor whiteColor]];
+    ZYNavigationController *navi = (ZYNavigationController*)self.navigationController;
+    ZYTabBarViewController *tab = (ZYTabBarViewController*)self.tabBarController;
+    [tab.pan setEnabled:YES];
+    [navi.shuffingView setAlpha:1.0];
+    [navi.mNavigationView setAlpha:1.0];
+    
 
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
     ZYNavigationController *navi = self.navigationController;
-    
-    ZYHumanitieTableView *tableView = [ZYHumanitieTableView showHumanitieView:CGRectMake(0, CGRectGetMaxY(navi.shuffingView.frame), SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetMaxY(navi.shuffingView.frame)-44)];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
+    ZYHumanitieTableView *tableView = [ZYHumanitieTableView showHumanitieView:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetMaxY(navi.shuffingView.frame)-44)];
     [self.view addSubview:tableView];
+    [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(SCREEN_HEIGHT/4+64);
+        make.left.right.mas_equalTo(0);
+        make.bottom.mas_equalTo(0);
+    }];
+
     
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    ZYNavigationController *navi = (ZYNavigationController*)self.navigationController;
+    [navi.shuffingView setAlpha:0.0];
+    [navi.mNavigationView setAlpha:0.0];
+    ZYTabBarViewController *tab = (ZYTabBarViewController*)self.tabBarController;
+    [tab.pan setEnabled:NO];
 }
 
 /*

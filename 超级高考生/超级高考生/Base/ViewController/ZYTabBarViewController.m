@@ -213,8 +213,8 @@
 #pragma mark 添加手势
 -(void)addGestureForMTransitionView{
     
-    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(panAction:)];
-    [_mTransitionView addGestureRecognizer:pan];
+    _pan = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(panAction:)];
+    [_mTransitionView addGestureRecognizer:_pan];
     
     _mTapGester = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapAction)];
 }

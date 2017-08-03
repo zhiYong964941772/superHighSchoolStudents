@@ -8,9 +8,7 @@
 
 #import "ZYNavigationController.h"
 #import "UIBarButtonItem+Extension.h"
-#import "ZYNavigationView.h"
 @interface ZYNavigationController ()
-@property(strong, nonatomic)ZYNavigationView *mNavigationView;
 
 @end
 
@@ -23,7 +21,7 @@
     // 设置普通状态
     // key：NS****AttributeName
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
-    textAttrs[NSForegroundColorAttributeName] = [UIColor orangeColor];
+    textAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
     textAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:15];
     [item setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
     
@@ -45,6 +43,16 @@
         [NSNOTIFICATION addObserver:self selector:@selector(zy_pushUserView) name:@"ZY_UserView" object:nil];
         [self.view addSubview:self.mNavigationView];
         [self.view addSubview:self.shuffingView];
+        [self.mNavigationView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.right.mas_equalTo(0);
+            make.top.mas_equalTo(20);
+            make.height.mas_equalTo(44);
+        }];
+        [self.shuffingView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.right.mas_equalTo(0);
+            make.top.mas_equalTo(self.mNavigationView.mas_bottom);
+            make.height.mas_equalTo(SCREEN_HEIGHT/4);
+        }];
     }else{
         [self.view addSubview:self.mNavigationSubView];
     }
@@ -67,7 +75,7 @@
         
         /* 设置导航栏上面的内容 */
         // 设置左边的返回按钮
-        viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(back) image:@"navigationbar_back" highImage:@"navigationbar_back_highlighted"];
+        viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(back) image:@"返回-黑" highImage:@"返回"];
         
         // 设置右边的更多按钮
         viewController.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(more) image:@"navigationbar_more" highImage:@"navigationbar_more_highlighted"];
@@ -102,7 +110,7 @@
 }
 - (QuestionShufflingView *)shuffingView{
     if (!_shuffingView) {
-       _shuffingView = [QuestionShufflingView getShuffingView:CGRectMake(0, CGRectGetMaxY(self.mNavigationView.frame), SCREEN_WIDTH, SCREEN_HEIGHT/4)];//无限轮播
+       _shuffingView = [QuestionShufflingView getShuffingView:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT/4)];//无限轮播
         _shuffingView.imageArr =  @[@"轮播图.jpg",@"轮播图2.jpg",@"轮播图3.jpg"];
         _shuffingView.pageFrame = CGRectMake(_shuffingView.center.x - 20,CGRectGetMaxY(_shuffingView.bounds)-30, 40, 30);
 
@@ -112,4 +120,5 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self.view endEditing:YES];
 }
+
 @end

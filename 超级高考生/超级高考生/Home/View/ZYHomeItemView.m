@@ -9,8 +9,9 @@
 #import "ZYHomeItemView.h"
 
 @implementation ZYHomeItemView
-+(instancetype)showItemView{
++(instancetype)showItemViewWitBtnAction:(void (^)(ZYHomeItemView *view))btnBlock{
     ZYHomeItemView *view = [[[NSBundle mainBundle]loadNibNamed:@"ZYHomeItemView" owner:self options:nil]firstObject];
+    btnBlock(view);
     return view;
 }
 /*
@@ -20,5 +21,25 @@
     // Drawing code
 }
 */
+- (IBAction)growthAction:(id)sender {
+    if (self.growthBlock) {
+        self.growthBlock();
+    }
+}
+- (IBAction)notes:(id)sender {
+    if (self.notesBlock) {
+        self.notesBlock();
+    }
+}
+- (IBAction)activity:(id)sender {
+    if (self.activity) {
+        self.activity();
+    }
+}
+- (IBAction)bookStores:(id)sender {
+    if (self.bookStoresBlock) {
+        self.bookStoresBlock();
+    }
+}
 
 @end

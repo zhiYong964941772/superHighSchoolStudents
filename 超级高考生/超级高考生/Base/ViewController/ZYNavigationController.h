@@ -9,12 +9,15 @@
 #import <UIKit/UIKit.h>
 #import "QuestionShufflingView.h"
 #import "ZYNavigationSubView.h"
+#import "ZYNavigationView.h"
 
 @interface ZYNavigationController : UINavigationController
 @property(assign, nonatomic)BOOL isShowNavigation;
 @property(copy, nonatomic)void (^sp_PushUserView)();
 @property(strong, nonatomic)QuestionShufflingView *shuffingView;
 @property(strong, nonatomic)ZYNavigationSubView *mNavigationSubView;
+@property(strong, nonatomic)ZYNavigationView *mNavigationView;
+
 
 
 @end

@@ -18,6 +18,7 @@
 @property(strong, nonatomic)UIView *mMenuV;
 
 @property(weak, nonatomic)id <ZYTab_VC_TCVDelegate> mDelegate;
+@property(strong, nonatomic)UIPanGestureRecognizer *pan;
 
 -(void)openMenu;
 -(void)closeMenu;

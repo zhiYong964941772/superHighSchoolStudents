@@ -16,7 +16,7 @@
 +(instancetype)showNavigationView{
     ZYNavigationView *mNavigationView = [[[NSBundle mainBundle]loadNibNamed:@"ZYNavigationView" owner:self options:nil]firstObject];
     mNavigationView.searchTextField.delegate = mNavigationView;
-    [mNavigationView setFrame:CGRectMake(0,20, SCREEN_WIDTH, 44)];
+    [mNavigationView setFrame:CGRectMake(0,0, SCREEN_WIDTH, 44)];
 
 return mNavigationView;
 

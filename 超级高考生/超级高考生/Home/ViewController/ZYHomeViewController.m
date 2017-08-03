@@ -10,6 +10,8 @@
 #import "ZYHomeItemView.h"
 #import "ZYNavigationController.h"
 #import "ZYHomeTableView.h"
+#import "ZYGrowthViewController.h"
+#import "ZYTabBarViewController.h"
 @interface ZYHomeViewController ()
 
 @end
@@ -18,21 +20,59 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:YES];
-    [self.view setBackgroundColor:[UIColor whiteColor]];
-    [self creatUI];
+    ZYNavigationController *navi = (ZYNavigationController*)self.navigationController;
+    ZYTabBarViewController *tab = (ZYTabBarViewController*)self.tabBarController;
+    [tab.pan setEnabled:YES];
+    [navi.shuffingView setAlpha:1.0];
+    [navi.mNavigationView setAlpha:1.0];
 }
 - (void)creatUI{
-    ZYNavigationController *navi = self.navigationController;
-    CGRect frame = CGRectMake(0,CGRectGetMaxY(navi.shuffingView.frame), SCREEN_WIDTH, 90);
-    ZYHomeItemView *itemView = [ZYHomeItemView showItemView];
-    [itemView setFrame:frame];
+    ZYHomeItemView *itemView = [ZYHomeItemView showItemViewWitBtnAction:^(ZYHomeItemView *view) {
+        view.growthBlock = ^{
+            ZYGrowthViewController *growthVC = [[ZYGrowthViewController alloc]initWithNibName:@"ZYGrowthViewController" bundle:nil];
+            [self.navigationController pushViewController:growthVC animated:YES];
+        };
+        view.notesBlock = ^{
+            
+        };
+        view.activity = ^{
+            
+        };
+        view.bookStoresBlock = ^{
+            
+        };
+    }];
     [self.view addSubview:itemView];
-    ZYHomeTableView *tableView = [ZYHomeTableView showHomeView:CGRectMake(0, CGRectGetMaxY(itemView.frame), SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetMaxY(itemView.frame)-44)];
+    ZYHomeTableView *tableView = [ZYHomeTableView showHomeView:CGRectMake(0,0, SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetMaxY(itemView.frame)-44)];
     [self.view addSubview:tableView];
+    [itemView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(SCREEN_HEIGHT/4+64);
+        make.left.right.mas_equalTo(0);
+        make.height.mas_equalTo(90);
+    }];
+    [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(itemView.mas_bottom);
+        make.left.right.mas_equalTo(0);
+        make.bottom.mas_equalTo(0);
+
+    }];
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self creatUI];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
+
+
+
 //    [self.view addSubview:self.mNavigationView];
+}
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    ZYNavigationController *navi = (ZYNavigationController*)self.navigationController;
+    [navi.shuffingView setAlpha:0.0];
+    [navi.mNavigationView setAlpha:0.0];
+    ZYTabBarViewController *tab = (ZYTabBarViewController*)self.tabBarController;
+    [tab.pan setEnabled:NO];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

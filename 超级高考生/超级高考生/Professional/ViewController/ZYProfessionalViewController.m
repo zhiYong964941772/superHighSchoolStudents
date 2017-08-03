@@ -9,6 +9,7 @@
 #import "ZYProfessionalViewController.h"
 #import "ZYNavigationController.h"
 #import "ZYProfessionItemView.h"
+#import "ZYTabBarViewController.h" 
 #import "ZYProfessionCollectionView.h"
 @interface ZYProfessionalViewController ()
 
@@ -17,7 +18,12 @@
 @implementation ZYProfessionalViewController
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    ZYNavigationController *navi = (ZYNavigationController*)self.navigationController;
     [self.navigationController setNavigationBarHidden:YES];
+    ZYTabBarViewController *tab = (ZYTabBarViewController*)self.tabBarController;
+    [tab.pan setEnabled:YES];
+    [navi.shuffingView setAlpha:1.0];
+    [navi.mNavigationView setAlpha:1.0];
     
 }
 - (void)viewDidLoad {
@@ -26,21 +32,37 @@
     [self creatUI];
 }
 - (void)creatUI{
-    ZYNavigationController *navi = self.navigationController;
-    CGRect frame = CGRectMake(0,CGRectGetMaxY(navi.shuffingView.frame), SCREEN_WIDTH, 90);
     ZYProfessionItemView *itemView = [ZYProfessionItemView showItemView];
-    [itemView setFrame:frame];
     [self.view addSubview:itemView];
     
-    ZYProfessionCollectionView *collectionView = [ZYProfessionCollectionView showProfessionCollectionView:CGRectMake(0, CGRectGetMaxY(itemView.frame),SCREEN_WIDTH,SCREEN_HEIGHT - CGRectGetMaxY(itemView.frame)-44)];
+    ZYProfessionCollectionView *collectionView = [ZYProfessionCollectionView showProfessionCollectionView:CGRectMake(0, 0,SCREEN_WIDTH,SCREEN_HEIGHT - CGRectGetMaxY(itemView.frame)-44)];
     
     [self.view addSubview:collectionView];
+    [itemView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(SCREEN_HEIGHT/4+64);
+        make.left.right.mas_equalTo(0);
+        make.height.mas_equalTo(90);
+    }];
+    [collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(itemView.mas_bottom);
+        make.left.right.mas_equalTo(0);
+        make.bottom.mas_equalTo(0);
+        
+    }];
 
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    ZYNavigationController *navi = (ZYNavigationController*)self.navigationController;
+    [navi.shuffingView setAlpha:0.0];
+    [navi.mNavigationView setAlpha:0.0];
+    ZYTabBarViewController *tab = (ZYTabBarViewController*)self.tabBarController;
+    [tab.pan setEnabled:NO];
 }
 
 /*

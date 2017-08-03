@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		01901FB4D63C6407B79BD39C /* libPods-超级高考生.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A33A682DE78238257FF0EE0 /* libPods-超级高考生.a */; };
+		7C0008E41F31C69A00A9BF1D /* ZYGrowthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0008E21F31C69A00A9BF1D /* ZYGrowthViewController.m */; };
+		7C0008E51F31C69A00A9BF1D /* ZYGrowthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0008E31F31C69A00A9BF1D /* ZYGrowthViewController.xib */; };
+		7C0008EB1F31D2C000A9BF1D /* ZYGrowthTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0008EA1F31D2C000A9BF1D /* ZYGrowthTableView.m */; };
+		7C0008EF1F31ED0F00A9BF1D /* ZYGrowthTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0008ED1F31ED0F00A9BF1D /* ZYGrowthTableViewCell.m */; };
+		7C0008F01F31ED0F00A9BF1D /* ZYGrowthTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0008EE1F31ED0F00A9BF1D /* ZYGrowthTableViewCell.xib */; };
+		7C0008F81F32C01B00A9BF1D /* ZYGrowthXueFenTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0008F71F32C01B00A9BF1D /* ZYGrowthXueFenTableView.m */; };
+		7C0008FC1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0008FA1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.m */; };
+		7C0008FD1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0008FB1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.xib */; };
+		7C0009011F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0008FF1F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.m */; };
+		7C0009021F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0009001F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.xib */; };
 		7C5B73221F2F7819006036D8 /* ZYForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B73201F2F7819006036D8 /* ZYForgetViewController.m */; };
 		7C5B73231F2F7819006036D8 /* ZYForgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B73211F2F7819006036D8 /* ZYForgetViewController.xib */; };
 		7C5B73271F2F7D1E006036D8 /* ZYForgetNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B73251F2F7D1E006036D8 /* ZYForgetNextViewController.m */; };
@@ -72,6 +82,22 @@
 
 /* Begin PBXFileReference section */
 		3A33A682DE78238257FF0EE0 /* libPods-超级高考生.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-超级高考生.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0008E11F31C69A00A9BF1D /* ZYGrowthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGrowthViewController.h; sourceTree = "<group>"; };
+		7C0008E21F31C69A00A9BF1D /* ZYGrowthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGrowthViewController.m; sourceTree = "<group>"; };
+		7C0008E31F31C69A00A9BF1D /* ZYGrowthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYGrowthViewController.xib; sourceTree = "<group>"; };
+		7C0008E91F31D2C000A9BF1D /* ZYGrowthTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGrowthTableView.h; sourceTree = "<group>"; };
+		7C0008EA1F31D2C000A9BF1D /* ZYGrowthTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGrowthTableView.m; sourceTree = "<group>"; };
+		7C0008EC1F31ED0F00A9BF1D /* ZYGrowthTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGrowthTableViewCell.h; sourceTree = "<group>"; };
+		7C0008ED1F31ED0F00A9BF1D /* ZYGrowthTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGrowthTableViewCell.m; sourceTree = "<group>"; };
+		7C0008EE1F31ED0F00A9BF1D /* ZYGrowthTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYGrowthTableViewCell.xib; sourceTree = "<group>"; };
+		7C0008F61F32C01B00A9BF1D /* ZYGrowthXueFenTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGrowthXueFenTableView.h; sourceTree = "<group>"; };
+		7C0008F71F32C01B00A9BF1D /* ZYGrowthXueFenTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGrowthXueFenTableView.m; sourceTree = "<group>"; };
+		7C0008F91F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGrowthXueFenTableViewCell.h; sourceTree = "<group>"; };
+		7C0008FA1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGrowthXueFenTableViewCell.m; sourceTree = "<group>"; };
+		7C0008FB1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYGrowthXueFenTableViewCell.xib; sourceTree = "<group>"; };
+		7C0008FE1F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGrowthGuiZeViewController.h; sourceTree = "<group>"; };
+		7C0008FF1F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGrowthGuiZeViewController.m; sourceTree = "<group>"; };
+		7C0009001F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYGrowthGuiZeViewController.xib; sourceTree = "<group>"; };
 		7C5B731F1F2F7819006036D8 /* ZYForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYForgetViewController.h; sourceTree = "<group>"; };
 		7C5B73201F2F7819006036D8 /* ZYForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYForgetViewController.m; sourceTree = "<group>"; };
 		7C5B73211F2F7819006036D8 /* ZYForgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYForgetViewController.xib; sourceTree = "<group>"; };
@@ -281,6 +307,16 @@
 				7CFB5E7F1F2E1ED30091A7EC /* ZYTableViewCell.h */,
 				7CFB5E801F2E1ED30091A7EC /* ZYTableViewCell.m */,
 				7CFB5E811F2E1ED30091A7EC /* ZYTableViewCell.xib */,
+				7C0008E91F31D2C000A9BF1D /* ZYGrowthTableView.h */,
+				7C0008EA1F31D2C000A9BF1D /* ZYGrowthTableView.m */,
+				7C0008EC1F31ED0F00A9BF1D /* ZYGrowthTableViewCell.h */,
+				7C0008ED1F31ED0F00A9BF1D /* ZYGrowthTableViewCell.m */,
+				7C0008EE1F31ED0F00A9BF1D /* ZYGrowthTableViewCell.xib */,
+				7C0008F61F32C01B00A9BF1D /* ZYGrowthXueFenTableView.h */,
+				7C0008F71F32C01B00A9BF1D /* ZYGrowthXueFenTableView.m */,
+				7C0008F91F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.h */,
+				7C0008FA1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.m */,
+				7C0008FB1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -290,6 +326,12 @@
 			children = (
 				7CFB5E411F2CB2C60091A7EC /* ZYHomeViewController.h */,
 				7CFB5E421F2CB2C60091A7EC /* ZYHomeViewController.m */,
+				7C0008E11F31C69A00A9BF1D /* ZYGrowthViewController.h */,
+				7C0008E21F31C69A00A9BF1D /* ZYGrowthViewController.m */,
+				7C0008E31F31C69A00A9BF1D /* ZYGrowthViewController.xib */,
+				7C0008FE1F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.h */,
+				7C0008FF1F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.m */,
+				7C0009001F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -604,7 +646,7 @@
 				TargetAttributes = {
 					7CFB5DC01F2B94610091A7EC = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = N5D9SLXB3H;
+						DevelopmentTeam = 998M9T58PH;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -638,13 +680,17 @@
 				7CFB5E931F2E28140091A7EC /* ZYCreationTableViewCell.xib in Resources */,
 				7CFB5E761F2E01C30091A7EC /* ZYHomeItemView.xib in Resources */,
 				7CFB5DD41F2B94610091A7EC /* LaunchScreen.storyboard in Resources */,
+				7C0009021F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.xib in Resources */,
 				7CEDE4AC1F30AD5D005EFFEF /* ZYSignViewController.xib in Resources */,
 				7CFB5DD11F2B94610091A7EC /* Assets.xcassets in Resources */,
+				7C0008E51F31C69A00A9BF1D /* ZYGrowthViewController.xib in Resources */,
 				7CFB5E641F2DE4790091A7EC /* ZYNavigationSubView.xib in Resources */,
+				7C0008FD1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.xib in Resources */,
 				7C5B73231F2F7819006036D8 /* ZYForgetViewController.xib in Resources */,
 				7C5B73281F2F7D1E006036D8 /* ZYForgetNextViewController.xib in Resources */,
 				7CFB5E711F2DEB850091A7EC /* ZYUserHeaderView.xib in Resources */,
 				7CFB5E5C1F2D94EF0091A7EC /* ZYNavigationView.xib in Resources */,
+				7C0008F01F31ED0F00A9BF1D /* ZYGrowthTableViewCell.xib in Resources */,
 				7CFB5E881F2E22C90091A7EC /* ZYHumanitieTableViewCell.xib in Resources */,
 				7CFB5E6C1F2DEB5E0091A7EC /* ZYUserTableViewCell.xib in Resources */,
 			);
@@ -718,6 +764,7 @@
 				7CFB5E431F2CB2C60091A7EC /* ZYHomeViewController.m in Sources */,
 				7CFB5E6F1F2DEB730091A7EC /* ZYUserHeaderView.m in Sources */,
 				7CFB5E8E1F2E28000091A7EC /* ZYCreationTableView.m in Sources */,
+				7C0008F81F32C01B00A9BF1D /* ZYGrowthXueFenTableView.m in Sources */,
 				7C5B73271F2F7D1E006036D8 /* ZYForgetNextViewController.m in Sources */,
 				7CFB5E6B1F2DEB5E0091A7EC /* ZYUserTableViewCell.m in Sources */,
 				7CFB5E921F2E28140091A7EC /* ZYCreationTableViewCell.m in Sources */,
@@ -725,6 +772,7 @@
 				7CFB5E9A1F2E30BE0091A7EC /* ZYProfessionCollectionViewCell.m in Sources */,
 				7CFB5E181F2CA0150091A7EC /* UIImageView+pd.m in Sources */,
 				7CFB5E391F2CAE2F0091A7EC /* BaseService.m in Sources */,
+				7C0008EB1F31D2C000A9BF1D /* ZYGrowthTableView.m in Sources */,
 				7CFB5DCC1F2B94610091A7EC /* ViewController.m in Sources */,
 				7CFB5E821F2E1ED30091A7EC /* ZYTableViewCell.m in Sources */,
 				7CFB5E4F1F2CB3810091A7EC /* ZYCreationViewController.m in Sources */,
@@ -739,11 +787,13 @@
 				7CFB5E1B1F2CA0150091A7EC /* UIView+Extension.m in Sources */,
 				7CFB5E8B1F2E22DE0091A7EC /* ZYHumanitieTableView.m in Sources */,
 				7CFB5E151F2CA0150091A7EC /* UIButton+ImageTitleSpacing.m in Sources */,
+				7C0008E41F31C69A00A9BF1D /* ZYGrowthViewController.m in Sources */,
 				7CFB5E141F2CA0150091A7EC /* UIAlertController+pd.m in Sources */,
 				7CFB5E361F2CAE0C0091A7EC /* ZYTabBarViewController.m in Sources */,
 				7CFB5E0D1F2CA0150091A7EC /* MBProgressHUD+Extension.m in Sources */,
 				7C5B73221F2F7819006036D8 /* ZYForgetViewController.m in Sources */,
 				7CFB5E0F1F2CA0150091A7EC /* NSObject+extension.m in Sources */,
+				7C0008EF1F31ED0F00A9BF1D /* ZYGrowthTableViewCell.m in Sources */,
 				7CEDE4AB1F30AD5D005EFFEF /* ZYSignViewController.m in Sources */,
 				7CFB5E4C1F2CB3640091A7EC /* ZYHumanitiesViewController.m in Sources */,
 				7CFB5E121F2CA0150091A7EC /* NSString+Mine.m in Sources */,
@@ -754,7 +804,9 @@
 				7CFB5E621F2DE46A0091A7EC /* ZYNavigationSubView.m in Sources */,
 				7CFB5DC61F2B94610091A7EC /* main.m in Sources */,
 				7CFB5E111F2CA0150091A7EC /* NSString+Extension.m in Sources */,
+				7C0009011F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.m in Sources */,
 				7CFB5E351F2CAE0C0091A7EC /* ZYNavigationController.m in Sources */,
+				7C0008FC1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.m in Sources */,
 				7CFB5E401F2CB15D0091A7EC /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -871,12 +923,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 998M9T58PH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/超级高考生/Other/ZYSupperHighStudent.pch";
 				INFOPLIST_FILE = "超级高考生/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.best.cont;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superHigtStudents.alpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -889,12 +941,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 998M9T58PH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/超级高考生/Other/ZYSupperHighStudent.pch";
 				INFOPLIST_FILE = "超级高考生/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.best.cont;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superHigtStudents.alpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

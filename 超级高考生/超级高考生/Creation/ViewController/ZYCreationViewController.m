@@ -9,6 +9,7 @@
 #import "ZYCreationViewController.h"
 #import "ZYNavigationController.h"
 #import "ZYCreationTableView.h"
+#import "ZYTabBarViewController.h"
 @interface ZYCreationViewController ()
 
 @end
@@ -17,22 +18,39 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:YES];
-
+    ZYNavigationController *navi = (ZYNavigationController*)self.navigationController;
+    ZYTabBarViewController *tab = (ZYTabBarViewController*)self.tabBarController;
+    [tab.pan setEnabled:YES];
+    [navi.shuffingView setAlpha:1.0];
+    [navi.mNavigationView setAlpha:1.0];
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     [self creatUI];
 }
 - (void)creatUI{
     [self.view setBackgroundColor:[UIColor whiteColor]];
     ZYNavigationController *navi = self.navigationController;
-    ZYCreationTableView *tableView = [ZYCreationTableView showCreationView:CGRectMake(0, CGRectGetMaxY(navi.mNavigationSubView.frame), SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetMaxY(navi.mNavigationSubView.frame)-44)];
+    ZYCreationTableView *tableView = [ZYCreationTableView showCreationView:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetMaxY(navi.mNavigationSubView.frame)-44)];
     [self.view addSubview:tableView];
-
+    [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(180);
+        make.left.right.mas_equalTo(0);
+        make.bottom.mas_equalTo(0);
+    }];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    ZYNavigationController *navi = (ZYNavigationController*)self.navigationController;
+    [navi.shuffingView setAlpha:0.0];
+    [navi.mNavigationView setAlpha:0.0];
+    ZYTabBarViewController *tab = (ZYTabBarViewController*)self.tabBarController;
+    [tab.pan setEnabled:NO];
 }
 
 /*

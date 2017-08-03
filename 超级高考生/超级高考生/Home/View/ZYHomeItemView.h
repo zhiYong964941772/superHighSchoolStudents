@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ZYHomeItemView : UIView
-+ (instancetype)showItemView;
++ (instancetype)showItemViewWitBtnAction:(void(^)(ZYHomeItemView*view))btnBlock;
+@property (nonatomic ,copy)void(^growthBlock)();
+@property (nonatomic ,copy)void(^notesBlock)();
+@property (nonatomic ,copy)void(^activity)();
+@property (nonatomic ,copy)void(^bookStoresBlock)();
+
 @end
