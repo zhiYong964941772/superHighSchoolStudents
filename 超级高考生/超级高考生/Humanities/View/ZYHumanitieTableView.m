@@ -36,6 +36,8 @@
     ZYHumanitieTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ZYHumanitieTableViewCell"];
     if (!cell) {
         cell = [[[NSBundle mainBundle]loadNibNamed:@"ZYHumanitieTableViewCell" owner:nil options:nil]firstObject];
+        [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+
     }
     return cell;
 }
@@ -44,6 +46,8 @@
 }
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     UIView *headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 44)];
+    headerView.backgroundColor = [UIColor whiteColor];
+
    UILabel *titleLB = [UILabel makeLabel:^(UILabel *label) {
         [headerView addSubview:label];
         label.addTextFont(16).addText(@"专题");

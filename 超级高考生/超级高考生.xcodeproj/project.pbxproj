@@ -18,6 +18,16 @@
 		7C0008FD1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0008FB1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.xib */; };
 		7C0009011F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0008FF1F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.m */; };
 		7C0009021F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0009001F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.xib */; };
+		7C0009061F33004000A9BF1D /* ZYKaoTiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0009041F33004000A9BF1D /* ZYKaoTiViewController.m */; };
+		7C0009071F33004000A9BF1D /* ZYKaoTiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0009051F33004000A9BF1D /* ZYKaoTiViewController.xib */; };
+		7C00090A1F330A8A00A9BF1D /* ZYKaoTiTableVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0009091F330A8A00A9BF1D /* ZYKaoTiTableVIew.m */; };
+		7C00090E1F330BA100A9BF1D /* ZYKaoTiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C00090C1F330BA100A9BF1D /* ZYKaoTiTableViewCell.m */; };
+		7C00090F1F330BA100A9BF1D /* ZYKaoTiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C00090D1F330BA100A9BF1D /* ZYKaoTiTableViewCell.xib */; };
+		7C0009131F331FF800A9BF1D /* ZYKaoDianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0009111F331FF800A9BF1D /* ZYKaoDianViewController.m */; };
+		7C0009141F331FF800A9BF1D /* ZYKaoDianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0009121F331FF800A9BF1D /* ZYKaoDianViewController.xib */; };
+		7C0009171F3321FD00A9BF1D /* ZYKaoDianTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0009161F3321FD00A9BF1D /* ZYKaoDianTableView.m */; };
+		7C00091B1F33222F00A9BF1D /* ZYKaoDianTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0009191F33222F00A9BF1D /* ZYKaoDianTableViewCell.m */; };
+		7C00091C1F33222F00A9BF1D /* ZYKaoDianTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C00091A1F33222F00A9BF1D /* ZYKaoDianTableViewCell.xib */; };
 		7C5B73221F2F7819006036D8 /* ZYForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B73201F2F7819006036D8 /* ZYForgetViewController.m */; };
 		7C5B73231F2F7819006036D8 /* ZYForgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B73211F2F7819006036D8 /* ZYForgetViewController.xib */; };
 		7C5B73271F2F7D1E006036D8 /* ZYForgetNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B73251F2F7D1E006036D8 /* ZYForgetNextViewController.m */; };
@@ -98,6 +108,22 @@
 		7C0008FE1F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGrowthGuiZeViewController.h; sourceTree = "<group>"; };
 		7C0008FF1F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGrowthGuiZeViewController.m; sourceTree = "<group>"; };
 		7C0009001F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYGrowthGuiZeViewController.xib; sourceTree = "<group>"; };
+		7C0009031F33004000A9BF1D /* ZYKaoTiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYKaoTiViewController.h; sourceTree = "<group>"; };
+		7C0009041F33004000A9BF1D /* ZYKaoTiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYKaoTiViewController.m; sourceTree = "<group>"; };
+		7C0009051F33004000A9BF1D /* ZYKaoTiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYKaoTiViewController.xib; sourceTree = "<group>"; };
+		7C0009081F330A8A00A9BF1D /* ZYKaoTiTableVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYKaoTiTableVIew.h; sourceTree = "<group>"; };
+		7C0009091F330A8A00A9BF1D /* ZYKaoTiTableVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYKaoTiTableVIew.m; sourceTree = "<group>"; };
+		7C00090B1F330BA100A9BF1D /* ZYKaoTiTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYKaoTiTableViewCell.h; sourceTree = "<group>"; };
+		7C00090C1F330BA100A9BF1D /* ZYKaoTiTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYKaoTiTableViewCell.m; sourceTree = "<group>"; };
+		7C00090D1F330BA100A9BF1D /* ZYKaoTiTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYKaoTiTableViewCell.xib; sourceTree = "<group>"; };
+		7C0009101F331FF800A9BF1D /* ZYKaoDianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYKaoDianViewController.h; sourceTree = "<group>"; };
+		7C0009111F331FF800A9BF1D /* ZYKaoDianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYKaoDianViewController.m; sourceTree = "<group>"; };
+		7C0009121F331FF800A9BF1D /* ZYKaoDianViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYKaoDianViewController.xib; sourceTree = "<group>"; };
+		7C0009151F3321FD00A9BF1D /* ZYKaoDianTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYKaoDianTableView.h; sourceTree = "<group>"; };
+		7C0009161F3321FD00A9BF1D /* ZYKaoDianTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYKaoDianTableView.m; sourceTree = "<group>"; };
+		7C0009181F33222F00A9BF1D /* ZYKaoDianTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYKaoDianTableViewCell.h; sourceTree = "<group>"; };
+		7C0009191F33222F00A9BF1D /* ZYKaoDianTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYKaoDianTableViewCell.m; sourceTree = "<group>"; };
+		7C00091A1F33222F00A9BF1D /* ZYKaoDianTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYKaoDianTableViewCell.xib; sourceTree = "<group>"; };
 		7C5B731F1F2F7819006036D8 /* ZYForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYForgetViewController.h; sourceTree = "<group>"; };
 		7C5B73201F2F7819006036D8 /* ZYForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYForgetViewController.m; sourceTree = "<group>"; };
 		7C5B73211F2F7819006036D8 /* ZYForgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYForgetViewController.xib; sourceTree = "<group>"; };
@@ -317,6 +343,16 @@
 				7C0008F91F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.h */,
 				7C0008FA1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.m */,
 				7C0008FB1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.xib */,
+				7C0009081F330A8A00A9BF1D /* ZYKaoTiTableVIew.h */,
+				7C0009091F330A8A00A9BF1D /* ZYKaoTiTableVIew.m */,
+				7C00090B1F330BA100A9BF1D /* ZYKaoTiTableViewCell.h */,
+				7C00090C1F330BA100A9BF1D /* ZYKaoTiTableViewCell.m */,
+				7C00090D1F330BA100A9BF1D /* ZYKaoTiTableViewCell.xib */,
+				7C0009151F3321FD00A9BF1D /* ZYKaoDianTableView.h */,
+				7C0009161F3321FD00A9BF1D /* ZYKaoDianTableView.m */,
+				7C0009181F33222F00A9BF1D /* ZYKaoDianTableViewCell.h */,
+				7C0009191F33222F00A9BF1D /* ZYKaoDianTableViewCell.m */,
+				7C00091A1F33222F00A9BF1D /* ZYKaoDianTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -332,6 +368,12 @@
 				7C0008FE1F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.h */,
 				7C0008FF1F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.m */,
 				7C0009001F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.xib */,
+				7C0009031F33004000A9BF1D /* ZYKaoTiViewController.h */,
+				7C0009041F33004000A9BF1D /* ZYKaoTiViewController.m */,
+				7C0009051F33004000A9BF1D /* ZYKaoTiViewController.xib */,
+				7C0009101F331FF800A9BF1D /* ZYKaoDianViewController.h */,
+				7C0009111F331FF800A9BF1D /* ZYKaoDianViewController.m */,
+				7C0009121F331FF800A9BF1D /* ZYKaoDianViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -678,8 +720,12 @@
 				7CFB5E7B1F2E0DCF0091A7EC /* ZYProfessionItemView.xib in Resources */,
 				7CFB5E831F2E1ED30091A7EC /* ZYTableViewCell.xib in Resources */,
 				7CFB5E931F2E28140091A7EC /* ZYCreationTableViewCell.xib in Resources */,
+				7C0009071F33004000A9BF1D /* ZYKaoTiViewController.xib in Resources */,
+				7C0009141F331FF800A9BF1D /* ZYKaoDianViewController.xib in Resources */,
+				7C00090F1F330BA100A9BF1D /* ZYKaoTiTableViewCell.xib in Resources */,
 				7CFB5E761F2E01C30091A7EC /* ZYHomeItemView.xib in Resources */,
 				7CFB5DD41F2B94610091A7EC /* LaunchScreen.storyboard in Resources */,
+				7C00091C1F33222F00A9BF1D /* ZYKaoDianTableViewCell.xib in Resources */,
 				7C0009021F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.xib in Resources */,
 				7CEDE4AC1F30AD5D005EFFEF /* ZYSignViewController.xib in Resources */,
 				7CFB5DD11F2B94610091A7EC /* Assets.xcassets in Resources */,
@@ -758,9 +804,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CFB5E491F2CB3390091A7EC /* ZYProfessionalViewController.m in Sources */,
+				7C00090E1F330BA100A9BF1D /* ZYKaoTiTableViewCell.m in Sources */,
 				7CFB5E561F2CB9B20091A7EC /* ZYLoginViewController.m in Sources */,
 				7CFB5E961F2E30A70091A7EC /* ZYProfessionCollectionView.m in Sources */,
 				7CFB5E7E1F2E1EBE0091A7EC /* ZYHomeTableView.m in Sources */,
+				7C00091B1F33222F00A9BF1D /* ZYKaoDianTableViewCell.m in Sources */,
 				7CFB5E431F2CB2C60091A7EC /* ZYHomeViewController.m in Sources */,
 				7CFB5E6F1F2DEB730091A7EC /* ZYUserHeaderView.m in Sources */,
 				7CFB5E8E1F2E28000091A7EC /* ZYCreationTableView.m in Sources */,
@@ -773,6 +821,7 @@
 				7CFB5E181F2CA0150091A7EC /* UIImageView+pd.m in Sources */,
 				7CFB5E391F2CAE2F0091A7EC /* BaseService.m in Sources */,
 				7C0008EB1F31D2C000A9BF1D /* ZYGrowthTableView.m in Sources */,
+				7C0009061F33004000A9BF1D /* ZYKaoTiViewController.m in Sources */,
 				7CFB5DCC1F2B94610091A7EC /* ViewController.m in Sources */,
 				7CFB5E821F2E1ED30091A7EC /* ZYTableViewCell.m in Sources */,
 				7CFB5E4F1F2CB3810091A7EC /* ZYCreationViewController.m in Sources */,
@@ -793,11 +842,13 @@
 				7CFB5E0D1F2CA0150091A7EC /* MBProgressHUD+Extension.m in Sources */,
 				7C5B73221F2F7819006036D8 /* ZYForgetViewController.m in Sources */,
 				7CFB5E0F1F2CA0150091A7EC /* NSObject+extension.m in Sources */,
+				7C00090A1F330A8A00A9BF1D /* ZYKaoTiTableVIew.m in Sources */,
 				7C0008EF1F31ED0F00A9BF1D /* ZYGrowthTableViewCell.m in Sources */,
 				7CEDE4AB1F30AD5D005EFFEF /* ZYSignViewController.m in Sources */,
 				7CFB5E4C1F2CB3640091A7EC /* ZYHumanitiesViewController.m in Sources */,
 				7CFB5E121F2CA0150091A7EC /* NSString+Mine.m in Sources */,
 				7CFB5E871F2E22C90091A7EC /* ZYHumanitieTableViewCell.m in Sources */,
+				7C0009171F3321FD00A9BF1D /* ZYKaoDianTableView.m in Sources */,
 				7CFB5E161F2CA0150091A7EC /* UIImage+Extension.m in Sources */,
 				7CFB5E101F2CA0150091A7EC /* NSString+Check.m in Sources */,
 				7CFB5E5F1F2DA5B80091A7EC /* QuestionShufflingView.m in Sources */,
@@ -807,6 +858,7 @@
 				7C0009011F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.m in Sources */,
 				7CFB5E351F2CAE0C0091A7EC /* ZYNavigationController.m in Sources */,
 				7C0008FC1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.m in Sources */,
+				7C0009131F331FF800A9BF1D /* ZYKaoDianViewController.m in Sources */,
 				7CFB5E401F2CB15D0091A7EC /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

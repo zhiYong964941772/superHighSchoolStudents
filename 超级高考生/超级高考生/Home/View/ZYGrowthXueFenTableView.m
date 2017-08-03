@@ -37,6 +37,8 @@
     ZYGrowthXueFenTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ZYGrowthXueFenTableViewCell"];
     if (!cell) {
         cell = [[[NSBundle mainBundle]loadNibNamed:@"ZYGrowthXueFenTableViewCell" owner:nil options:nil]firstObject];
+        [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+
     }
     return cell;
 }

@@ -25,7 +25,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="形状-13" translatesAutoresizingMaskIntoConstraints="NO" id="vD2-EQ-HDo">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="背景图" translatesAutoresizingMaskIntoConstraints="NO" id="vD2-EQ-HDo">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="250" id="26p-N8-wGt"/>
@@ -36,36 +36,39 @@
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsI-bp-pMK">
                             <rect key="frame" x="30" y="6" width="105" height="35"/>
-                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                            <state key="normal" title="学分记录">
+                            <state key="normal" backgroundImage="学分记录">
                                 <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
+                            <state key="selected" backgroundImage="学分记录_1"/>
                             <connections>
                                 <action selector="jiAction:" destination="-1" eventType="touchUpInside" id="IVK-XR-fdX"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xwi-BS-aue">
                             <rect key="frame" x="240" y="6" width="105" height="35"/>
-                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                            <state key="normal" title="我要修学分">
+                            <state key="normal" backgroundImage="我要修学分_1">
                                 <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
+                            <state key="selected" backgroundImage="我要修学分"/>
                             <connections>
                                 <action selector="xiuxuefenAction:" destination="-1" eventType="touchUpInside" id="BGY-5G-gWm"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1f-yY-WV7">
                             <rect key="frame" x="135" y="6" width="105" height="35"/>
-                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="35" id="D5k-bd-t8g"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                            <state key="normal" title="超级创作者">
+                            <state key="normal" backgroundImage="超级创作者">
                                 <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
+                            <state key="selected" backgroundImage="超级创作者_1"/>
                             <connections>
                                 <action selector="chuangzuozheAction:" destination="-1" eventType="touchUpInside" id="fXF-JH-qdf"/>
                             </connections>
@@ -168,6 +171,12 @@
         </view>
     </objects>
     <resources>
-        <image name="形状-13" width="13" height="12"/>
+        <image name="学分记录" width="104" height="35"/>
+        <image name="学分记录_1" width="104" height="35"/>
+        <image name="我要修学分" width="104" height="35"/>
+        <image name="我要修学分_1" width="16" height="16"/>
+        <image name="背景图" width="300" height="173"/>
+        <image name="超级创作者" width="104" height="35"/>
+        <image name="超级创作者_1" width="104" height="35"/>
     </resources>
 </document>

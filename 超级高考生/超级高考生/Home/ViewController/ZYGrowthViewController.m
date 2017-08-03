@@ -11,6 +11,7 @@
 #import "ZYGrowthTableView.h"
 #import "ZYGrowthXueFenTableView.h"
 #import "ZYGrowthGuiZeViewController.h"
+#import "ZYKaoTiViewController.h"
 @interface ZYGrowthViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *shufflingBgImage;
 @property (weak, nonatomic) IBOutlet UIButton *jilu;
@@ -61,21 +62,25 @@
     [self.growthTableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.mas_equalTo(0);
         make.bottom.mas_equalTo(0);
-        make.top.mas_equalTo(self.self.bgView.mas_bottom);
+        make.top.mas_equalTo(self.bgView.mas_bottom);
     }];
     [self.growthXuefenTableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.mas_equalTo(0);
         make.bottom.mas_equalTo(0);
-        make.top.mas_equalTo(self.self.bgView.mas_bottom);
+        make.top.mas_equalTo(self.bgView.mas_bottom);
     }];
 }
 
 - (void)cellEvent{
+    @weakify(self);
     self.growthTableView.cellTapBlock = ^(id data) {
-        
+        @strongify(self);
+        ZYKaoTiViewController *kaoTiVc = [[ZYKaoTiViewController alloc]initWithNibName:@"ZYKaoTiViewController" bundle:nil];
+        [self.navigationController pushViewController:kaoTiVc animated:YES];
     };
     self.growthXuefenTableView.cellTapBlock = ^(id data) {
-        
+        @strongify(self);
+  
     };
 }
 - (void)setupRightBtn{

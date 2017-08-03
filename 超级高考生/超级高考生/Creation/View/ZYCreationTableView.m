@@ -37,6 +37,8 @@
     ZYCreationTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ZYCreationTableViewCell"];
     if (!cell) {
         cell = [[[NSBundle mainBundle]loadNibNamed:@"ZYCreationTableViewCell" owner:nil options:nil]firstObject];
+        [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+
     }
     return cell;
 }

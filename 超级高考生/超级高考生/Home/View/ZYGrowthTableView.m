@@ -36,6 +36,8 @@
     ZYGrowthTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ZYGrowthTableViewCell"];
     if (!cell) {
         cell = [[[NSBundle mainBundle]loadNibNamed:@"ZYGrowthTableViewCell" owner:nil options:nil]firstObject];
+        [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+
     }
     return cell;
 }
@@ -44,6 +46,8 @@
 }
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     UIView *headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 44)];
+    headerView.backgroundColor = [UIColor whiteColor];
+
     [UILabel makeLabel:^(UILabel *label) {
         [headerView addSubview:label];  
         label.addTextColor(BASECOLORL(200, 200, 200)).addTextFont(12).addText(@"—— 已获专业学分100 ——");
