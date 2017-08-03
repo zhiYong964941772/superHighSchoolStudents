@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZYKaoTiViewController">
+            <connections>
+                <outlet property="bgImage" destination="0u2-vu-Y68" id="2kk-iz-BLh"/>
+                <outlet property="guankanLB" destination="qLi-Wg-ex0" id="OaB-hn-Ugi"/>
+                <outlet property="jianjieLB" destination="MHg-MW-LEP" id="2G4-uZ-qUu"/>
+                <outlet property="titleBgView" destination="JrJ-Dr-xtJ" id="Esd-h1-cEQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="zhuantiLB" destination="wHx-8s-x5d" id="Nfu-hU-k1w"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="背景图" translatesAutoresizingMaskIntoConstraints="NO" id="0u2-vu-Y68">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="g1L-4D-f3h"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adu-MW-KEy">
+                    <rect key="frame" x="10" y="25" width="30" height="30"/>
+                    <state key="normal" backgroundImage="返回"/>
+                    <connections>
+                        <action selector="backAction:" destination="-1" eventType="touchUpInside" id="XZH-Th-ZbA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Mo-20-tmG">
+                    <rect key="frame" x="342" y="29.5" width="23" height="21"/>
+                    <state key="normal" backgroundImage="未收藏"/>
+                    <state key="selected" backgroundImage="已收藏"/>
+                    <connections>
+                        <action selector="shoucangAction:" destination="-1" eventType="touchUpInside" id="8CF-RD-LtZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfe-Vq-aBX">
+                    <rect key="frame" x="302" y="25" width="30" height="30"/>
+                    <state key="normal" backgroundImage="分享"/>
+                    <connections>
+                        <action selector="shareAction:" destination="-1" eventType="touchUpInside" id="5Iy-Nh-p7J"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JrJ-Dr-xtJ">
+                    <rect key="frame" x="0.0" y="200" width="375" height="129.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="函数与导函数专题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHx-8s-x5d">
+                            <rect key="frame" x="10" y="10" width="114.5" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1111人观看" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLi-Wg-ex0">
+                            <rect key="frame" x="320" y="12.5" width="50" height="12"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="简介：老师说高考了高高老师的房间里是否进来撒发就是浪费哈佛哈；理发店哈开了房half哈里发回来发汇登陆简介：老师说高考了高高老师的房间里是否进来撒发就是浪费哈佛哈；理发店哈开了房half哈里发回来发汇登陆" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHg-MW-LEP">
+                            <rect key="frame" x="10" y="42" width="360" height="57.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Tf-2D-yHI">
+                            <rect key="frame" x="0.0" y="109.5" width="375" height="15"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <inset key="titleEdgeInsets" minX="-40" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="40" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="更多" image="更多">
+                                <color key="titleColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="gengduoAction:" destination="-1" eventType="touchUpInside" id="7RS-pq-mxl"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="qLi-Wg-ex0" firstAttribute="centerY" secondItem="wHx-8s-x5d" secondAttribute="centerY" id="37c-5e-fAH"/>
+                        <constraint firstItem="wHx-8s-x5d" firstAttribute="leading" secondItem="JrJ-Dr-xtJ" secondAttribute="leading" constant="10" id="4Pp-qH-shr"/>
+                        <constraint firstItem="5Tf-2D-yHI" firstAttribute="top" secondItem="MHg-MW-LEP" secondAttribute="bottom" constant="10" id="AgT-zK-BcU"/>
+                        <constraint firstAttribute="trailing" secondItem="qLi-Wg-ex0" secondAttribute="trailing" constant="5" id="CIY-li-r1t"/>
+                        <constraint firstItem="wHx-8s-x5d" firstAttribute="top" secondItem="JrJ-Dr-xtJ" secondAttribute="top" constant="10" id="DsK-nx-O2O"/>
+                        <constraint firstItem="5Tf-2D-yHI" firstAttribute="leading" secondItem="JrJ-Dr-xtJ" secondAttribute="leading" id="LmQ-8R-9k9"/>
+                        <constraint firstItem="MHg-MW-LEP" firstAttribute="leading" secondItem="wHx-8s-x5d" secondAttribute="leading" id="QAe-m6-fya"/>
+                        <constraint firstItem="MHg-MW-LEP" firstAttribute="top" secondItem="wHx-8s-x5d" secondAttribute="bottom" constant="15" id="QaT-DK-MEQ"/>
+                        <constraint firstItem="qLi-Wg-ex0" firstAttribute="trailing" secondItem="MHg-MW-LEP" secondAttribute="trailing" id="UJ4-ry-w5R"/>
+                        <constraint firstAttribute="trailing" secondItem="5Tf-2D-yHI" secondAttribute="trailing" id="Uuq-ll-obv"/>
+                        <constraint firstAttribute="bottom" secondItem="5Tf-2D-yHI" secondAttribute="bottom" constant="5" id="swY-lB-J0s"/>
+                        <constraint firstItem="5Tf-2D-yHI" firstAttribute="centerX" secondItem="JrJ-Dr-xtJ" secondAttribute="centerX" id="y57-SG-xBr"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JrJ-Dr-xtJ" secondAttribute="trailing" id="1AF-K2-il1"/>
+                <constraint firstItem="JrJ-Dr-xtJ" firstAttribute="top" secondItem="0u2-vu-Y68" secondAttribute="bottom" id="3sP-Z7-ihy"/>
+                <constraint firstAttribute="trailing" secondItem="0u2-vu-Y68" secondAttribute="trailing" id="6pZ-eh-n7D"/>
+                <constraint firstItem="0u2-vu-Y68" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="JKi-vW-Dj7"/>
+                <constraint firstItem="0u2-vu-Y68" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Jby-LT-GhE"/>
+                <constraint firstItem="adu-MW-KEy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="25" id="ak5-Ur-t90"/>
+                <constraint firstItem="JrJ-Dr-xtJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bcy-lJ-HEZ"/>
+                <constraint firstItem="adu-MW-KEy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="c9R-CQ-DWT"/>
+                <constraint firstItem="3Mo-20-tmG" firstAttribute="centerY" secondItem="Dfe-Vq-aBX" secondAttribute="centerY" id="dzh-8g-mmc"/>
+                <constraint firstItem="Dfe-Vq-aBX" firstAttribute="top" secondItem="adu-MW-KEy" secondAttribute="top" id="hg8-dP-l3h"/>
+                <constraint firstItem="3Mo-20-tmG" firstAttribute="leading" secondItem="Dfe-Vq-aBX" secondAttribute="trailing" constant="10" id="rG0-En-ukg"/>
+                <constraint firstAttribute="trailing" secondItem="3Mo-20-tmG" secondAttribute="trailing" constant="10" id="tO7-xI-OOh"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="分享" width="30" height="30"/>
+        <image name="已收藏" width="23" height="21"/>
+        <image name="更多" width="12" height="7"/>
+        <image name="未收藏" width="23" height="21"/>
+        <image name="背景图" width="300" height="173"/>
+        <image name="返回" width="30" height="30"/>
+    </resources>
+</document>
