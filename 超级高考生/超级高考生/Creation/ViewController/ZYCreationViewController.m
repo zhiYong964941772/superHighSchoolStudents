@@ -32,10 +32,10 @@
 - (void)creatUI{
     [self.view setBackgroundColor:[UIColor whiteColor]];
     ZYNavigationController *navi = self.navigationController;
-    ZYCreationTableView *tableView = [ZYCreationTableView showCreationView:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetMaxY(navi.mNavigationSubView.frame)-44)];
+    ZYCreationTableView *tableView = [ZYCreationTableView showView:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetMaxY(navi.mNavigationSubView.frame)-44)];
     [self.view addSubview:tableView];
     [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(180);
+        make.top.mas_equalTo(190);
         make.left.right.mas_equalTo(0);
         make.bottom.mas_equalTo(0);
     }];

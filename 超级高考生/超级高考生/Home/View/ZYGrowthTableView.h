@@ -6,10 +6,8 @@
 //  Copyright © 2017年 赖志勇. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseTableView.h"
 
-@interface ZYGrowthTableView : UITableView
-@property (nonatomic ,copy)void(^cellTapBlock)(id data);
+@interface ZYGrowthTableView : BaseTableView
 
-+(instancetype)showGrowthView:(CGRect)frame;
 @end

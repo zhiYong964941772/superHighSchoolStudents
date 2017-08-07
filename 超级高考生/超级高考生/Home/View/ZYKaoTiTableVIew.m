@@ -8,12 +8,12 @@
 
 #import "ZYKaoTiTableVIew.h"
 #import "ZYKaoTiTableViewCell.h"
-@interface ZYKaoTiTableVIew()<UITableViewDelegate,UITableViewDataSource>
+@interface ZYKaoTiTableVIew() 
 
 @end
 
 @implementation ZYKaoTiTableVIew
-+(instancetype)showKaoTiView:(CGRect)frame{
++(instancetype)showView:(CGRect)frame{
     ZYKaoTiTableVIew *tableView = [[ZYKaoTiTableVIew alloc]initWithFrame:frame style:UITableViewStylePlain];
     return tableView;
 }

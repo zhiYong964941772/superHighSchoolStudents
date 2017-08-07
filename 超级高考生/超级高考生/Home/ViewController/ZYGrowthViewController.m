@@ -36,13 +36,13 @@
 }
 - (ZYGrowthTableView *)growthTableView{
     if (!_growthTableView) {
-        _growthTableView = [ZYGrowthTableView showGrowthView:CGRectMake(0, 0, SCREEN_WIDTH, 256)];
+        _growthTableView = [ZYGrowthTableView showView:CGRectMake(0, 0, SCREEN_WIDTH, 256)];
     }
     return _growthTableView;
 }
 - (ZYGrowthXueFenTableView *)growthXuefenTableView{
     if (!_growthXuefenTableView) {
-        _growthXuefenTableView = [ZYGrowthXueFenTableView showGrowthXueFenView:CGRectMake(0, 0, SCREEN_WIDTH, 256)];
+        _growthXuefenTableView = [ZYGrowthXueFenTableView showView:CGRectMake(0, 0, SCREEN_WIDTH, 256)];
         [_growthXuefenTableView setAlpha:0.0];
     }
     return _growthXuefenTableView;
@@ -106,17 +106,26 @@
 }
 */
 - (IBAction)jiAction:(id)sender {
+    self.jilu.selected = YES;
+    self.chuangzuozhe.selected = NO;
+    self.xiuxuefen.selected = NO;
     [self.chuangzuoView setAlpha:0.0];
     [self.growthTableView setAlpha:1.0];
     [self.growthXuefenTableView setAlpha:0.0];
 }
 - (IBAction)chuangzuozheAction:(id)sender {
+    self.jilu.selected = NO;
+    self.chuangzuozhe.selected = YES;
+    self.xiuxuefen.selected = NO;
     [self.chuangzuoView setAlpha:1.0];
     [self.growthTableView setAlpha:0.0];
     [self.growthXuefenTableView setAlpha:0.0];
 
 }
 - (IBAction)xiuxuefenAction:(id)sender {
+    self.jilu.selected = NO;
+    self.chuangzuozhe.selected = NO;
+    self.xiuxuefen.selected = YES;
     [self.chuangzuoView setAlpha:0.0];
     [self.growthTableView setAlpha:0.0];
     [self.growthXuefenTableView setAlpha:1.0];

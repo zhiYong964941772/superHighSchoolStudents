@@ -6,8 +6,7 @@
 //  Copyright © 2017年 赖志勇. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface ZYHomeTableView : UITableView
-+(instancetype)showHomeView:(CGRect)frame;
+#import "BaseTableView.h"
+@interface ZYHomeTableView : BaseTableView
++(instancetype)showView:(CGRect)frame;
 @end

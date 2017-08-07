@@ -9,12 +9,12 @@
 #import "ZYGrowthXueFenTableView.h"
 #import "ZYGrowthXueFenTableViewCell.h"
 
-@interface ZYGrowthXueFenTableView()<UITableViewDelegate,UITableViewDataSource>
+@interface ZYGrowthXueFenTableView() 
 
 @end
 
 @implementation ZYGrowthXueFenTableView
-+(instancetype)showGrowthXueFenView:(CGRect)frame{
++(instancetype)showView:(CGRect)frame{
     ZYGrowthXueFenTableView *tableView = [[ZYGrowthXueFenTableView alloc]initWithFrame:frame style:UITableViewStylePlain];
     return tableView;
 }

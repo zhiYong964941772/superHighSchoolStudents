@@ -28,10 +28,18 @@
 		7C0009171F3321FD00A9BF1D /* ZYKaoDianTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0009161F3321FD00A9BF1D /* ZYKaoDianTableView.m */; };
 		7C00091B1F33222F00A9BF1D /* ZYKaoDianTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0009191F33222F00A9BF1D /* ZYKaoDianTableViewCell.m */; };
 		7C00091C1F33222F00A9BF1D /* ZYKaoDianTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C00091A1F33222F00A9BF1D /* ZYKaoDianTableViewCell.xib */; };
+		7C00091F1F346C8500A9BF1D /* ZYGouWuCheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C00091E1F346C8500A9BF1D /* ZYGouWuCheTool.m */; };
+		7C0009211F346C9100A9BF1D /* ZYGouWuCheTool.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0009201F346C9100A9BF1D /* ZYGouWuCheTool.xib */; };
+		7C0009251F3476C100A9BF1D /* ZYBiJiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0009231F3476C100A9BF1D /* ZYBiJiViewController.m */; };
+		7C0009291F3476E800A9BF1D /* ZYBiJiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0009281F3476E800A9BF1D /* ZYBiJiTableView.m */; };
+		7C00092D1F34793E00A9BF1D /* ZYBiJiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C00092B1F34793E00A9BF1D /* ZYBiJiTableViewCell.m */; };
+		7C0009301F34795400A9BF1D /* ZYBiJiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C00092F1F34795400A9BF1D /* ZYBiJiTableViewCell.xib */; };
+		7C0009331F347A3C00A9BF1D /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0009321F347A3C00A9BF1D /* BaseTableView.m */; };
 		7C5B73221F2F7819006036D8 /* ZYForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B73201F2F7819006036D8 /* ZYForgetViewController.m */; };
 		7C5B73231F2F7819006036D8 /* ZYForgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B73211F2F7819006036D8 /* ZYForgetViewController.xib */; };
 		7C5B73271F2F7D1E006036D8 /* ZYForgetNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B73251F2F7D1E006036D8 /* ZYForgetNextViewController.m */; };
 		7C5B73281F2F7D1E006036D8 /* ZYForgetNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B73261F2F7D1E006036D8 /* ZYForgetNextViewController.xib */; };
+		7CD4BC761F37EB09006E4559 /* ZYBiJiDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BC751F37EB09006E4559 /* ZYBiJiDetailsViewController.m */; };
 		7CEDE4AB1F30AD5D005EFFEF /* ZYSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEDE4A91F30AD5D005EFFEF /* ZYSignViewController.m */; };
 		7CEDE4AC1F30AD5D005EFFEF /* ZYSignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CEDE4AA1F30AD5D005EFFEF /* ZYSignViewController.xib */; };
 		7CFB5DC61F2B94610091A7EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB5DC51F2B94610091A7EC /* main.m */; };
@@ -117,19 +125,33 @@
 		7C00090C1F330BA100A9BF1D /* ZYKaoTiTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYKaoTiTableViewCell.m; sourceTree = "<group>"; };
 		7C00090D1F330BA100A9BF1D /* ZYKaoTiTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYKaoTiTableViewCell.xib; sourceTree = "<group>"; };
 		7C0009101F331FF800A9BF1D /* ZYKaoDianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYKaoDianViewController.h; sourceTree = "<group>"; };
-		7C0009111F331FF800A9BF1D /* ZYKaoDianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYKaoDianViewController.m; sourceTree = "<group>"; };
+		7C0009111F331FF800A9BF1D /* ZYKaoDianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYKaoDianViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
 		7C0009121F331FF800A9BF1D /* ZYKaoDianViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYKaoDianViewController.xib; sourceTree = "<group>"; };
 		7C0009151F3321FD00A9BF1D /* ZYKaoDianTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYKaoDianTableView.h; sourceTree = "<group>"; };
 		7C0009161F3321FD00A9BF1D /* ZYKaoDianTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYKaoDianTableView.m; sourceTree = "<group>"; };
 		7C0009181F33222F00A9BF1D /* ZYKaoDianTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYKaoDianTableViewCell.h; sourceTree = "<group>"; };
 		7C0009191F33222F00A9BF1D /* ZYKaoDianTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYKaoDianTableViewCell.m; sourceTree = "<group>"; };
 		7C00091A1F33222F00A9BF1D /* ZYKaoDianTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYKaoDianTableViewCell.xib; sourceTree = "<group>"; };
+		7C00091D1F346C8500A9BF1D /* ZYGouWuCheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGouWuCheTool.h; sourceTree = "<group>"; };
+		7C00091E1F346C8500A9BF1D /* ZYGouWuCheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGouWuCheTool.m; sourceTree = "<group>"; };
+		7C0009201F346C9100A9BF1D /* ZYGouWuCheTool.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYGouWuCheTool.xib; sourceTree = "<group>"; };
+		7C0009221F3476C100A9BF1D /* ZYBiJiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBiJiViewController.h; sourceTree = "<group>"; };
+		7C0009231F3476C100A9BF1D /* ZYBiJiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBiJiViewController.m; sourceTree = "<group>"; };
+		7C0009271F3476E800A9BF1D /* ZYBiJiTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBiJiTableView.h; sourceTree = "<group>"; };
+		7C0009281F3476E800A9BF1D /* ZYBiJiTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBiJiTableView.m; sourceTree = "<group>"; };
+		7C00092A1F34793E00A9BF1D /* ZYBiJiTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBiJiTableViewCell.h; sourceTree = "<group>"; };
+		7C00092B1F34793E00A9BF1D /* ZYBiJiTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBiJiTableViewCell.m; sourceTree = "<group>"; };
+		7C00092F1F34795400A9BF1D /* ZYBiJiTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYBiJiTableViewCell.xib; sourceTree = "<group>"; };
+		7C0009311F347A3C00A9BF1D /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		7C0009321F347A3C00A9BF1D /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
 		7C5B731F1F2F7819006036D8 /* ZYForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYForgetViewController.h; sourceTree = "<group>"; };
 		7C5B73201F2F7819006036D8 /* ZYForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYForgetViewController.m; sourceTree = "<group>"; };
 		7C5B73211F2F7819006036D8 /* ZYForgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYForgetViewController.xib; sourceTree = "<group>"; };
 		7C5B73241F2F7D1E006036D8 /* ZYForgetNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYForgetNextViewController.h; sourceTree = "<group>"; };
 		7C5B73251F2F7D1E006036D8 /* ZYForgetNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYForgetNextViewController.m; sourceTree = "<group>"; };
 		7C5B73261F2F7D1E006036D8 /* ZYForgetNextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYForgetNextViewController.xib; sourceTree = "<group>"; };
+		7CD4BC741F37EB09006E4559 /* ZYBiJiDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBiJiDetailsViewController.h; sourceTree = "<group>"; };
+		7CD4BC751F37EB09006E4559 /* ZYBiJiDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBiJiDetailsViewController.m; sourceTree = "<group>"; };
 		7CEDE4A81F30AD5D005EFFEF /* ZYSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSignViewController.h; sourceTree = "<group>"; };
 		7CEDE4A91F30AD5D005EFFEF /* ZYSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSignViewController.m; sourceTree = "<group>"; };
 		7CEDE4AA1F30AD5D005EFFEF /* ZYSignViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYSignViewController.xib; sourceTree = "<group>"; };
@@ -353,6 +375,14 @@
 				7C0009181F33222F00A9BF1D /* ZYKaoDianTableViewCell.h */,
 				7C0009191F33222F00A9BF1D /* ZYKaoDianTableViewCell.m */,
 				7C00091A1F33222F00A9BF1D /* ZYKaoDianTableViewCell.xib */,
+				7C00091D1F346C8500A9BF1D /* ZYGouWuCheTool.h */,
+				7C00091E1F346C8500A9BF1D /* ZYGouWuCheTool.m */,
+				7C0009201F346C9100A9BF1D /* ZYGouWuCheTool.xib */,
+				7C0009271F3476E800A9BF1D /* ZYBiJiTableView.h */,
+				7C0009281F3476E800A9BF1D /* ZYBiJiTableView.m */,
+				7C00092A1F34793E00A9BF1D /* ZYBiJiTableViewCell.h */,
+				7C00092B1F34793E00A9BF1D /* ZYBiJiTableViewCell.m */,
+				7C00092F1F34795400A9BF1D /* ZYBiJiTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -374,6 +404,10 @@
 				7C0009101F331FF800A9BF1D /* ZYKaoDianViewController.h */,
 				7C0009111F331FF800A9BF1D /* ZYKaoDianViewController.m */,
 				7C0009121F331FF800A9BF1D /* ZYKaoDianViewController.xib */,
+				7C0009221F3476C100A9BF1D /* ZYBiJiViewController.h */,
+				7C0009231F3476C100A9BF1D /* ZYBiJiViewController.m */,
+				7CD4BC741F37EB09006E4559 /* ZYBiJiDetailsViewController.h */,
+				7CD4BC751F37EB09006E4559 /* ZYBiJiDetailsViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -598,6 +632,8 @@
 				7CFB5E3D1F2CB1510091A7EC /* ZYSupperHighStudentHeader.h */,
 				7CFB5E3E1F2CB15D0091A7EC /* HttpTool.h */,
 				7CFB5E3F1F2CB15D0091A7EC /* HttpTool.m */,
+				7C0009311F347A3C00A9BF1D /* BaseTableView.h */,
+				7C0009321F347A3C00A9BF1D /* BaseTableView.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -719,6 +755,7 @@
 				7CFB5E571F2CB9B20091A7EC /* ZYLoginViewController.xib in Resources */,
 				7CFB5E7B1F2E0DCF0091A7EC /* ZYProfessionItemView.xib in Resources */,
 				7CFB5E831F2E1ED30091A7EC /* ZYTableViewCell.xib in Resources */,
+				7C0009211F346C9100A9BF1D /* ZYGouWuCheTool.xib in Resources */,
 				7CFB5E931F2E28140091A7EC /* ZYCreationTableViewCell.xib in Resources */,
 				7C0009071F33004000A9BF1D /* ZYKaoTiViewController.xib in Resources */,
 				7C0009141F331FF800A9BF1D /* ZYKaoDianViewController.xib in Resources */,
@@ -728,6 +765,7 @@
 				7C00091C1F33222F00A9BF1D /* ZYKaoDianTableViewCell.xib in Resources */,
 				7C0009021F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.xib in Resources */,
 				7CEDE4AC1F30AD5D005EFFEF /* ZYSignViewController.xib in Resources */,
+				7C0009301F34795400A9BF1D /* ZYBiJiTableViewCell.xib in Resources */,
 				7CFB5DD11F2B94610091A7EC /* Assets.xcassets in Resources */,
 				7C0008E51F31C69A00A9BF1D /* ZYGrowthViewController.xib in Resources */,
 				7CFB5E641F2DE4790091A7EC /* ZYNavigationSubView.xib in Resources */,
@@ -811,6 +849,7 @@
 				7C00091B1F33222F00A9BF1D /* ZYKaoDianTableViewCell.m in Sources */,
 				7CFB5E431F2CB2C60091A7EC /* ZYHomeViewController.m in Sources */,
 				7CFB5E6F1F2DEB730091A7EC /* ZYUserHeaderView.m in Sources */,
+				7C0009291F3476E800A9BF1D /* ZYBiJiTableView.m in Sources */,
 				7CFB5E8E1F2E28000091A7EC /* ZYCreationTableView.m in Sources */,
 				7C0008F81F32C01B00A9BF1D /* ZYGrowthXueFenTableView.m in Sources */,
 				7C5B73271F2F7D1E006036D8 /* ZYForgetNextViewController.m in Sources */,
@@ -830,6 +869,7 @@
 				7CFB5E1A1F2CA0150091A7EC /* UILabel+Extension.m in Sources */,
 				7CFB5E2D1F2CAC9C0091A7EC /* ZYAppDelegate.m in Sources */,
 				7CFB5E791F2E0DBD0091A7EC /* ZYProfessionItemView.m in Sources */,
+				7CD4BC761F37EB09006E4559 /* ZYBiJiDetailsViewController.m in Sources */,
 				7CFB5E521F2CB54C0091A7EC /* UIBarButtonItem+Extension.m in Sources */,
 				7CFB5E5A1F2D94E20091A7EC /* ZYNavigationView.m in Sources */,
 				7CFB5E671F2DE9920091A7EC /* ZYUserTableView.m in Sources */,
@@ -848,6 +888,7 @@
 				7CFB5E4C1F2CB3640091A7EC /* ZYHumanitiesViewController.m in Sources */,
 				7CFB5E121F2CA0150091A7EC /* NSString+Mine.m in Sources */,
 				7CFB5E871F2E22C90091A7EC /* ZYHumanitieTableViewCell.m in Sources */,
+				7C0009331F347A3C00A9BF1D /* BaseTableView.m in Sources */,
 				7C0009171F3321FD00A9BF1D /* ZYKaoDianTableView.m in Sources */,
 				7CFB5E161F2CA0150091A7EC /* UIImage+Extension.m in Sources */,
 				7CFB5E101F2CA0150091A7EC /* NSString+Check.m in Sources */,
@@ -856,10 +897,13 @@
 				7CFB5DC61F2B94610091A7EC /* main.m in Sources */,
 				7CFB5E111F2CA0150091A7EC /* NSString+Extension.m in Sources */,
 				7C0009011F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.m in Sources */,
+				7C0009251F3476C100A9BF1D /* ZYBiJiViewController.m in Sources */,
 				7CFB5E351F2CAE0C0091A7EC /* ZYNavigationController.m in Sources */,
 				7C0008FC1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.m in Sources */,
+				7C00092D1F34793E00A9BF1D /* ZYBiJiTableViewCell.m in Sources */,
 				7C0009131F331FF800A9BF1D /* ZYKaoDianViewController.m in Sources */,
 				7CFB5E401F2CB15D0091A7EC /* HttpTool.m in Sources */,
+				7C00091F1F346C8500A9BF1D /* ZYGouWuCheTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

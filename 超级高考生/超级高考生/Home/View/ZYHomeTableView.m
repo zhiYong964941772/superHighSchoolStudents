@@ -8,12 +8,12 @@
 
 #import "ZYHomeTableView.h"
 #import "ZYTableViewCell.h"
-@interface ZYHomeTableView()<UITableViewDelegate,UITableViewDataSource>
+@interface ZYHomeTableView()
 
 @end
 
 @implementation ZYHomeTableView
-+(instancetype)showHomeView:(CGRect)frame{
++(instancetype)showView:(CGRect)frame{
     ZYHomeTableView *tableView = [[ZYHomeTableView alloc]initWithFrame:frame style:UITableViewStylePlain];
     return tableView;
 }

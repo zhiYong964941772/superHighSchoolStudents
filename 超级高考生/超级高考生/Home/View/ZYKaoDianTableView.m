@@ -9,12 +9,12 @@
 #import "ZYKaoDianTableView.h"
 
 #import "ZYKaoDianTableViewCell.h"
-@interface ZYKaoDianTableView()<UITableViewDelegate,UITableViewDataSource>
+@interface ZYKaoDianTableView() 
 
 @end
 
 @implementation ZYKaoDianTableView
-+(instancetype)showKaoDianView:(CGRect)frame{
++(instancetype)showView:(CGRect)frame{
     ZYKaoDianTableView *tableView = [[ZYKaoDianTableView alloc]initWithFrame:frame style:UITableViewStylePlain];
     return tableView;
 }
@@ -24,9 +24,6 @@
         self.delegate = self;
         self.dataSource = self;
         self.separatorStyle = UITableViewCellSeparatorStyleNone;
-        
-        
-        
     }
     return self;
 }

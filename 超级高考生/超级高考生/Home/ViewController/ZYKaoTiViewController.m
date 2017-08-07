@@ -25,7 +25,7 @@
 @implementation ZYKaoTiViewController
 - (ZYKaoTiTableVIew *)kaoTiTableView{
     if (!_kaoTiTableView) {
-        _kaoTiTableView = [ZYKaoTiTableVIew showKaoTiView:CGRectMake(0, 0, SCREEN_WIDTH, 256)];
+        _kaoTiTableView = [ZYKaoTiTableVIew showView:CGRectMake(0, 0, SCREEN_WIDTH, 256)];
     }
     return _kaoTiTableView;
 }

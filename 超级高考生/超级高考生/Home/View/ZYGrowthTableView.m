@@ -8,12 +8,12 @@
 
 #import "ZYGrowthTableView.h"
 #import "ZYGrowthTableViewCell.h"
-@interface ZYGrowthTableView()<UITableViewDelegate,UITableViewDataSource>
+@interface ZYGrowthTableView() 
 
 @end
 
 @implementation ZYGrowthTableView
-+(instancetype)showGrowthView:(CGRect)frame{
++(instancetype)showView:(CGRect)frame{
     ZYGrowthTableView *tableView = [[ZYGrowthTableView alloc]initWithFrame:frame style:UITableViewStylePlain];
     return tableView;
 }

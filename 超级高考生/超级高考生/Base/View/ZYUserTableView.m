@@ -9,7 +9,7 @@
 #import "ZYUserTableView.h"
 #import "ZYUserTableViewCell.h"
 #import "ZYUserHeaderView.h"
-@interface ZYUserTableView()<UITableViewDelegate,UITableViewDataSource>
+@interface ZYUserTableView() 
 {
     NSMutableArray *listControl;
     NSMutableArray *listImage;

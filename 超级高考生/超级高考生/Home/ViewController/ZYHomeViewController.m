@@ -12,6 +12,7 @@
 #import "ZYHomeTableView.h"
 #import "ZYGrowthViewController.h"
 #import "ZYTabBarViewController.h"
+#import "ZYBiJiViewController.h"
 @interface ZYHomeViewController ()
 
 @end
@@ -33,7 +34,8 @@
             [self.navigationController pushViewController:growthVC animated:YES];
         };
         view.notesBlock = ^{
-            
+            ZYBiJiViewController *biJiVC = [[ZYBiJiViewController alloc]init];
+            [self.navigationController pushViewController:biJiVC animated:YES];
         };
         view.activity = ^{
             
@@ -43,7 +45,7 @@
         };
     }];
     [self.view addSubview:itemView];
-    ZYHomeTableView *tableView = [ZYHomeTableView showHomeView:CGRectMake(0,0, SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetMaxY(itemView.frame)-44)];
+    ZYHomeTableView *tableView = [ZYHomeTableView showView:CGRectMake(0,0, SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetMaxY(itemView.frame)-44)];
     [self.view addSubview:tableView];
     [itemView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(SCREEN_HEIGHT/4+64);
@@ -53,7 +55,7 @@
     [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(itemView.mas_bottom);
         make.left.right.mas_equalTo(0);
-        make.bottom.mas_equalTo(0);
+        make.bottom.mas_equalTo(-44);
 
     }];
 }

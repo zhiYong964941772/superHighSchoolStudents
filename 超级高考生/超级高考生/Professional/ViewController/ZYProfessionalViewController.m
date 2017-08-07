@@ -46,7 +46,7 @@
     [collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(itemView.mas_bottom);
         make.left.right.mas_equalTo(0);
-        make.bottom.mas_equalTo(0);
+        make.bottom.mas_equalTo(-44);
         
     }];
 

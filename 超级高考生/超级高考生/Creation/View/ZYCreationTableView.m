@@ -9,12 +9,12 @@
 #import "ZYCreationTableView.h"
 #import "ZYCreationTableViewCell.h"
 
-@interface ZYCreationTableView()<UITableViewDelegate,UITableViewDataSource>
+@interface ZYCreationTableView() 
 
 @end
 
 @implementation ZYCreationTableView
-+(instancetype)showCreationView:(CGRect)frame{
++(instancetype)showView:(CGRect)frame{
     ZYCreationTableView *tableView = [[ZYCreationTableView alloc]initWithFrame:frame style:UITableViewStylePlain];
     return tableView;
 }

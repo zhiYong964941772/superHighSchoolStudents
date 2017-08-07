@@ -42,6 +42,9 @@
                                 <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
                             <state key="selected" backgroundImage="学分记录_1"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="selected" value="YES"/>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="jiAction:" destination="-1" eventType="touchUpInside" id="IVK-XR-fdX"/>
                             </connections>

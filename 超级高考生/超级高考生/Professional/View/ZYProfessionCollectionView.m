@@ -13,10 +13,10 @@
 @implementation ZYProfessionCollectionView
 + (instancetype)showProfessionCollectionView:(CGRect)frame{
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
-    CGFloat itemWidth = frame.size.height*0.5;
+    CGFloat itemWidth = SCREEN_WIDTH*0.45;
     layout.itemSize = CGSizeMake(itemWidth, itemWidth);
     layout.scrollDirection = UICollectionViewScrollDirectionVertical;
-    layout.sectionInset = UIEdgeInsetsMake(0, 20, 0, 20);
+    layout.sectionInset = UIEdgeInsetsMake(0, 10, 0, 10);
     layout.minimumLineSpacing = 0;
     ZYProfessionCollectionView *collection = [[ZYProfessionCollectionView alloc]initWithFrame:frame collectionViewLayout:layout];
     
@@ -39,7 +39,7 @@
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     ZYProfessionCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"ZYProfessionCollectionViewCell" forIndexPath:indexPath];
     if (!cell) {
-        cell = [[ZYProfessionCollectionViewCell alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH*0.5, 200)];
+        cell = [[ZYProfessionCollectionViewCell alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH*0.45, 200)];
     }
     return cell;
 }

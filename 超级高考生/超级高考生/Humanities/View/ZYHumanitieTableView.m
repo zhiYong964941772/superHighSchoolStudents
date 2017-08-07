@@ -8,12 +8,12 @@
 
 #import "ZYHumanitieTableView.h"
 #import "ZYHumanitieTableViewCell.h"
-@interface ZYHumanitieTableView()<UITableViewDelegate,UITableViewDataSource>
+@interface ZYHumanitieTableView() 
 
 @end
 
 @implementation ZYHumanitieTableView
-+(instancetype)showHumanitieView:(CGRect)frame{
++(instancetype)showView:(CGRect)frame{
     ZYHumanitieTableView *tableView = [[ZYHumanitieTableView alloc]initWithFrame:frame style:UITableViewStylePlain];
     return tableView;
 }

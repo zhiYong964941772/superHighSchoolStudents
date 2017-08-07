@@ -6,8 +6,7 @@
 //  Copyright © 2017年 赖志勇. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseTableView.h"
 
-@interface ZYCreationTableView : UITableView
-+(instancetype)showCreationView:(CGRect)frame;
+@interface ZYCreationTableView : BaseTableView
 @end

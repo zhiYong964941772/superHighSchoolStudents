@@ -30,7 +30,7 @@
     [super viewDidLoad];
     ZYNavigationController *navi = self.navigationController;
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    ZYHumanitieTableView *tableView = [ZYHumanitieTableView showHumanitieView:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetMaxY(navi.shuffingView.frame)-44)];
+    ZYHumanitieTableView *tableView = [ZYHumanitieTableView showView:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT - CGRectGetMaxY(navi.shuffingView.frame)-44)];
     [self.view addSubview:tableView];
     [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(SCREEN_HEIGHT/4+64);
