@@ -13,6 +13,7 @@
 #import "ZYGrowthViewController.h"
 #import "ZYTabBarViewController.h"
 #import "ZYBiJiViewController.h"
+#import "ZYHuoDongViewController.h"
 @interface ZYHomeViewController ()
 
 @end
@@ -38,7 +39,8 @@
             [self.navigationController pushViewController:biJiVC animated:YES];
         };
         view.activity = ^{
-            
+            ZYHuoDongViewController *huoDongVC = [[ZYHuoDongViewController alloc]init];
+            [self.navigationController pushViewController:huoDongVC animated:YES];
         };
         view.bookStoresBlock = ^{
             

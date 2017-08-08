@@ -15,10 +15,10 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="45v-NC-zAU" id="zET-zj-7pm">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="199.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EfV-46-noy">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="笔记背景" translatesAutoresizingMaskIntoConstraints="NO" id="EfV-46-noy">
                         <rect key="frame" x="10" y="0.0" width="300" height="169.5"/>
                         <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                     </imageView>
@@ -52,4 +52,7 @@
             <point key="canvasLocation" x="-26" y="85"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="笔记背景" width="355" height="213"/>
+    </resources>
 </document>

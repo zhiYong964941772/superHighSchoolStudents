@@ -8,6 +8,7 @@
 
 #import "ZYBiJiViewController.h"
 #import "ZYBiJiTableView.h"
+#import "ZYBiJiDetailsViewController.h"
 @interface ZYBiJiViewController ()
 @property (nonatomic ,strong)ZYBiJiTableView *tableView;
 @end
@@ -44,7 +45,8 @@
     self.tableView.cellTapBlock = ^(id data) {
         @strongify(self);
         
-        
+        ZYBiJiDetailsViewController *biJiDetailsVC = [[ZYBiJiDetailsViewController alloc]init];
+        [self.navigationController pushViewController:biJiDetailsVC animated:YES];
     };
 }
 

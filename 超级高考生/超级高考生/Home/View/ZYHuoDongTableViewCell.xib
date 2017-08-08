@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZYBiJiTableViewCell" rowHeight="219" id="fgb-QP-JrK" customClass="ZYBiJiTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fgb-QP-JrK" id="OKx-zj-Z5y">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="笔记背景" translatesAutoresizingMaskIntoConstraints="NO" id="FML-6g-Fwj">
+                        <rect key="frame" x="10" y="40" width="300" height="169.5"/>
+                        <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="活动有效期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RR4-K0-Gbv">
+                        <rect key="frame" x="10" y="215" width="61.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vMm-UK-Hpd">
+                        <rect key="frame" x="0.0" y="234.5" width="320" height="5"/>
+                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="5" id="JVw-wk-SR7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="函数与导函数专题解析" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dtd-Q7-ub2">
+                        <rect key="frame" x="10" y="9" width="143" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FML-6g-Fwj" firstAttribute="leading" secondItem="Dtd-Q7-ub2" secondAttribute="leading" id="1zU-Cw-O0G"/>
+                    <constraint firstItem="FML-6g-Fwj" firstAttribute="top" secondItem="Dtd-Q7-ub2" secondAttribute="bottom" constant="9" id="6XF-UW-u8p"/>
+                    <constraint firstAttribute="trailing" secondItem="FML-6g-Fwj" secondAttribute="trailing" constant="10" id="7Sz-6k-cr1"/>
+                    <constraint firstItem="FML-6g-Fwj" firstAttribute="top" secondItem="OKx-zj-Z5y" secondAttribute="top" constant="40" id="AyU-O9-XWE"/>
+                    <constraint firstAttribute="trailing" secondItem="vMm-UK-Hpd" secondAttribute="trailing" id="BHz-Cv-BiF"/>
+                    <constraint firstItem="vMm-UK-Hpd" firstAttribute="leading" secondItem="OKx-zj-Z5y" secondAttribute="leading" id="CsM-ga-vOS"/>
+                    <constraint firstItem="FML-6g-Fwj" firstAttribute="leading" secondItem="OKx-zj-Z5y" secondAttribute="leading" constant="10" id="JQ3-1X-NJu"/>
+                    <constraint firstItem="RR4-K0-Gbv" firstAttribute="leading" secondItem="FML-6g-Fwj" secondAttribute="leading" id="Pao-tv-7Q8"/>
+                    <constraint firstAttribute="bottom" secondItem="FML-6g-Fwj" secondAttribute="bottom" constant="30" id="a8X-qd-F9D"/>
+                    <constraint firstAttribute="bottom" secondItem="vMm-UK-Hpd" secondAttribute="bottom" id="lF3-OT-xwV"/>
+                    <constraint firstItem="RR4-K0-Gbv" firstAttribute="top" secondItem="FML-6g-Fwj" secondAttribute="bottom" constant="5" id="lzl-6c-V4Z"/>
+                    <constraint firstItem="Dtd-Q7-ub2" firstAttribute="top" secondItem="OKx-zj-Z5y" secondAttribute="top" constant="9" id="o5s-Bp-NPO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="-26" y="85"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="笔记背景" width="355" height="213"/>
+    </resources>
+</document>

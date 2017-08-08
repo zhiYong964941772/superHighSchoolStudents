@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZXShoppingCarTableViewController">
+            <connections>
+                <outlet property="footerDeleteView" destination="f2X-Zo-MTO" id="5yg-R5-4nZ"/>
+                <outlet property="footerMoneyView" destination="AOY-ON-32E" id="EOy-Tr-z8P"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" bouncesZoom="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="dataSource" destination="-1" id="Tng-2m-Rnh"/>
+                <outlet property="delegate" destination="-1" id="9aC-8N-iBw"/>
+            </connections>
+        </tableView>
+        <view contentMode="scaleToFill" id="AOY-ON-32E" userLabel="footerMoneyView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="51"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAk-u3-2Hb">
+                    <rect key="frame" x="240" y="0.0" width="135" height="51"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="135" id="2B3-DJ-7eL"/>
+                    </constraints>
+                    <state key="normal" title="结算"/>
+                    <connections>
+                        <action selector="payMoney:" destination="-1" eventType="touchUpInside" id="zYa-DW-8Gx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Skp-if-sK1">
+                    <rect key="frame" x="0.0" y="0.0" width="84" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="onQ-l4-C09"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="全选" image="椭圆-1-拷贝-6">
+                        <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxf-cv-3fp">
+                    <rect key="frame" x="211.5" y="15" width="20.5" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="LSz-WQ-eHd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="形状-21-拷贝" translatesAutoresizingMaskIntoConstraints="NO" id="tFp-T0-pL5">
+                    <rect key="frame" x="179.5" y="10" width="32" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="pzF-hV-TdD"/>
+                        <constraint firstAttribute="height" constant="31" id="qtT-6w-4ZG"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="合计:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6A-zB-Uqp">
+                    <rect key="frame" x="148" y="15" width="30.5" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="dWy-Bb-7uD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LAk-u3-2Hb" firstAttribute="leading" secondItem="mxf-cv-3fp" secondAttribute="trailing" constant="8" id="0ca-dd-dBJ"/>
+                <constraint firstItem="Skp-if-sK1" firstAttribute="leading" secondItem="AOY-ON-32E" secondAttribute="leading" id="2F6-cy-j5r"/>
+                <constraint firstItem="Skp-if-sK1" firstAttribute="top" secondItem="AOY-ON-32E" secondAttribute="top" id="AlJ-50-i4A"/>
+                <constraint firstItem="mxf-cv-3fp" firstAttribute="leading" secondItem="tFp-T0-pL5" secondAttribute="trailing" id="LhL-F8-Bv9"/>
+                <constraint firstItem="mxf-cv-3fp" firstAttribute="centerY" secondItem="LAk-u3-2Hb" secondAttribute="centerY" id="OuX-0W-7dw"/>
+                <constraint firstItem="LAk-u3-2Hb" firstAttribute="top" secondItem="AOY-ON-32E" secondAttribute="top" id="Weu-9L-ECG"/>
+                <constraint firstItem="tFp-T0-pL5" firstAttribute="leading" secondItem="N6A-zB-Uqp" secondAttribute="trailing" constant="1" id="Zpv-cc-1bn"/>
+                <constraint firstAttribute="bottom" secondItem="LAk-u3-2Hb" secondAttribute="bottom" id="d5P-ih-pgj"/>
+                <constraint firstAttribute="bottom" secondItem="Skp-if-sK1" secondAttribute="bottom" id="gNr-tJ-MId"/>
+                <constraint firstItem="N6A-zB-Uqp" firstAttribute="centerY" secondItem="LAk-u3-2Hb" secondAttribute="centerY" id="yNg-a6-lKo"/>
+                <constraint firstItem="tFp-T0-pL5" firstAttribute="centerY" secondItem="LAk-u3-2Hb" secondAttribute="centerY" id="yyD-cS-QoD"/>
+                <constraint firstAttribute="trailing" secondItem="LAk-u3-2Hb" secondAttribute="trailing" id="zkn-O3-tnU"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="531" y="192"/>
+        </view>
+        <view contentMode="scaleToFill" id="f2X-Zo-MTO" userLabel="footerDeleteView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="51"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryn-XE-e6h">
+                    <rect key="frame" x="240" y="0.0" width="135" height="51"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="135" id="z8H-QS-vJh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                    <state key="normal" title="删除"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dh2-Ki-m1s">
+                    <rect key="frame" x="0.0" y="0.0" width="84" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="EPo-jS-odB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="全选" image="椭圆-1-拷贝-6">
+                        <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ryn-XE-e6h" firstAttribute="top" secondItem="f2X-Zo-MTO" secondAttribute="top" id="2Um-q0-Kxf"/>
+                <constraint firstItem="dh2-Ki-m1s" firstAttribute="leading" secondItem="f2X-Zo-MTO" secondAttribute="leading" id="Hvp-fO-M7z"/>
+                <constraint firstAttribute="bottom" secondItem="dh2-Ki-m1s" secondAttribute="bottom" id="RdR-dr-om4"/>
+                <constraint firstAttribute="trailing" secondItem="ryn-XE-e6h" secondAttribute="trailing" id="Z1H-Uh-Uee"/>
+                <constraint firstItem="dh2-Ki-m1s" firstAttribute="top" secondItem="f2X-Zo-MTO" secondAttribute="top" id="dhH-ze-Gk7"/>
+                <constraint firstAttribute="bottom" secondItem="ryn-XE-e6h" secondAttribute="bottom" id="vU3-Ca-Zez"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="518" y="78"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="形状-21-拷贝" width="30" height="30"/>
+        <image name="椭圆-1-拷贝-6" width="30" height="30"/>
+    </resources>
+</document>
