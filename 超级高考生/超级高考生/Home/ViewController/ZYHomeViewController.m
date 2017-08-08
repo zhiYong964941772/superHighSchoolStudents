@@ -14,6 +14,7 @@
 #import "ZYTabBarViewController.h"
 #import "ZYBiJiViewController.h"
 #import "ZYHuoDongViewController.h"
+#import "ZXShuChengTableViewController.h"
 @interface ZYHomeViewController ()
 
 @end
@@ -43,7 +44,8 @@
             [self.navigationController pushViewController:huoDongVC animated:YES];
         };
         view.bookStoresBlock = ^{
-            
+            ZXShuChengTableViewController *shuChengVC = [[ZXShuChengTableViewController alloc]initWithNibName:@"ZXShuChengTableViewController" bundle:nil];
+            [self.navigationController pushViewController:shuChengVC animated:YES];
         };
     }];
     [self.view addSubview:itemView];
