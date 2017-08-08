@@ -70,6 +70,8 @@
 		7CD4BCC41F399728006E4559 /* ZXManageAddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BCC21F399728006E4559 /* ZXManageAddressTableViewCell.xib */; };
 		7CD4BCC81F399739006E4559 /* ZXAddOrEditAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BCC61F399739006E4559 /* ZXAddOrEditAddressViewController.m */; };
 		7CD4BCC91F399739006E4559 /* ZXAddOrEditAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BCC71F399739006E4559 /* ZXAddOrEditAddressViewController.xib */; };
+		7CD4BCCE1F3999AA006E4559 /* areaArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BCCB1F3999AA006E4559 /* areaArray.plist */; };
+		7CD4BCCF1F3999AA006E4559 /* BLAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BCCD1F3999AA006E4559 /* BLAreaPickerView.m */; };
 		7CEDE4AB1F30AD5D005EFFEF /* ZYSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEDE4A91F30AD5D005EFFEF /* ZYSignViewController.m */; };
 		7CEDE4AC1F30AD5D005EFFEF /* ZYSignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CEDE4AA1F30AD5D005EFFEF /* ZYSignViewController.xib */; };
 		7CFB5DC61F2B94610091A7EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB5DC51F2B94610091A7EC /* main.m */; };
@@ -229,6 +231,9 @@
 		7CD4BCC51F399739006E4559 /* ZXAddOrEditAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAddOrEditAddressViewController.h; sourceTree = "<group>"; };
 		7CD4BCC61F399739006E4559 /* ZXAddOrEditAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXAddOrEditAddressViewController.m; sourceTree = "<group>"; };
 		7CD4BCC71F399739006E4559 /* ZXAddOrEditAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXAddOrEditAddressViewController.xib; sourceTree = "<group>"; };
+		7CD4BCCB1F3999AA006E4559 /* areaArray.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = areaArray.plist; sourceTree = "<group>"; };
+		7CD4BCCC1F3999AA006E4559 /* BLAreaPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAreaPickerView.h; sourceTree = "<group>"; };
+		7CD4BCCD1F3999AA006E4559 /* BLAreaPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAreaPickerView.m; sourceTree = "<group>"; };
 		7CEDE4A81F30AD5D005EFFEF /* ZYSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSignViewController.h; sourceTree = "<group>"; };
 		7CEDE4A91F30AD5D005EFFEF /* ZYSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSignViewController.m; sourceTree = "<group>"; };
 		7CEDE4AA1F30AD5D005EFFEF /* ZYSignViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYSignViewController.xib; sourceTree = "<group>"; };
@@ -363,6 +368,17 @@
 				7CD4BC811F395181006E4559 /* KxMenu.m */,
 			);
 			path = KxMenu;
+			sourceTree = "<group>";
+		};
+		7CD4BCCA1F3999AA006E4559 /* BLAreaPickView */ = {
+			isa = PBXGroup;
+			children = (
+				7CD4BCCB1F3999AA006E4559 /* areaArray.plist */,
+				7CD4BCCC1F3999AA006E4559 /* BLAreaPickerView.h */,
+				7CD4BCCD1F3999AA006E4559 /* BLAreaPickerView.m */,
+			);
+			name = BLAreaPickView;
+			path = ../BLAreaPickView;
 			sourceTree = "<group>";
 		};
 		7CFB5DB81F2B94610091A7EC = {
@@ -765,6 +781,7 @@
 				7CFB5E3F1F2CB15D0091A7EC /* HttpTool.m */,
 				7C0009311F347A3C00A9BF1D /* BaseTableView.h */,
 				7C0009321F347A3C00A9BF1D /* BaseTableView.m */,
+				7CD4BCCA1F3999AA006E4559 /* BLAreaPickView */,
 				7CD4BC7F1F395181006E4559 /* KxMenu */,
 			);
 			path = Other;
@@ -889,6 +906,7 @@
 				7CD4BCAB1F3996CD006E4559 /* ZXShoppingCarTableViewCell.xib in Resources */,
 				7CFB5E831F2E1ED30091A7EC /* ZYTableViewCell.xib in Resources */,
 				7CD4BC9C1F39968E006E4559 /* ZXShuChengTableViewCell.xib in Resources */,
+				7CD4BCCE1F3999AA006E4559 /* areaArray.plist in Resources */,
 				7C0009211F346C9100A9BF1D /* ZYGouWuCheTool.xib in Resources */,
 				7CFB5E931F2E28140091A7EC /* ZYCreationTableViewCell.xib in Resources */,
 				7CD4BCA61F3996AE006E4559 /* ZXShoppingCarTableViewController.xib in Resources */,
@@ -1020,6 +1038,7 @@
 				7CD4BC761F37EB09006E4559 /* ZYBiJiDetailsViewController.m in Sources */,
 				7CFB5E521F2CB54C0091A7EC /* UIBarButtonItem+Extension.m in Sources */,
 				7CFB5E5A1F2D94E20091A7EC /* ZYNavigationView.m in Sources */,
+				7CD4BCCF1F3999AA006E4559 /* BLAreaPickerView.m in Sources */,
 				7CFB5E671F2DE9920091A7EC /* ZYUserTableView.m in Sources */,
 				7CFB5E1B1F2CA0150091A7EC /* UIView+Extension.m in Sources */,
 				7CD4BC7D1F38BD5E006E4559 /* ZYBiJiDetailsTableViewCell.m in Sources */,
