@@ -22,7 +22,7 @@ static NSString * const shuChengCellId = @"shuChengCellId";
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    [self.navigationController setNavigationBarHidden:NO];
     self.title = @"书城";
     
     [self.tableView registerNib:[UINib nibWithNibName:@"ZXShuChengTableViewCell" bundle:nil] forCellReuseIdentifier:shuChengCellId];
