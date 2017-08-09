@@ -17,5 +17,17 @@
     // Drawing code
 }
 */
+- (IBAction)myChengZhang:(id)sender {
+    [ZHI_NSNotificationCenter postNotificationName:@"zy_ChengZhang" object:nil];
+
+}
+- (IBAction)erweima:(id)sender {
+    [ZHI_NSNotificationCenter postNotificationName:@"zy_ErWeiMa" object:nil];
+
+}
+- (IBAction)myZiLiao:(id)sender {
+    [ZHI_NSNotificationCenter postNotificationName:@"zy_ZiLiao" object:nil];
+
+}
 
 @end

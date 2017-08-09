@@ -40,7 +40,6 @@
 - (void)setIsShowNavigation:(BOOL)isShowNavigation{
     _isShowNavigation = isShowNavigation;
     if (_isShowNavigation == YES) {
-        [NSNOTIFICATION addObserver:self selector:@selector(zy_pushUserView) name:@"ZY_UserView" object:nil];
         [self.view addSubview:self.mNavigationView];
         [self.view addSubview:self.shuffingView];
         [self.mNavigationView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -103,7 +102,7 @@
     return _mNavigationView;
 }
 - (ZYNavigationSubView *)mNavigationSubView{
-    if (!_mNavigationView) {
+    if (!_mNavigationSubView) {
         _mNavigationSubView = [ZYNavigationSubView showNavigationSubView];
     }
     return _mNavigationSubView;
@@ -120,5 +119,8 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self.view endEditing:YES];
 }
-
+- (void)hideSubView{
+    [self.mNavigationSubView removeFromSuperview];
+    self.mNavigationSubView = nil;
+}
 @end

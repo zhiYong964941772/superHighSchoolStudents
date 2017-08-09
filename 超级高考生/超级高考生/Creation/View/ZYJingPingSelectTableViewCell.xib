@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZYJingPingSelectTableViewCell" rowHeight="219" id="uKd-ju-UWh" customClass="ZYJingPingSelectTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uKd-ju-UWh" id="FIC-jX-kri">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="笔记背景" translatesAutoresizingMaskIntoConstraints="NO" id="NOE-yP-vFQ">
+                        <rect key="frame" x="10" y="10" width="300" height="159.5"/>
+                        <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="共20个笔记" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jh-bo-x8l">
+                        <rect key="frame" x="10" y="175" width="64" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YN8-vb-KtI">
+                        <rect key="frame" x="0.0" y="194" width="320" height="5"/>
+                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="5" id="uwH-dB-Obn"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="函数与导函数思想" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Qb-tt-wQl">
+                        <rect key="frame" x="15" y="148" width="290" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NOE-yP-vFQ" firstAttribute="top" secondItem="FIC-jX-kri" secondAttribute="top" constant="10" id="0uy-Hv-e5N"/>
+                    <constraint firstAttribute="trailing" secondItem="YN8-vb-KtI" secondAttribute="trailing" id="3XH-dJ-r22"/>
+                    <constraint firstAttribute="trailing" secondItem="NOE-yP-vFQ" secondAttribute="trailing" constant="10" id="A1O-h8-24W"/>
+                    <constraint firstItem="2jh-bo-x8l" firstAttribute="leading" secondItem="NOE-yP-vFQ" secondAttribute="leading" id="OpA-is-RZZ"/>
+                    <constraint firstItem="YN8-vb-KtI" firstAttribute="leading" secondItem="FIC-jX-kri" secondAttribute="leading" id="baT-6Z-avL"/>
+                    <constraint firstItem="2jh-bo-x8l" firstAttribute="top" secondItem="NOE-yP-vFQ" secondAttribute="bottom" constant="5" id="dQI-Op-JSE"/>
+                    <constraint firstAttribute="trailing" secondItem="9Qb-tt-wQl" secondAttribute="trailing" constant="15" id="ekg-k9-dmO"/>
+                    <constraint firstItem="9Qb-tt-wQl" firstAttribute="leading" secondItem="FIC-jX-kri" secondAttribute="leading" constant="15" id="m5g-2E-43o"/>
+                    <constraint firstItem="2jh-bo-x8l" firstAttribute="top" secondItem="9Qb-tt-wQl" secondAttribute="bottom" constant="10" id="mB0-dw-eNI"/>
+                    <constraint firstAttribute="bottom" secondItem="YN8-vb-KtI" secondAttribute="bottom" id="oqe-ZV-vbr"/>
+                    <constraint firstItem="NOE-yP-vFQ" firstAttribute="leading" secondItem="FIC-jX-kri" secondAttribute="leading" constant="10" id="w8e-2A-NLB"/>
+                    <constraint firstAttribute="bottom" secondItem="NOE-yP-vFQ" secondAttribute="bottom" constant="30" id="yYE-qT-FN3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="-26" y="85"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="笔记背景" width="355" height="213"/>
+    </resources>
+</document>

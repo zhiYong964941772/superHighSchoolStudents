@@ -8,6 +8,7 @@
 
 #import "ZYHuoDongViewController.h"
 #import "ZYHuoDongTableView.h"
+#import "ZYHuoDongDetailsViewController.h"
 @interface ZYHuoDongViewController ()
 @property (nonatomic ,strong)ZYHuoDongTableView *tableView;
 
@@ -45,7 +46,8 @@
     self.tableView.cellTapBlock = ^(id data) {
         @strongify(self);
         
-        
+        ZYHuoDongDetailsViewController *huoDongDetailsVC = [[ZYHuoDongDetailsViewController alloc]initWithNibName:@"ZYHuoDongDetailsViewController" bundle:nil];
+        [self.navigationController pushViewController:huoDongDetailsVC animated:YES];
     };
 }
 

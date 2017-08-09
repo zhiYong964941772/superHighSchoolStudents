@@ -11,6 +11,10 @@
 #import "ZYProfessionItemView.h"
 #import "ZYTabBarViewController.h" 
 #import "ZYProfessionCollectionView.h"
+#import "ZYDakaViewController.h"
+#import "ZYJiaoXueViewController.h"
+#import "ZYYaZhouViewController.h"
+#import "ZYJiaoPeiViewController.h"
 @interface ZYProfessionalViewController ()
 
 @end
@@ -32,7 +36,25 @@
     [self creatUI];
 }
 - (void)creatUI{
-    ZYProfessionItemView *itemView = [ZYProfessionItemView showItemView];
+    ZYProfessionItemView *itemView = [ZYProfessionItemView showItemViewWithBtnAction:^(ZYProfessionItemView *view) {
+        view.zy_DaKa = ^{
+            ZYDakaViewController *daka = [[ZYDakaViewController alloc]init];
+            [self.navigationController pushViewController:daka animated:YES];
+        };
+        view.zy_JiaoXue = ^{
+            ZYJiaoXueViewController *jiaoXue = [[ZYJiaoXueViewController alloc]init];
+            [self.navigationController pushViewController:jiaoXue animated:YES];
+        };
+        view.zy_YaZhou = ^{
+            ZYYaZhouViewController *yazhou = [[ZYYaZhouViewController alloc]init];
+            [self.navigationController pushViewController:yazhou animated:YES];
+            
+        };
+        view.zy_JiaoPei = ^{
+            ZYJiaoPeiViewController *jiaopei = [[ZYJiaoPeiViewController alloc]init];
+            [self.navigationController pushViewController:jiaopei animated:YES];
+        };
+    }];
     [self.view addSubview:itemView];
     
     ZYProfessionCollectionView *collectionView = [ZYProfessionCollectionView showProfessionCollectionView:CGRectMake(0, 0,SCREEN_WIDTH,SCREEN_HEIGHT - CGRectGetMaxY(itemView.frame)-44)];

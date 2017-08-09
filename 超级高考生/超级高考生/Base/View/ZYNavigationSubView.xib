@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -24,7 +24,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <state key="normal" title="精评"/>
                     <connections>
-                        <action selector="userAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="0pE-J1-4Rk"/>
+                        <action selector="jinping:" destination="iN0-l3-epB" eventType="touchUpInside" id="nwa-AB-r4G"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpN-7w-EFP">
@@ -40,23 +40,29 @@
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <state key="normal" title="原创"/>
                     <connections>
-                        <action selector="userAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="73a-bf-mCo"/>
+                        <action selector="yuanchuang:" destination="iN0-l3-epB" eventType="touchUpInside" id="Srz-yp-aH1"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8tA-Sy-ZV8">
                     <rect key="frame" x="175" y="10" width="25" height="25"/>
                     <state key="normal" backgroundImage="矩形-20-拷贝"/>
+                    <connections>
+                        <action selector="addZuoPing:" destination="iN0-l3-epB" eventType="touchUpInside" id="eXW-bp-0se"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YlO-bm-vep">
                     <rect key="frame" x="341" y="10" width="24" height="24"/>
                     <state key="normal" backgroundImage="矢量智能对象@3x_89"/>
+                    <connections>
+                        <action selector="xiaoxi:" destination="iN0-l3-epB" eventType="touchUpInside" id="p4E-S1-fmR"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtV-Mg-hph">
                     <rect key="frame" x="317" y="138" width="33" height="32"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <state key="normal" title="成果"/>
                     <connections>
-                        <action selector="userAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="C2X-98-4XB"/>
+                        <action selector="chengguo:" destination="iN0-l3-epB" eventType="touchUpInside" id="4ak-TX-DhJ"/>
                     </connections>
                 </button>
             </subviews>

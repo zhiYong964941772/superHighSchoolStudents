@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -25,18 +25,28 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMp-a2-2be">
                     <rect key="frame" x="265" y="7" width="30" height="30"/>
                     <state key="normal" backgroundImage="矢量智能对象"/>
+                    <connections>
+                        <action selector="xinxiAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="gJ2-hH-maN"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSf-56-5Xr">
                     <rect key="frame" x="335" y="7" width="30" height="30"/>
                     <state key="normal" backgroundImage="组-16"/>
+                    <connections>
+                        <action selector="lishi:" destination="iN0-l3-epB" eventType="touchUpInside" id="iB1-pv-8Aq"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fb-bf-sUj">
                     <rect key="frame" x="300" y="7" width="30" height="30"/>
                     <state key="normal" backgroundImage="组-15"/>
+                    <connections>
+                        <action selector="xiazaiAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Cjm-rG-TVF"/>
+                    </connections>
                 </button>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="搜索" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zox-1x-Kou">
                     <rect key="frame" x="50" y="7" width="205" height="30"/>
                     <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
             </subviews>
@@ -59,7 +69,7 @@
             <connections>
                 <outlet property="searchTextField" destination="Zox-1x-Kou" id="msc-oQ-e5D"/>
             </connections>
-            <point key="canvasLocation" x="34.5" y="220"/>
+            <point key="canvasLocation" x="-84" y="108"/>
         </view>
     </objects>
     <resources>

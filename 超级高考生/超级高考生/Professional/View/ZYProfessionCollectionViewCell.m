@@ -26,7 +26,7 @@
         [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(10);
             make.right.mas_equalTo(-10);
-            make.height.mas_equalTo(100);
+            make.height.mas_equalTo(self.bounds.size.height*0.5);
             make.top.mas_equalTo(0);
         }];
     }];
@@ -37,7 +37,7 @@
             make.left.mas_equalTo(imageView.mas_left);
             make.right.mas_equalTo(imageView.mas_right);
             make.top.mas_equalTo(imageView.mas_bottom).with.offset(10);
-            make.height.mas_equalTo(30);
+            make.height.mas_equalTo(25);
         }];
     }];
     
@@ -48,7 +48,7 @@
             make.left.mas_equalTo(titleLb.mas_left);
             make.right.mas_equalTo(titleLb.mas_right);
             make.top.mas_equalTo(titleLb.mas_bottom);
-            make.height.mas_equalTo(30);
+            make.height.mas_equalTo(20);
         }];
     }];
 

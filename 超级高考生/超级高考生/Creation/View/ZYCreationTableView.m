@@ -45,5 +45,52 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 200;
 }
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    UIView *headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 44)];
+    headerView.backgroundColor = [UIColor whiteColor];
+    
+    UILabel *titleLB = [UILabel makeLabel:^(UILabel *label) {
+        [headerView addSubview:label];
+        label.addTextFont(14).addText(@"审核中创作");
+        [label setTextAlignment:NSTextAlignmentCenter];
+        [label mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.centerX.mas_equalTo(headerView.mas_centerX);
+            make.centerY.mas_equalTo(headerView.mas_centerY);
+        }];
+    }];
+    [UIImageView makeImage:^(UIImageView * _Nullable imageView) {
+        [headerView addSubview:imageView];
+        imageView.addColor([UIColor grayColor]);
+        [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(titleLB.mas_bottom).with.offset(3 );
+            make.centerX.mas_equalTo(headerView.mas_centerX);
+            make.width.mas_equalTo(30);
+            
+            make.height.mas_equalTo(1);
+        }];
+    }];
+    [UIButton makeButtonWithBlock:^(UIButton *button) {
+        [headerView addSubview:button];
+        button.addTextFont(14).addTargetAction(self,@"zy_guizeAction").addTextColor(BASECOLORL(220, 220, 220)).addText(@"审核规则");
+        [button mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.right.mas_equalTo(-10);
+            make.centerY.mas_equalTo(headerView.mas_centerY);
+        }];
+    }];
+    return headerView;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 44;
+}
 
+- (void)zy_guizeAction{
+    if (self.zy_guizheBlock) {
+        self.zy_guizheBlock();
+    }
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (self.cellTapBlock) {
+        self.cellTapBlock(@"");
+    }
+}
 @end

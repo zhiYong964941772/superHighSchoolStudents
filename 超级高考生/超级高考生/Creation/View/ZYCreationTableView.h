@@ -9,4 +9,6 @@
 #import "BaseTableView.h"
 
 @interface ZYCreationTableView : BaseTableView
+@property (nonatomic ,copy)void(^zy_guizheBlock)();
+
 @end

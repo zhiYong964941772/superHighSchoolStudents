@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZYHuoDongDetailsViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="背景图" translatesAutoresizingMaskIntoConstraints="NO" id="LdQ-u9-3u9">
+                    <rect key="frame" x="40" y="84" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="lAk-bL-bDg"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="招募超级创作者" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xu3-mj-2Dn">
+                    <rect key="frame" x="10" y="232" width="300" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JSN-fK-2gh">
+                    <rect key="frame" x="40" y="476" width="240" height="30"/>
+                    <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.66695205479452058" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="点击报名">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="测试图" translatesAutoresizingMaskIntoConstraints="NO" id="kZI-wG-gch">
+                    <rect key="frame" x="10" y="283" width="300" height="183"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="LdQ-u9-3u9" secondAttribute="trailing" constant="40" id="0vY-Ns-dOD"/>
+                <constraint firstItem="kZI-wG-gch" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="3VP-Yk-ccV"/>
+                <constraint firstItem="LdQ-u9-3u9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="6pC-eS-M2R"/>
+                <constraint firstAttribute="trailing" secondItem="JSN-fK-2gh" secondAttribute="trailing" constant="40" id="A82-9O-KGA"/>
+                <constraint firstAttribute="trailing" secondItem="kZI-wG-gch" secondAttribute="trailing" constant="10" id="IF4-W7-cXC"/>
+                <constraint firstItem="Xu3-mj-2Dn" firstAttribute="top" secondItem="LdQ-u9-3u9" secondAttribute="bottom" constant="20" id="SJR-mp-fag"/>
+                <constraint firstItem="JSN-fK-2gh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Shx-hW-IEr"/>
+                <constraint firstItem="JSN-fK-2gh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="W2U-ds-XbE"/>
+                <constraint firstItem="JSN-fK-2gh" firstAttribute="top" secondItem="kZI-wG-gch" secondAttribute="bottom" constant="10" id="iMd-Nj-DOq"/>
+                <constraint firstItem="LdQ-u9-3u9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="jdY-0C-hWS"/>
+                <constraint firstItem="Xu3-mj-2Dn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="pV9-tc-9CR"/>
+                <constraint firstAttribute="trailing" secondItem="Xu3-mj-2Dn" secondAttribute="trailing" constant="10" id="u5H-5Q-1vu"/>
+                <constraint firstItem="kZI-wG-gch" firstAttribute="top" secondItem="Xu3-mj-2Dn" secondAttribute="bottom" constant="30" id="xmw-Tl-QOT"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="测试图" width="379" height="183"/>
+        <image name="背景图" width="300" height="173"/>
+    </resources>
+</document>

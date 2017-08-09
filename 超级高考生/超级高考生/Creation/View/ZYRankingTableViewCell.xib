@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZYRankingTableViewCell" id="KGk-i7-Jjw" customClass="ZYRankingTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diyiming" translatesAutoresizingMaskIntoConstraints="NO" id="XFX-Df-fiY">
+                        <rect key="frame" x="10" y="11" width="38" height="40"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="头像" translatesAutoresizingMaskIntoConstraints="NO" id="eO8-pV-HWr">
+                        <rect key="frame" x="58" y="12.5" width="37" height="37"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="傻逼老师" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAV-Au-4Xl">
+                        <rect key="frame" x="105" y="23.5" width="57.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcB-mn-UbS">
+                        <rect key="frame" x="250" y="24" width="50" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="0.81204516267123283" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XFX-Df-fiY" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Aqz-0h-Kxb"/>
+                    <constraint firstAttribute="trailing" secondItem="gcB-mn-UbS" secondAttribute="trailing" constant="20" id="DJI-yP-7LS"/>
+                    <constraint firstItem="eO8-pV-HWr" firstAttribute="leading" secondItem="XFX-Df-fiY" secondAttribute="trailing" constant="10" id="Fur-rC-aKc"/>
+                    <constraint firstItem="XFX-Df-fiY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="GrY-S9-1Eg"/>
+                    <constraint firstItem="JAV-Au-4Xl" firstAttribute="leading" secondItem="eO8-pV-HWr" secondAttribute="trailing" constant="10" id="Vbq-bO-jpq"/>
+                    <constraint firstItem="eO8-pV-HWr" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="jpq-zG-aGu"/>
+                    <constraint firstItem="JAV-Au-4Xl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="v70-ah-bXe"/>
+                    <constraint firstItem="gcB-mn-UbS" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="yM0-jC-Ic6"/>
+                </constraints>
+            </tableViewCellContentView>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="diyiming" width="38" height="40"/>
+        <image name="头像" width="37" height="37"/>
+    </resources>
+</document>

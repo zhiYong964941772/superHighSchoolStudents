@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ZYSelectKaoDianTableViewCell" rowHeight="219" id="XUm-sO-SVZ" customClass="ZYSelectKaoDianTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XUm-sO-SVZ" id="Zkn-ph-dI5">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="笔记背景" translatesAutoresizingMaskIntoConstraints="NO" id="QBe-tC-AHR">
+                        <rect key="frame" x="10" y="10" width="300" height="159.5"/>
+                        <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6个视频" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jsb-zI-AFt">
+                        <rect key="frame" x="10" y="175" width="44.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tLk-Rn-ss8">
+                        <rect key="frame" x="0.0" y="194" width="320" height="5"/>
+                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="5" id="nVw-e7-BX5"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="考点一" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSC-Ln-ubO">
+                        <rect key="frame" x="15" y="148" width="290" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6w-di-Law">
+                        <rect key="frame" x="280" y="167.5" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="W2a-SG-Ax1"/>
+                        </constraints>
+                        <state key="normal" title="Button" backgroundImage="选择园"/>
+                        <state key="selected" backgroundImage="已选择园"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tLk-Rn-ss8" firstAttribute="leading" secondItem="Zkn-ph-dI5" secondAttribute="leading" id="An4-a4-rwP"/>
+                    <constraint firstItem="E6w-di-Law" firstAttribute="trailing" secondItem="QBe-tC-AHR" secondAttribute="trailing" id="DFh-4p-E7T"/>
+                    <constraint firstAttribute="trailing" secondItem="kSC-Ln-ubO" secondAttribute="trailing" constant="15" id="EY7-tf-hUY"/>
+                    <constraint firstAttribute="bottom" secondItem="QBe-tC-AHR" secondAttribute="bottom" constant="30" id="JSp-XF-63w"/>
+                    <constraint firstItem="Jsb-zI-AFt" firstAttribute="top" secondItem="QBe-tC-AHR" secondAttribute="bottom" constant="5" id="L9T-ya-fd3"/>
+                    <constraint firstItem="Jsb-zI-AFt" firstAttribute="top" secondItem="kSC-Ln-ubO" secondAttribute="bottom" constant="10" id="MZF-3s-hOX"/>
+                    <constraint firstItem="kSC-Ln-ubO" firstAttribute="leading" secondItem="Zkn-ph-dI5" secondAttribute="leading" constant="15" id="QRS-5Q-khW"/>
+                    <constraint firstItem="QBe-tC-AHR" firstAttribute="leading" secondItem="Zkn-ph-dI5" secondAttribute="leading" constant="10" id="YZl-a1-9vv"/>
+                    <constraint firstAttribute="trailing" secondItem="tLk-Rn-ss8" secondAttribute="trailing" id="biq-99-gst"/>
+                    <constraint firstItem="QBe-tC-AHR" firstAttribute="top" secondItem="Zkn-ph-dI5" secondAttribute="top" constant="10" id="rc7-6c-Eoe"/>
+                    <constraint firstAttribute="bottom" secondItem="tLk-Rn-ss8" secondAttribute="bottom" id="tLf-wc-FwL"/>
+                    <constraint firstItem="Jsb-zI-AFt" firstAttribute="leading" secondItem="QBe-tC-AHR" secondAttribute="leading" id="trS-V0-wE6"/>
+                    <constraint firstItem="E6w-di-Law" firstAttribute="centerY" secondItem="Jsb-zI-AFt" secondAttribute="centerY" id="vaC-ZM-HL9"/>
+                    <constraint firstAttribute="trailing" secondItem="QBe-tC-AHR" secondAttribute="trailing" constant="10" id="yf2-oj-3ff"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="-26" y="85"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="已选择园" width="30" height="30"/>
+        <image name="笔记背景" width="355" height="213"/>
+        <image name="选择园" width="30" height="30"/>
+    </resources>
+</document>

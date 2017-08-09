@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "矢量智能对象@3x_16.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "测试图.png",
       "scale" : "2x"
     },
     {

@@ -10,6 +10,7 @@
 #import "ZYNavigationController.h"
 #import "ZYHumanitieTableView.h"
 #import "ZYTabBarViewController.h"
+#import "ZYKaoDianViewController.h"
 @interface ZYHumanitiesViewController ()
 
 @end
@@ -37,7 +38,10 @@
         make.left.right.mas_equalTo(0);
         make.bottom.mas_equalTo(0);
     }];
-
+    tableView.cellTapBlock = ^(id data) {
+        ZYKaoDianViewController *kaoti = [[ZYKaoDianViewController alloc]initWithNibName:@"ZYKaoDianViewController" bundle:nil];
+        [self.navigationController pushViewController: kaoti animated:YES];
+    };
     
 }
 - (void)didReceiveMemoryWarning {

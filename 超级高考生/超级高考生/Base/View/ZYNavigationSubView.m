@@ -11,7 +11,6 @@
 @implementation ZYNavigationSubView
 +(instancetype)showNavigationSubView{
     ZYNavigationSubView *mNavigationSubView = [[[NSBundle mainBundle]loadNibNamed:@"ZYNavigationSubView" owner:self options:nil]firstObject];
-    [mNavigationSubView setFrame:CGRectMake(0,20, SCREEN_WIDTH, 180)];
     
     return mNavigationSubView;
     
@@ -27,5 +26,30 @@
     // Drawing code
 }
 */
+- (void)layoutSubviews{
+    [super layoutSubviews];
+    [self setFrame:CGRectMake(0,20, SCREEN_WIDTH, 180)];
+
+}
+- (IBAction)addZuoPing:(UIButton *)sender {
+    [NSNOTIFICATION postNotificationName:@"ZY_ZUOPING" object:nil userInfo:@{@"MemuFrame":NSStringFromCGRect(sender.frame)}];
+
+}
+- (IBAction)xiaoxi:(id)sender {
+    [NSNOTIFICATION postNotificationName:@"ZY_XIAOXI" object:nil];
+
+}
+- (IBAction)yuanchuang:(id)sender {
+    [NSNOTIFICATION postNotificationName:@"ZY_YUANCHUANG" object:nil];
+
+}
+- (IBAction)jinping:(id)sender {
+    [NSNOTIFICATION postNotificationName:@"ZY_JINPING" object:nil];
+
+}
+- (IBAction)chengguo:(id)sender {
+    [NSNOTIFICATION postNotificationName:@"ZY_CHENGGUO" object:nil];
+
+}
 
 @end

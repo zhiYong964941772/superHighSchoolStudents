@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ZYProfessionItemView : UIView
-+ (instancetype)showItemView;
++ (instancetype)showItemViewWithBtnAction:(void(^)(ZYProfessionItemView *view))view;
+@property (nonatomic ,copy)void(^zy_DaKa)();
+@property (nonatomic ,copy)void(^zy_JiaoXue)();
+@property (nonatomic ,copy)void(^zy_YaZhou)();
+@property (nonatomic ,copy)void(^zy_JiaoPei)();
+
 @end

@@ -9,9 +9,10 @@
 #import "ZYProfessionItemView.h"
 
 @implementation ZYProfessionItemView
-+(instancetype)showItemView{
-    ZYProfessionItemView *view = [[[NSBundle mainBundle]loadNibNamed:@"ZYProfessionItemView" owner:self options:nil]firstObject];
-    return view;
++(instancetype)showItemViewWithBtnAction:(void (^)(ZYProfessionItemView *))view{
+    ZYProfessionItemView *profession = [[[NSBundle mainBundle]loadNibNamed:@"ZYProfessionItemView" owner:self options:nil]firstObject];
+    view(profession);
+    return profession;
 }
 /*
 // Only override drawRect: if you perform custom drawing.
@@ -21,4 +22,24 @@
 }
 */
 
+- (IBAction)daka:(id)sender {
+    if (self.zy_DaKa) {
+        self.zy_DaKa();
+    }
+}
+- (IBAction)jiaoxue:(id)sender {
+    if (self.zy_JiaoXue) {
+        self.zy_JiaoXue();
+    }
+}
+- (IBAction)yazhou:(id)sender {
+    if (self.zy_YaZhou) {
+        self.zy_YaZhou();
+    }
+}
+- (IBAction)jiaopei:(id)sender {
+    if (self.zy_JiaoPei) {
+        self.zy_JiaoPei();
+    }
+}
 @end

@@ -13,6 +13,17 @@
 #import "ZYCreationViewController.h"
 #import "ZYNavigationController.h"
 #import "ZYUserTableView.h"
+#import "ZYGrowthViewController.h"
+#import "ZYQianBaoViewController.h"
+#import "ZYWenDaViewController.h"
+#import "ZYDingDanViewController.h"
+#import "ZYShouCangViewController.h"
+#import "ZYSettingViewController.h"
+#import "ZYErWeiMaViewController.h"
+#import "ZYUserViewController.h"
+#import "ZYXinXiViewController.h"
+#import "ZYDownloadViewController.h"
+#import "ZYLiShiViewController.h"
 //#import "HWTabBar.h"
 @interface ZYTabBarViewController ()
 {
@@ -34,7 +45,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    [ZHI_NSNotificationCenter addObserver:self selector:@selector(zy_ErWeiMa) name:@"zy_ErWeiMa" object:nil];
+    [ZHI_NSNotificationCenter addObserver:self selector:@selector(zy_ChengZhang) name:@"zy_ChengZhang" object:nil];
+    [ZHI_NSNotificationCenter addObserver:self selector:@selector(zy_ZiLiao) name:@"zy_ZiLiao" object:nil];
+    [ZHI_NSNotificationCenter addObserver:self selector:@selector(zy_Xiaoxi) name:@"ZY_XIAOXI" object:nil];
+    [ZHI_NSNotificationCenter addObserver:self selector:@selector(changeMtransitionView) name:@"ZY_UserView" object:nil];
+    [ZHI_NSNotificationCenter addObserver:self selector:@selector(zy_LiShi) name:@"ZY_LISI" object:nil];
+    [ZHI_NSNotificationCenter addObserver:self selector:@selector(zy_XiaZai) name:@"ZY_XIAZAI" object:nil];
+
+
     // 1.初始化子控制器
     ZYHomeViewController *home = [[ZYHomeViewController alloc] init];
     [self addChildVc:home title:@"首页" image:@"形状-2-拷贝" selectedImage:@"形状-2"];
@@ -75,7 +94,38 @@
     
    
 }
+- (void)zy_ChengZhang{
+    ZYGrowthViewController *growthVC = [[ZYGrowthViewController alloc]initWithNibName:@"ZYGrowthViewController" bundle:nil];
+    ZYNavigationController *navigationVC = self.selectedViewController;
+    [navigationVC pushViewController:growthVC animated:YES];
+    [self closeMenu];
 
+}
+- (void)zy_ErWeiMa{
+    
+}
+- (void)zy_ZiLiao{
+    ZYUserViewController *userVC = [[ZYUserViewController alloc]init];
+    ZYNavigationController *navigationVC = self.selectedViewController;
+    [navigationVC pushViewController:userVC animated:YES];
+    [self closeMenu];
+
+}
+- (void)zy_Xiaoxi{
+    ZYXinXiViewController *userVC = [[ZYXinXiViewController alloc]initWithNibName:@"ZYXinXiViewController" bundle:nil];
+    ZYNavigationController *navigationVC = self.selectedViewController;
+    [navigationVC pushViewController:userVC animated:YES];
+}
+- (void)zy_LiShi{
+    ZYLiShiViewController *userVC = [[ZYLiShiViewController alloc]init];
+    ZYNavigationController *navigationVC = self.selectedViewController;
+    [navigationVC pushViewController:userVC animated:YES];
+}
+- (void)zy_XiaZai{
+    ZYDownloadViewController *userVC = [[ZYDownloadViewController alloc]init];
+    ZYNavigationController *navigationVC = self.selectedViewController;
+    [navigationVC pushViewController:userVC animated:YES];
+}
 /**
  *  添加一个子控制器
  *
@@ -104,9 +154,7 @@
     // 先给外面传进来的小控制器 包装 一个导航控制器
     ZYNavigationController *nav = [[ZYNavigationController alloc] initWithRootViewController:childVc];
     // 添加为子控制器
-    nav.sp_PushUserView = ^{
-        [self changeMtransitionView];
-    };
+   
     if (![title isEqualToString:@"创作"]) {
         [nav setIsShowNavigation:YES];
     }else{
@@ -229,6 +277,11 @@
 - (ZYUserTableView *)mUserTableView{
     if (!_mUserTableView) {
         _mUserTableView = [ZYUserTableView showUserView];
+        @weakify(self);
+        _mUserTableView.cellTapBlock = ^(id data) {
+            @strongify(self);
+            [self pushVcWith:data];
+        };
     }
     return _mUserTableView;
 }
@@ -238,5 +291,45 @@
         [self closeMenu];
     }
 }
+#pragma mark -- cellTap
+- (void)pushVcWith:(id)data{
+    NSInteger i = [data integerValue];
+    ZYNavigationController *navigationVC = self.selectedViewController;
+    [self closeMenu];
 
+    switch (i) {
+        case 0:
+        {
+            ZYQianBaoViewController *qB = [[ZYQianBaoViewController alloc]initWithNibName:@"ZYQianBaoViewController" bundle:nil];
+            [navigationVC pushViewController:qB animated:YES];
+
+        }
+            break;
+        case 1:
+        {
+            ZYWenDaViewController *wD = [[ZYWenDaViewController alloc]initWithNibName:@"ZYWenDaViewController" bundle:nil];
+            [navigationVC pushViewController:wD animated:YES];
+        }
+            break;
+        case 2:
+        {
+            ZYDingDanViewController *dD = [[ZYDingDanViewController alloc]initWithNibName:@"ZYDingDanViewController" bundle:nil];
+            [navigationVC pushViewController:dD animated:YES];
+        }
+            break;
+        case 3:
+        {
+            ZYShouCangViewController *sC = [[ZYShouCangViewController alloc]init];
+            [navigationVC pushViewController:sC animated:YES];
+        }
+            break;
+        case 4:{
+            ZYSettingViewController *sT = [[ZYSettingViewController alloc]init];
+            [navigationVC pushViewController:sT animated:YES];
+        }
+            break;
+        default:
+            break;
+    }
+}
 @end

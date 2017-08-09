@@ -10,4 +10,5 @@
 
 @interface ZYUserTableView : BaseTableView
 +(instancetype)showUserView;
+
 @end

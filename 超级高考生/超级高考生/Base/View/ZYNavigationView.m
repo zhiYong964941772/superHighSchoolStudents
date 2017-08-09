@@ -31,6 +31,18 @@ return mNavigationView;
 - (IBAction)userAction:(UIButton *)sender {
     [NSNOTIFICATION postNotificationName:@"ZY_UserView" object:nil];
 }
+- (IBAction)xiazaiAction:(id)sender {
+    [NSNOTIFICATION postNotificationName:@"ZY_XIAZAI" object:nil];
+
+}
+- (IBAction)xinxiAction:(id)sender {
+    [NSNOTIFICATION postNotificationName:@"ZY_XIAOXI" object:nil];
+
+}
+- (IBAction)lishi:(id)sender {
+    [NSNOTIFICATION postNotificationName:@"ZY_LISI" object:nil];
+
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

@@ -72,6 +72,54 @@
 		7CD4BCC91F399739006E4559 /* ZXAddOrEditAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BCC71F399739006E4559 /* ZXAddOrEditAddressViewController.xib */; };
 		7CD4BCCE1F3999AA006E4559 /* areaArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BCCB1F3999AA006E4559 /* areaArray.plist */; };
 		7CD4BCCF1F3999AA006E4559 /* BLAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BCCD1F3999AA006E4559 /* BLAreaPickerView.m */; };
+		7CD4BCD31F399B6C006E4559 /* ZYHuoDongDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BCD11F399B6C006E4559 /* ZYHuoDongDetailsViewController.m */; };
+		7CD4BCD41F399B6C006E4559 /* ZYHuoDongDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BCD21F399B6C006E4559 /* ZYHuoDongDetailsViewController.xib */; };
+		7CD4BCD81F399F77006E4559 /* ZYZuoPinShengheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BCD61F399F77006E4559 /* ZYZuoPinShengheViewController.m */; };
+		7CD4BCD91F399F77006E4559 /* ZYZuoPinShengheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BCD71F399F77006E4559 /* ZYZuoPinShengheViewController.xib */; };
+		7CD4BCDC1F39A78E006E4559 /* UIButton+ZYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BCDB1F39A78E006E4559 /* UIButton+ZYExtension.m */; };
+		7CD4BCE01F39A888006E4559 /* ZYGuiZeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BCDE1F39A888006E4559 /* ZYGuiZeViewController.m */; };
+		7CD4BCE11F39A888006E4559 /* ZYGuiZeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BCDF1F39A888006E4559 /* ZYGuiZeViewController.xib */; };
+		7CD4BCE51F39B18E006E4559 /* ZYAddJinPingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BCE31F39B18E006E4559 /* ZYAddJinPingViewController.m */; };
+		7CD4BCE61F39B18E006E4559 /* ZYAddJinPingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BCE41F39B18E006E4559 /* ZYAddJinPingViewController.xib */; };
+		7CD4BCE91F3AA39B006E4559 /* ZYJingPingSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BCE81F3AA39B006E4559 /* ZYJingPingSelectViewController.m */; };
+		7CD4BCF71F3AA46A006E4559 /* ZYJingPingSelectTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BCF31F3AA46A006E4559 /* ZYJingPingSelectTableView.m */; };
+		7CD4BCF81F3AA46A006E4559 /* ZYJingPingSelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BCF51F3AA46A006E4559 /* ZYJingPingSelectTableViewCell.m */; };
+		7CD4BCF91F3AA46A006E4559 /* ZYJingPingSelectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BCF61F3AA46A006E4559 /* ZYJingPingSelectTableViewCell.xib */; };
+		7CD4BCFF1F3AA6F7006E4559 /* ZYSelectKaoDianTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BCFE1F3AA6F7006E4559 /* ZYSelectKaoDianTableView.m */; };
+		7CD4BD031F3AA720006E4559 /* ZYSelectKaoDianTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD011F3AA720006E4559 /* ZYSelectKaoDianTableViewCell.m */; };
+		7CD4BD041F3AA720006E4559 /* ZYSelectKaoDianTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BD021F3AA720006E4559 /* ZYSelectKaoDianTableViewCell.xib */; };
+		7CD4BD071F3AA87A006E4559 /* ZYSelectKaoDianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD061F3AA87A006E4559 /* ZYSelectKaoDianViewController.m */; };
+		7CD4BD0E1F3AAC0F006E4559 /* ZYMyZuoPingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD0C1F3AAC0F006E4559 /* ZYMyZuoPingViewController.m */; };
+		7CD4BD121F3AAECF006E4559 /* ZYMyZuoPingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD111F3AAECF006E4559 /* ZYMyZuoPingTableView.m */; };
+		7CD4BD161F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD141F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.m */; };
+		7CD4BD171F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BD151F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.xib */; };
+		7CD4BD1B1F3AB4C2006E4559 /* ZYChengGuoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD191F3AB4C2006E4559 /* ZYChengGuoViewController.m */; };
+		7CD4BD1C1F3AB4C2006E4559 /* ZYChengGuoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BD1A1F3AB4C2006E4559 /* ZYChengGuoViewController.xib */; };
+		7CD4BD1F1F3AB7E8006E4559 /* ZYChengGuoTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD1E1F3AB7E8006E4559 /* ZYChengGuoTableView.m */; };
+		7CD4BD231F3AB803006E4559 /* ZYChengGuoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD211F3AB803006E4559 /* ZYChengGuoTableViewCell.m */; };
+		7CD4BD241F3AB803006E4559 /* ZYChengGuoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BD221F3AB803006E4559 /* ZYChengGuoTableViewCell.xib */; };
+		7CD4BD271F3ABB82006E4559 /* ZYRankingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD261F3ABB82006E4559 /* ZYRankingTableViewController.m */; };
+		7CD4BD2B1F3ABB96006E4559 /* ZYRankingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD291F3ABB96006E4559 /* ZYRankingTableViewCell.m */; };
+		7CD4BD2C1F3ABB96006E4559 /* ZYRankingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BD2A1F3ABB96006E4559 /* ZYRankingTableViewCell.xib */; };
+		7CD4BD341F3AE655006E4559 /* ZYErWeiMaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD321F3AE655006E4559 /* ZYErWeiMaViewController.m */; };
+		7CD4BD351F3AE655006E4559 /* ZYErWeiMaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BD331F3AE655006E4559 /* ZYErWeiMaViewController.xib */; };
+		7CD4BD391F3AE69E006E4559 /* ZYQianBaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD371F3AE69E006E4559 /* ZYQianBaoViewController.m */; };
+		7CD4BD3A1F3AE69E006E4559 /* ZYQianBaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BD381F3AE69E006E4559 /* ZYQianBaoViewController.xib */; };
+		7CD4BD3E1F3AE6F7006E4559 /* ZYWenDaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD3C1F3AE6F7006E4559 /* ZYWenDaViewController.m */; };
+		7CD4BD3F1F3AE6F7006E4559 /* ZYWenDaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BD3D1F3AE6F7006E4559 /* ZYWenDaViewController.xib */; };
+		7CD4BD431F3AE72E006E4559 /* ZYDingDanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD411F3AE72E006E4559 /* ZYDingDanViewController.m */; };
+		7CD4BD441F3AE72E006E4559 /* ZYDingDanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BD421F3AE72E006E4559 /* ZYDingDanViewController.xib */; };
+		7CD4BD471F3AE75B006E4559 /* ZYShouCangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD461F3AE75B006E4559 /* ZYShouCangViewController.m */; };
+		7CD4BD4A1F3AE785006E4559 /* ZYSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD491F3AE785006E4559 /* ZYSettingViewController.m */; };
+		7CD4BD4D1F3AE8AB006E4559 /* ZYUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD4C1F3AE8AB006E4559 /* ZYUserViewController.m */; };
+		7CD4BD511F3AE902006E4559 /* ZYXinXiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD4F1F3AE902006E4559 /* ZYXinXiViewController.m */; };
+		7CD4BD521F3AE902006E4559 /* ZYXinXiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4BD501F3AE902006E4559 /* ZYXinXiViewController.xib */; };
+		7CD4BD551F3AE96B006E4559 /* ZYDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD541F3AE96B006E4559 /* ZYDownloadViewController.m */; };
+		7CD4BD581F3AE9AA006E4559 /* ZYLiShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD571F3AE9AA006E4559 /* ZYLiShiViewController.m */; };
+		7CD4BD5B1F3AF5E1006E4559 /* ZYDakaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD5A1F3AF5E1006E4559 /* ZYDakaViewController.m */; };
+		7CD4BD5E1F3AF7CE006E4559 /* ZYJiaoXueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD5D1F3AF7CE006E4559 /* ZYJiaoXueViewController.m */; };
+		7CD4BD611F3AF7E0006E4559 /* ZYYaZhouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD601F3AF7E0006E4559 /* ZYYaZhouViewController.m */; };
+		7CD4BD641F3AF863006E4559 /* ZYJiaoPeiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BD631F3AF863006E4559 /* ZYJiaoPeiViewController.m */; };
 		7CEDE4AB1F30AD5D005EFFEF /* ZYSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEDE4A91F30AD5D005EFFEF /* ZYSignViewController.m */; };
 		7CEDE4AC1F30AD5D005EFFEF /* ZYSignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CEDE4AA1F30AD5D005EFFEF /* ZYSignViewController.xib */; };
 		7CFB5DC61F2B94610091A7EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB5DC51F2B94610091A7EC /* main.m */; };
@@ -234,6 +282,87 @@
 		7CD4BCCB1F3999AA006E4559 /* areaArray.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = areaArray.plist; sourceTree = "<group>"; };
 		7CD4BCCC1F3999AA006E4559 /* BLAreaPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAreaPickerView.h; sourceTree = "<group>"; };
 		7CD4BCCD1F3999AA006E4559 /* BLAreaPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAreaPickerView.m; sourceTree = "<group>"; };
+		7CD4BCD01F399B6C006E4559 /* ZYHuoDongDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHuoDongDetailsViewController.h; sourceTree = "<group>"; };
+		7CD4BCD11F399B6C006E4559 /* ZYHuoDongDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHuoDongDetailsViewController.m; sourceTree = "<group>"; };
+		7CD4BCD21F399B6C006E4559 /* ZYHuoDongDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYHuoDongDetailsViewController.xib; sourceTree = "<group>"; };
+		7CD4BCD51F399F77006E4559 /* ZYZuoPinShengheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYZuoPinShengheViewController.h; sourceTree = "<group>"; };
+		7CD4BCD61F399F77006E4559 /* ZYZuoPinShengheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYZuoPinShengheViewController.m; sourceTree = "<group>"; };
+		7CD4BCD71F399F77006E4559 /* ZYZuoPinShengheViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYZuoPinShengheViewController.xib; sourceTree = "<group>"; };
+		7CD4BCDA1F39A78E006E4559 /* UIButton+ZYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZYExtension.h"; sourceTree = "<group>"; };
+		7CD4BCDB1F39A78E006E4559 /* UIButton+ZYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZYExtension.m"; sourceTree = "<group>"; };
+		7CD4BCDD1F39A888006E4559 /* ZYGuiZeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGuiZeViewController.h; sourceTree = "<group>"; };
+		7CD4BCDE1F39A888006E4559 /* ZYGuiZeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGuiZeViewController.m; sourceTree = "<group>"; };
+		7CD4BCDF1F39A888006E4559 /* ZYGuiZeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYGuiZeViewController.xib; sourceTree = "<group>"; };
+		7CD4BCE21F39B18E006E4559 /* ZYAddJinPingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAddJinPingViewController.h; sourceTree = "<group>"; };
+		7CD4BCE31F39B18E006E4559 /* ZYAddJinPingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAddJinPingViewController.m; sourceTree = "<group>"; };
+		7CD4BCE41F39B18E006E4559 /* ZYAddJinPingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYAddJinPingViewController.xib; sourceTree = "<group>"; };
+		7CD4BCE71F3AA39B006E4559 /* ZYJingPingSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJingPingSelectViewController.h; sourceTree = "<group>"; };
+		7CD4BCE81F3AA39B006E4559 /* ZYJingPingSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJingPingSelectViewController.m; sourceTree = "<group>"; };
+		7CD4BCF21F3AA46A006E4559 /* ZYJingPingSelectTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJingPingSelectTableView.h; sourceTree = "<group>"; };
+		7CD4BCF31F3AA46A006E4559 /* ZYJingPingSelectTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJingPingSelectTableView.m; sourceTree = "<group>"; };
+		7CD4BCF41F3AA46A006E4559 /* ZYJingPingSelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJingPingSelectTableViewCell.h; sourceTree = "<group>"; };
+		7CD4BCF51F3AA46A006E4559 /* ZYJingPingSelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJingPingSelectTableViewCell.m; sourceTree = "<group>"; };
+		7CD4BCF61F3AA46A006E4559 /* ZYJingPingSelectTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYJingPingSelectTableViewCell.xib; sourceTree = "<group>"; };
+		7CD4BCFD1F3AA6F7006E4559 /* ZYSelectKaoDianTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSelectKaoDianTableView.h; sourceTree = "<group>"; };
+		7CD4BCFE1F3AA6F7006E4559 /* ZYSelectKaoDianTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSelectKaoDianTableView.m; sourceTree = "<group>"; };
+		7CD4BD001F3AA720006E4559 /* ZYSelectKaoDianTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSelectKaoDianTableViewCell.h; sourceTree = "<group>"; };
+		7CD4BD011F3AA720006E4559 /* ZYSelectKaoDianTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSelectKaoDianTableViewCell.m; sourceTree = "<group>"; };
+		7CD4BD021F3AA720006E4559 /* ZYSelectKaoDianTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYSelectKaoDianTableViewCell.xib; sourceTree = "<group>"; };
+		7CD4BD051F3AA87A006E4559 /* ZYSelectKaoDianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSelectKaoDianViewController.h; sourceTree = "<group>"; };
+		7CD4BD061F3AA87A006E4559 /* ZYSelectKaoDianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSelectKaoDianViewController.m; sourceTree = "<group>"; };
+		7CD4BD0B1F3AAC0F006E4559 /* ZYMyZuoPingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMyZuoPingViewController.h; sourceTree = "<group>"; };
+		7CD4BD0C1F3AAC0F006E4559 /* ZYMyZuoPingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMyZuoPingViewController.m; sourceTree = "<group>"; };
+		7CD4BD101F3AAECF006E4559 /* ZYMyZuoPingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMyZuoPingTableView.h; sourceTree = "<group>"; };
+		7CD4BD111F3AAECF006E4559 /* ZYMyZuoPingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMyZuoPingTableView.m; sourceTree = "<group>"; };
+		7CD4BD131F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMyZuoPingTableViewCell.h; sourceTree = "<group>"; };
+		7CD4BD141F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMyZuoPingTableViewCell.m; sourceTree = "<group>"; };
+		7CD4BD151F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYMyZuoPingTableViewCell.xib; sourceTree = "<group>"; };
+		7CD4BD181F3AB4C2006E4559 /* ZYChengGuoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYChengGuoViewController.h; sourceTree = "<group>"; };
+		7CD4BD191F3AB4C2006E4559 /* ZYChengGuoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYChengGuoViewController.m; sourceTree = "<group>"; };
+		7CD4BD1A1F3AB4C2006E4559 /* ZYChengGuoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYChengGuoViewController.xib; sourceTree = "<group>"; };
+		7CD4BD1D1F3AB7E8006E4559 /* ZYChengGuoTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYChengGuoTableView.h; sourceTree = "<group>"; };
+		7CD4BD1E1F3AB7E8006E4559 /* ZYChengGuoTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYChengGuoTableView.m; sourceTree = "<group>"; };
+		7CD4BD201F3AB803006E4559 /* ZYChengGuoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYChengGuoTableViewCell.h; sourceTree = "<group>"; };
+		7CD4BD211F3AB803006E4559 /* ZYChengGuoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYChengGuoTableViewCell.m; sourceTree = "<group>"; };
+		7CD4BD221F3AB803006E4559 /* ZYChengGuoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYChengGuoTableViewCell.xib; sourceTree = "<group>"; };
+		7CD4BD251F3ABB82006E4559 /* ZYRankingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYRankingTableViewController.h; sourceTree = "<group>"; };
+		7CD4BD261F3ABB82006E4559 /* ZYRankingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYRankingTableViewController.m; sourceTree = "<group>"; };
+		7CD4BD281F3ABB96006E4559 /* ZYRankingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYRankingTableViewCell.h; sourceTree = "<group>"; };
+		7CD4BD291F3ABB96006E4559 /* ZYRankingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYRankingTableViewCell.m; sourceTree = "<group>"; };
+		7CD4BD2A1F3ABB96006E4559 /* ZYRankingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYRankingTableViewCell.xib; sourceTree = "<group>"; };
+		7CD4BD311F3AE655006E4559 /* ZYErWeiMaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYErWeiMaViewController.h; sourceTree = "<group>"; };
+		7CD4BD321F3AE655006E4559 /* ZYErWeiMaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYErWeiMaViewController.m; sourceTree = "<group>"; };
+		7CD4BD331F3AE655006E4559 /* ZYErWeiMaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYErWeiMaViewController.xib; sourceTree = "<group>"; };
+		7CD4BD361F3AE69E006E4559 /* ZYQianBaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQianBaoViewController.h; sourceTree = "<group>"; };
+		7CD4BD371F3AE69E006E4559 /* ZYQianBaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQianBaoViewController.m; sourceTree = "<group>"; };
+		7CD4BD381F3AE69E006E4559 /* ZYQianBaoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYQianBaoViewController.xib; sourceTree = "<group>"; };
+		7CD4BD3B1F3AE6F7006E4559 /* ZYWenDaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWenDaViewController.h; sourceTree = "<group>"; };
+		7CD4BD3C1F3AE6F7006E4559 /* ZYWenDaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWenDaViewController.m; sourceTree = "<group>"; };
+		7CD4BD3D1F3AE6F7006E4559 /* ZYWenDaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYWenDaViewController.xib; sourceTree = "<group>"; };
+		7CD4BD401F3AE72E006E4559 /* ZYDingDanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDingDanViewController.h; sourceTree = "<group>"; };
+		7CD4BD411F3AE72E006E4559 /* ZYDingDanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDingDanViewController.m; sourceTree = "<group>"; };
+		7CD4BD421F3AE72E006E4559 /* ZYDingDanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYDingDanViewController.xib; sourceTree = "<group>"; };
+		7CD4BD451F3AE75B006E4559 /* ZYShouCangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShouCangViewController.h; sourceTree = "<group>"; };
+		7CD4BD461F3AE75B006E4559 /* ZYShouCangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShouCangViewController.m; sourceTree = "<group>"; };
+		7CD4BD481F3AE785006E4559 /* ZYSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSettingViewController.h; sourceTree = "<group>"; };
+		7CD4BD491F3AE785006E4559 /* ZYSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSettingViewController.m; sourceTree = "<group>"; };
+		7CD4BD4B1F3AE8AB006E4559 /* ZYUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYUserViewController.h; sourceTree = "<group>"; };
+		7CD4BD4C1F3AE8AB006E4559 /* ZYUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYUserViewController.m; sourceTree = "<group>"; };
+		7CD4BD4E1F3AE902006E4559 /* ZYXinXiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXinXiViewController.h; sourceTree = "<group>"; };
+		7CD4BD4F1F3AE902006E4559 /* ZYXinXiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXinXiViewController.m; sourceTree = "<group>"; };
+		7CD4BD501F3AE902006E4559 /* ZYXinXiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYXinXiViewController.xib; sourceTree = "<group>"; };
+		7CD4BD531F3AE96B006E4559 /* ZYDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDownloadViewController.h; sourceTree = "<group>"; };
+		7CD4BD541F3AE96B006E4559 /* ZYDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDownloadViewController.m; sourceTree = "<group>"; };
+		7CD4BD561F3AE9AA006E4559 /* ZYLiShiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiShiViewController.h; sourceTree = "<group>"; };
+		7CD4BD571F3AE9AA006E4559 /* ZYLiShiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiShiViewController.m; sourceTree = "<group>"; };
+		7CD4BD591F3AF5E1006E4559 /* ZYDakaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDakaViewController.h; sourceTree = "<group>"; };
+		7CD4BD5A1F3AF5E1006E4559 /* ZYDakaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDakaViewController.m; sourceTree = "<group>"; };
+		7CD4BD5C1F3AF7CE006E4559 /* ZYJiaoXueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJiaoXueViewController.h; sourceTree = "<group>"; };
+		7CD4BD5D1F3AF7CE006E4559 /* ZYJiaoXueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJiaoXueViewController.m; sourceTree = "<group>"; };
+		7CD4BD5F1F3AF7E0006E4559 /* ZYYaZhouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYYaZhouViewController.h; sourceTree = "<group>"; };
+		7CD4BD601F3AF7E0006E4559 /* ZYYaZhouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYYaZhouViewController.m; sourceTree = "<group>"; };
+		7CD4BD621F3AF863006E4559 /* ZYJiaoPeiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJiaoPeiViewController.h; sourceTree = "<group>"; };
+		7CD4BD631F3AF863006E4559 /* ZYJiaoPeiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJiaoPeiViewController.m; sourceTree = "<group>"; };
 		7CEDE4A81F30AD5D005EFFEF /* ZYSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSignViewController.h; sourceTree = "<group>"; };
 		7CEDE4A91F30AD5D005EFFEF /* ZYSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSignViewController.m; sourceTree = "<group>"; };
 		7CEDE4AA1F30AD5D005EFFEF /* ZYSignViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYSignViewController.xib; sourceTree = "<group>"; };
@@ -381,6 +510,62 @@
 			path = ../BLAreaPickView;
 			sourceTree = "<group>";
 		};
+		7CD4BD2D1F3AE639006E4559 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				7CD4BD2E1F3AE639006E4559 /* Model */,
+				7CD4BD2F1F3AE639006E4559 /* View */,
+				7CD4BD301F3AE639006E4559 /* ViewController */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		7CD4BD2E1F3AE639006E4559 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CD4BD2F1F3AE639006E4559 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7CD4BD301F3AE639006E4559 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7CD4BD311F3AE655006E4559 /* ZYErWeiMaViewController.h */,
+				7CD4BD321F3AE655006E4559 /* ZYErWeiMaViewController.m */,
+				7CD4BD331F3AE655006E4559 /* ZYErWeiMaViewController.xib */,
+				7CD4BD361F3AE69E006E4559 /* ZYQianBaoViewController.h */,
+				7CD4BD371F3AE69E006E4559 /* ZYQianBaoViewController.m */,
+				7CD4BD381F3AE69E006E4559 /* ZYQianBaoViewController.xib */,
+				7CD4BD3B1F3AE6F7006E4559 /* ZYWenDaViewController.h */,
+				7CD4BD3C1F3AE6F7006E4559 /* ZYWenDaViewController.m */,
+				7CD4BD3D1F3AE6F7006E4559 /* ZYWenDaViewController.xib */,
+				7CD4BD401F3AE72E006E4559 /* ZYDingDanViewController.h */,
+				7CD4BD411F3AE72E006E4559 /* ZYDingDanViewController.m */,
+				7CD4BD421F3AE72E006E4559 /* ZYDingDanViewController.xib */,
+				7CD4BD451F3AE75B006E4559 /* ZYShouCangViewController.h */,
+				7CD4BD461F3AE75B006E4559 /* ZYShouCangViewController.m */,
+				7CD4BD481F3AE785006E4559 /* ZYSettingViewController.h */,
+				7CD4BD491F3AE785006E4559 /* ZYSettingViewController.m */,
+				7CD4BD4B1F3AE8AB006E4559 /* ZYUserViewController.h */,
+				7CD4BD4C1F3AE8AB006E4559 /* ZYUserViewController.m */,
+				7CD4BD4E1F3AE902006E4559 /* ZYXinXiViewController.h */,
+				7CD4BD4F1F3AE902006E4559 /* ZYXinXiViewController.m */,
+				7CD4BD501F3AE902006E4559 /* ZYXinXiViewController.xib */,
+				7CD4BD531F3AE96B006E4559 /* ZYDownloadViewController.h */,
+				7CD4BD541F3AE96B006E4559 /* ZYDownloadViewController.m */,
+				7CD4BD561F3AE9AA006E4559 /* ZYLiShiViewController.h */,
+				7CD4BD571F3AE9AA006E4559 /* ZYLiShiViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		7CFB5DB81F2B94610091A7EC = {
 			isa = PBXGroup;
 			children = (
@@ -411,6 +596,7 @@
 				7CFB5DE71F2C9FAD0091A7EC /* Humanities */,
 				7CFB5DE31F2C9FAD0091A7EC /* Creation */,
 				7CFB5DEB1F2C9FDE0091A7EC /* Base */,
+				7CD4BD2D1F3AE639006E4559 /* User */,
 				7CFB5DCA1F2B94610091A7EC /* ViewController.h */,
 				7CFB5DCB1F2B94610091A7EC /* ViewController.m */,
 				7CFB5DD01F2B94610091A7EC /* Assets.xcassets */,
@@ -534,6 +720,9 @@
 				7CD4BC751F37EB09006E4559 /* ZYBiJiDetailsViewController.m */,
 				7CD4BC831F395DB3006E4559 /* ZYHuoDongViewController.h */,
 				7CD4BC841F395DB3006E4559 /* ZYHuoDongViewController.m */,
+				7CD4BCD01F399B6C006E4559 /* ZYHuoDongDetailsViewController.h */,
+				7CD4BCD11F399B6C006E4559 /* ZYHuoDongDetailsViewController.m */,
+				7CD4BCD21F399B6C006E4559 /* ZYHuoDongDetailsViewController.xib */,
 				7CD4BC911F399673006E4559 /* ZXShuChengTableViewController.h */,
 				7CD4BC921F399673006E4559 /* ZXShuChengTableViewController.m */,
 				7CD4BC931F399673006E4559 /* ZXShuChengTableViewController.xib */,
@@ -595,6 +784,14 @@
 			children = (
 				7CFB5E471F2CB3390091A7EC /* ZYProfessionalViewController.h */,
 				7CFB5E481F2CB3390091A7EC /* ZYProfessionalViewController.m */,
+				7CD4BD591F3AF5E1006E4559 /* ZYDakaViewController.h */,
+				7CD4BD5A1F3AF5E1006E4559 /* ZYDakaViewController.m */,
+				7CD4BD5C1F3AF7CE006E4559 /* ZYJiaoXueViewController.h */,
+				7CD4BD5D1F3AF7CE006E4559 /* ZYJiaoXueViewController.m */,
+				7CD4BD5F1F3AF7E0006E4559 /* ZYYaZhouViewController.h */,
+				7CD4BD601F3AF7E0006E4559 /* ZYYaZhouViewController.m */,
+				7CD4BD621F3AF863006E4559 /* ZYJiaoPeiViewController.h */,
+				7CD4BD631F3AF863006E4559 /* ZYJiaoPeiViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -624,6 +821,29 @@
 				7CFB5E8F1F2E28140091A7EC /* ZYCreationTableViewCell.h */,
 				7CFB5E901F2E28140091A7EC /* ZYCreationTableViewCell.m */,
 				7CFB5E911F2E28140091A7EC /* ZYCreationTableViewCell.xib */,
+				7CD4BCF21F3AA46A006E4559 /* ZYJingPingSelectTableView.h */,
+				7CD4BCF31F3AA46A006E4559 /* ZYJingPingSelectTableView.m */,
+				7CD4BCF41F3AA46A006E4559 /* ZYJingPingSelectTableViewCell.h */,
+				7CD4BCF51F3AA46A006E4559 /* ZYJingPingSelectTableViewCell.m */,
+				7CD4BCF61F3AA46A006E4559 /* ZYJingPingSelectTableViewCell.xib */,
+				7CD4BCFD1F3AA6F7006E4559 /* ZYSelectKaoDianTableView.h */,
+				7CD4BCFE1F3AA6F7006E4559 /* ZYSelectKaoDianTableView.m */,
+				7CD4BD001F3AA720006E4559 /* ZYSelectKaoDianTableViewCell.h */,
+				7CD4BD011F3AA720006E4559 /* ZYSelectKaoDianTableViewCell.m */,
+				7CD4BD021F3AA720006E4559 /* ZYSelectKaoDianTableViewCell.xib */,
+				7CD4BD101F3AAECF006E4559 /* ZYMyZuoPingTableView.h */,
+				7CD4BD111F3AAECF006E4559 /* ZYMyZuoPingTableView.m */,
+				7CD4BD131F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.h */,
+				7CD4BD141F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.m */,
+				7CD4BD151F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.xib */,
+				7CD4BD1D1F3AB7E8006E4559 /* ZYChengGuoTableView.h */,
+				7CD4BD1E1F3AB7E8006E4559 /* ZYChengGuoTableView.m */,
+				7CD4BD201F3AB803006E4559 /* ZYChengGuoTableViewCell.h */,
+				7CD4BD211F3AB803006E4559 /* ZYChengGuoTableViewCell.m */,
+				7CD4BD221F3AB803006E4559 /* ZYChengGuoTableViewCell.xib */,
+				7CD4BD281F3ABB96006E4559 /* ZYRankingTableViewCell.h */,
+				7CD4BD291F3ABB96006E4559 /* ZYRankingTableViewCell.m */,
+				7CD4BD2A1F3ABB96006E4559 /* ZYRankingTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -633,6 +853,26 @@
 			children = (
 				7CFB5E4D1F2CB3810091A7EC /* ZYCreationViewController.h */,
 				7CFB5E4E1F2CB3810091A7EC /* ZYCreationViewController.m */,
+				7CD4BCD51F399F77006E4559 /* ZYZuoPinShengheViewController.h */,
+				7CD4BCD61F399F77006E4559 /* ZYZuoPinShengheViewController.m */,
+				7CD4BCD71F399F77006E4559 /* ZYZuoPinShengheViewController.xib */,
+				7CD4BCDD1F39A888006E4559 /* ZYGuiZeViewController.h */,
+				7CD4BCDE1F39A888006E4559 /* ZYGuiZeViewController.m */,
+				7CD4BCDF1F39A888006E4559 /* ZYGuiZeViewController.xib */,
+				7CD4BCE71F3AA39B006E4559 /* ZYJingPingSelectViewController.h */,
+				7CD4BCE81F3AA39B006E4559 /* ZYJingPingSelectViewController.m */,
+				7CD4BD051F3AA87A006E4559 /* ZYSelectKaoDianViewController.h */,
+				7CD4BD061F3AA87A006E4559 /* ZYSelectKaoDianViewController.m */,
+				7CD4BCE21F39B18E006E4559 /* ZYAddJinPingViewController.h */,
+				7CD4BCE31F39B18E006E4559 /* ZYAddJinPingViewController.m */,
+				7CD4BCE41F39B18E006E4559 /* ZYAddJinPingViewController.xib */,
+				7CD4BD0B1F3AAC0F006E4559 /* ZYMyZuoPingViewController.h */,
+				7CD4BD0C1F3AAC0F006E4559 /* ZYMyZuoPingViewController.m */,
+				7CD4BD181F3AB4C2006E4559 /* ZYChengGuoViewController.h */,
+				7CD4BD191F3AB4C2006E4559 /* ZYChengGuoViewController.m */,
+				7CD4BD1A1F3AB4C2006E4559 /* ZYChengGuoViewController.xib */,
+				7CD4BD251F3ABB82006E4559 /* ZYRankingTableViewController.h */,
+				7CD4BD261F3ABB82006E4559 /* ZYRankingTableViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -733,6 +973,8 @@
 		7CFB5DEF1F2CA0150091A7EC /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7CD4BCDA1F39A78E006E4559 /* UIButton+ZYExtension.h */,
+				7CD4BCDB1F39A78E006E4559 /* UIButton+ZYExtension.m */,
 				7CFB5E501F2CB54C0091A7EC /* UIBarButtonItem+Extension.h */,
 				7CFB5E511F2CB54C0091A7EC /* UIBarButtonItem+Extension.m */,
 				7CFB5DF01F2CA0150091A7EC /* MBProgressHUD+Extension.h */,
@@ -874,7 +1116,7 @@
 					7CFB5DC01F2B94610091A7EC = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 998M9T58PH;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -901,24 +1143,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD4BD2C1F3ABB96006E4559 /* ZYRankingTableViewCell.xib in Resources */,
 				7CFB5E571F2CB9B20091A7EC /* ZYLoginViewController.xib in Resources */,
 				7CFB5E7B1F2E0DCF0091A7EC /* ZYProfessionItemView.xib in Resources */,
+				7CD4BD241F3AB803006E4559 /* ZYChengGuoTableViewCell.xib in Resources */,
 				7CD4BCAB1F3996CD006E4559 /* ZXShoppingCarTableViewCell.xib in Resources */,
 				7CFB5E831F2E1ED30091A7EC /* ZYTableViewCell.xib in Resources */,
 				7CD4BC9C1F39968E006E4559 /* ZXShuChengTableViewCell.xib in Resources */,
 				7CD4BCCE1F3999AA006E4559 /* areaArray.plist in Resources */,
+				7CD4BCD91F399F77006E4559 /* ZYZuoPinShengheViewController.xib in Resources */,
+				7CD4BD171F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.xib in Resources */,
 				7C0009211F346C9100A9BF1D /* ZYGouWuCheTool.xib in Resources */,
 				7CFB5E931F2E28140091A7EC /* ZYCreationTableViewCell.xib in Resources */,
 				7CD4BCA61F3996AE006E4559 /* ZXShoppingCarTableViewController.xib in Resources */,
+				7CD4BCE61F39B18E006E4559 /* ZYAddJinPingViewController.xib in Resources */,
 				7C0009071F33004000A9BF1D /* ZYKaoTiViewController.xib in Resources */,
 				7C0009141F331FF800A9BF1D /* ZYKaoDianViewController.xib in Resources */,
+				7CD4BCD41F399B6C006E4559 /* ZYHuoDongDetailsViewController.xib in Resources */,
 				7C00090F1F330BA100A9BF1D /* ZYKaoTiTableViewCell.xib in Resources */,
 				7CD4BCB51F3996DE006E4559 /* ZXConfirmOrderTableViewController.xib in Resources */,
+				7CD4BD441F3AE72E006E4559 /* ZYDingDanViewController.xib in Resources */,
 				7CFB5E761F2E01C30091A7EC /* ZYHomeItemView.xib in Resources */,
 				7CD4BC971F399673006E4559 /* ZXShuChengTableViewController.xib in Resources */,
 				7CD4BCC91F399739006E4559 /* ZXAddOrEditAddressViewController.xib in Resources */,
 				7CFB5DD41F2B94610091A7EC /* LaunchScreen.storyboard in Resources */,
 				7CD4BCBA1F3996E9006E4559 /* ZXAddressTableViewCell.xib in Resources */,
+				7CD4BCE11F39A888006E4559 /* ZYGuiZeViewController.xib in Resources */,
 				7CD4BCC41F399728006E4559 /* ZXManageAddressTableViewCell.xib in Resources */,
 				7C00091C1F33222F00A9BF1D /* ZYKaoDianTableViewCell.xib in Resources */,
 				7C0009021F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.xib in Resources */,
@@ -928,13 +1178,20 @@
 				7CFB5DD11F2B94610091A7EC /* Assets.xcassets in Resources */,
 				7C0008E51F31C69A00A9BF1D /* ZYGrowthViewController.xib in Resources */,
 				7CFB5E641F2DE4790091A7EC /* ZYNavigationSubView.xib in Resources */,
+				7CD4BD1C1F3AB4C2006E4559 /* ZYChengGuoViewController.xib in Resources */,
+				7CD4BD3F1F3AE6F7006E4559 /* ZYWenDaViewController.xib in Resources */,
+				7CD4BD041F3AA720006E4559 /* ZYSelectKaoDianTableViewCell.xib in Resources */,
 				7CD4BCA41F3996AE006E4559 /* ZXBooksInfoTableViewController.xib in Resources */,
+				7CD4BD3A1F3AE69E006E4559 /* ZYQianBaoViewController.xib in Resources */,
 				7C0008FD1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.xib in Resources */,
 				7C5B73231F2F7819006036D8 /* ZYForgetViewController.xib in Resources */,
+				7CD4BCF91F3AA46A006E4559 /* ZYJingPingSelectTableViewCell.xib in Resources */,
 				7CD4BCBF1F399714006E4559 /* ZXManageAddressTableViewController.xib in Resources */,
 				7CD4BC7E1F38BD5E006E4559 /* ZYBiJiDetailsTableViewCell.xib in Resources */,
+				7CD4BD351F3AE655006E4559 /* ZYErWeiMaViewController.xib in Resources */,
 				7C5B73281F2F7D1E006036D8 /* ZYForgetNextViewController.xib in Resources */,
 				7CFB5E711F2DEB850091A7EC /* ZYUserHeaderView.xib in Resources */,
+				7CD4BD521F3AE902006E4559 /* ZYXinXiViewController.xib in Resources */,
 				7CFB5E5C1F2D94EF0091A7EC /* ZYNavigationView.xib in Resources */,
 				7CD4BCB31F3996DE006E4559 /* ZXAddressTableViewController.xib in Resources */,
 				7C0008F01F31ED0F00A9BF1D /* ZYGrowthTableViewCell.xib in Resources */,
@@ -1007,6 +1264,7 @@
 				7CFB5E491F2CB3390091A7EC /* ZYProfessionalViewController.m in Sources */,
 				7C00090E1F330BA100A9BF1D /* ZYKaoTiTableViewCell.m in Sources */,
 				7CFB5E561F2CB9B20091A7EC /* ZYLoginViewController.m in Sources */,
+				7CD4BD071F3AA87A006E4559 /* ZYSelectKaoDianViewController.m in Sources */,
 				7CFB5E961F2E30A70091A7EC /* ZYProfessionCollectionView.m in Sources */,
 				7CFB5E7E1F2E1EBE0091A7EC /* ZYHomeTableView.m in Sources */,
 				7C00091B1F33222F00A9BF1D /* ZYKaoDianTableViewCell.m in Sources */,
@@ -1014,25 +1272,39 @@
 				7CFB5E6F1F2DEB730091A7EC /* ZYUserHeaderView.m in Sources */,
 				7C0009291F3476E800A9BF1D /* ZYBiJiTableView.m in Sources */,
 				7CFB5E8E1F2E28000091A7EC /* ZYCreationTableView.m in Sources */,
+				7CD4BCF71F3AA46A006E4559 /* ZYJingPingSelectTableView.m in Sources */,
 				7C0008F81F32C01B00A9BF1D /* ZYGrowthXueFenTableView.m in Sources */,
 				7C5B73271F2F7D1E006036D8 /* ZYForgetNextViewController.m in Sources */,
 				7CFB5E6B1F2DEB5E0091A7EC /* ZYUserTableViewCell.m in Sources */,
+				7CD4BD161F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.m in Sources */,
+				7CD4BCE01F39A888006E4559 /* ZYGuiZeViewController.m in Sources */,
+				7CD4BCD81F399F77006E4559 /* ZYZuoPinShengheViewController.m in Sources */,
 				7CD4BC791F38BC42006E4559 /* ZYBiJiDetailsTableView.m in Sources */,
+				7CD4BD1F1F3AB7E8006E4559 /* ZYChengGuoTableView.m in Sources */,
 				7CFB5E921F2E28140091A7EC /* ZYCreationTableViewCell.m in Sources */,
 				7CFB5E0E1F2CA0150091A7EC /* NSDictionary+Extension.m in Sources */,
 				7CFB5E9A1F2E30BE0091A7EC /* ZYProfessionCollectionViewCell.m in Sources */,
+				7CD4BCE51F39B18E006E4559 /* ZYAddJinPingViewController.m in Sources */,
+				7CD4BD1B1F3AB4C2006E4559 /* ZYChengGuoViewController.m in Sources */,
 				7CFB5E181F2CA0150091A7EC /* UIImageView+pd.m in Sources */,
 				7CFB5E391F2CAE2F0091A7EC /* BaseService.m in Sources */,
+				7CD4BD2B1F3ABB96006E4559 /* ZYRankingTableViewCell.m in Sources */,
 				7C0008EB1F31D2C000A9BF1D /* ZYGrowthTableView.m in Sources */,
 				7CD4BCAA1F3996CD006E4559 /* ZXShoppingCarTableViewCell.m in Sources */,
 				7C0009061F33004000A9BF1D /* ZYKaoTiViewController.m in Sources */,
 				7CFB5DCC1F2B94610091A7EC /* ViewController.m in Sources */,
+				7CD4BD511F3AE902006E4559 /* ZYXinXiViewController.m in Sources */,
 				7CFB5E821F2E1ED30091A7EC /* ZYTableViewCell.m in Sources */,
+				7CD4BD121F3AAECF006E4559 /* ZYMyZuoPingTableView.m in Sources */,
 				7CFB5E4F1F2CB3810091A7EC /* ZYCreationViewController.m in Sources */,
+				7CD4BD431F3AE72E006E4559 /* ZYDingDanViewController.m in Sources */,
+				7CD4BD641F3AF863006E4559 /* ZYJiaoPeiViewController.m in Sources */,
 				7CFB5E741F2E01B00091A7EC /* ZYHomeItemView.m in Sources */,
 				7CFB5E171F2CA0150091A7EC /* UIImage+ImageEffects.m in Sources */,
+				7CD4BD031F3AA720006E4559 /* ZYSelectKaoDianTableViewCell.m in Sources */,
 				7CFB5E1A1F2CA0150091A7EC /* UILabel+Extension.m in Sources */,
 				7CFB5E2D1F2CAC9C0091A7EC /* ZYAppDelegate.m in Sources */,
+				7CD4BD611F3AF7E0006E4559 /* ZYYaZhouViewController.m in Sources */,
 				7CFB5E791F2E0DBD0091A7EC /* ZYProfessionItemView.m in Sources */,
 				7CD4BCB21F3996DE006E4559 /* ZXAddressTableViewController.m in Sources */,
 				7CD4BC761F37EB09006E4559 /* ZYBiJiDetailsViewController.m in Sources */,
@@ -1041,15 +1313,21 @@
 				7CD4BCCF1F3999AA006E4559 /* BLAreaPickerView.m in Sources */,
 				7CFB5E671F2DE9920091A7EC /* ZYUserTableView.m in Sources */,
 				7CFB5E1B1F2CA0150091A7EC /* UIView+Extension.m in Sources */,
+				7CD4BD551F3AE96B006E4559 /* ZYDownloadViewController.m in Sources */,
 				7CD4BC7D1F38BD5E006E4559 /* ZYBiJiDetailsTableViewCell.m in Sources */,
 				7CFB5E8B1F2E22DE0091A7EC /* ZYHumanitieTableView.m in Sources */,
+				7CD4BD471F3AE75B006E4559 /* ZYShouCangViewController.m in Sources */,
 				7CD4BC961F399673006E4559 /* ZXShuChengTableViewController.m in Sources */,
 				7CFB5E151F2CA0150091A7EC /* UIButton+ImageTitleSpacing.m in Sources */,
 				7CD4BC821F395181006E4559 /* KxMenu.m in Sources */,
+				7CD4BCD31F399B6C006E4559 /* ZYHuoDongDetailsViewController.m in Sources */,
 				7CD4BCBE1F399714006E4559 /* ZXManageAddressTableViewController.m in Sources */,
 				7C0008E41F31C69A00A9BF1D /* ZYGrowthViewController.m in Sources */,
 				7CFB5E141F2CA0150091A7EC /* UIAlertController+pd.m in Sources */,
 				7CFB5E361F2CAE0C0091A7EC /* ZYTabBarViewController.m in Sources */,
+				7CD4BD341F3AE655006E4559 /* ZYErWeiMaViewController.m in Sources */,
+				7CD4BD4D1F3AE8AB006E4559 /* ZYUserViewController.m in Sources */,
+				7CD4BD271F3ABB82006E4559 /* ZYRankingTableViewController.m in Sources */,
 				7CD4BC8C1F3960BD006E4559 /* ZYHuoDongTableViewCell.m in Sources */,
 				7CD4BCB41F3996DE006E4559 /* ZXConfirmOrderTableViewController.m in Sources */,
 				7CFB5E0D1F2CA0150091A7EC /* MBProgressHUD+Extension.m in Sources */,
@@ -1057,6 +1335,7 @@
 				7CD4BCC31F399728006E4559 /* ZXManageAddressTableViewCell.m in Sources */,
 				7C5B73221F2F7819006036D8 /* ZYForgetViewController.m in Sources */,
 				7CD4BCA51F3996AE006E4559 /* ZXShoppingCarTableViewController.m in Sources */,
+				7CD4BCFF1F3AA6F7006E4559 /* ZYSelectKaoDianTableView.m in Sources */,
 				7CFB5E0F1F2CA0150091A7EC /* NSObject+extension.m in Sources */,
 				7C00090A1F330A8A00A9BF1D /* ZYKaoTiTableVIew.m in Sources */,
 				7C0008EF1F31ED0F00A9BF1D /* ZYGrowthTableViewCell.m in Sources */,
@@ -1067,24 +1346,35 @@
 				7C0009331F347A3C00A9BF1D /* BaseTableView.m in Sources */,
 				7CD4BC9B1F39968E006E4559 /* ZXShuChengTableViewCell.m in Sources */,
 				7C0009171F3321FD00A9BF1D /* ZYKaoDianTableView.m in Sources */,
+				7CD4BD581F3AE9AA006E4559 /* ZYLiShiViewController.m in Sources */,
+				7CD4BCF81F3AA46A006E4559 /* ZYJingPingSelectTableViewCell.m in Sources */,
 				7CFB5E161F2CA0150091A7EC /* UIImage+Extension.m in Sources */,
 				7CFB5E101F2CA0150091A7EC /* NSString+Check.m in Sources */,
+				7CD4BD3E1F3AE6F7006E4559 /* ZYWenDaViewController.m in Sources */,
+				7CD4BD0E1F3AAC0F006E4559 /* ZYMyZuoPingViewController.m in Sources */,
 				7CFB5E5F1F2DA5B80091A7EC /* QuestionShufflingView.m in Sources */,
 				7CFB5E621F2DE46A0091A7EC /* ZYNavigationSubView.m in Sources */,
+				7CD4BD5E1F3AF7CE006E4559 /* ZYJiaoXueViewController.m in Sources */,
 				7CFB5DC61F2B94610091A7EC /* main.m in Sources */,
+				7CD4BD4A1F3AE785006E4559 /* ZYSettingViewController.m in Sources */,
 				7CFB5E111F2CA0150091A7EC /* NSString+Extension.m in Sources */,
+				7CD4BCE91F3AA39B006E4559 /* ZYJingPingSelectViewController.m in Sources */,
 				7CD4BCC81F399739006E4559 /* ZXAddOrEditAddressViewController.m in Sources */,
 				7C0009011F32C3F600A9BF1D /* ZYGrowthGuiZeViewController.m in Sources */,
 				7C0009251F3476C100A9BF1D /* ZYBiJiViewController.m in Sources */,
 				7CFB5E351F2CAE0C0091A7EC /* ZYNavigationController.m in Sources */,
 				7C0008FC1F32C0AC00A9BF1D /* ZYGrowthXueFenTableViewCell.m in Sources */,
 				7C00092D1F34793E00A9BF1D /* ZYBiJiTableViewCell.m in Sources */,
+				7CD4BD231F3AB803006E4559 /* ZYChengGuoTableViewCell.m in Sources */,
 				7C0009131F331FF800A9BF1D /* ZYKaoDianViewController.m in Sources */,
 				7CFB5E401F2CB15D0091A7EC /* HttpTool.m in Sources */,
 				7CD4BCB91F3996E9006E4559 /* ZXAddressTableViewCell.m in Sources */,
 				7CD4BC881F395E10006E4559 /* ZYHuoDongTableView.m in Sources */,
+				7CD4BD5B1F3AF5E1006E4559 /* ZYDakaViewController.m in Sources */,
 				7CD4BC851F395DB3006E4559 /* ZYHuoDongViewController.m in Sources */,
+				7CD4BCDC1F39A78E006E4559 /* UIButton+ZYExtension.m in Sources */,
 				7C00091F1F346C8500A9BF1D /* ZYGouWuCheTool.m in Sources */,
+				7CD4BD391F3AE69E006E4559 /* ZYQianBaoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1199,16 +1489,17 @@
 			baseConfigurationReference = AC2B889F149C1AA7B36BA1EC /* Pods-超级高考生.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 998M9T58PH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/超级高考生/Other/ZYSupperHighStudent.pch";
 				INFOPLIST_FILE = "超级高考生/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.superHigtStudents.alpha;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superHigtStudents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "96c34406-ffea-430c-b0fc-92da029e95cb";
+				PROVISIONING_PROFILE_SPECIFIER = com.superHigtStudents;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1217,16 +1508,17 @@
 			baseConfigurationReference = 8D0460FB37F341642CDBEA9D /* Pods-超级高考生.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 998M9T58PH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/超级高考生/Other/ZYSupperHighStudent.pch";
 				INFOPLIST_FILE = "超级高考生/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.superHigtStudents.alpha;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superHigtStudents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "96c34406-ffea-430c-b0fc-92da029e95cb";
+				PROVISIONING_PROFILE_SPECIFIER = com.superHigtStudents;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

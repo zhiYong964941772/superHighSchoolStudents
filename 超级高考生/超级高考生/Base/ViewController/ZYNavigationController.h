@@ -17,7 +17,7 @@
 @property(strong, nonatomic)QuestionShufflingView *shuffingView;
 @property(strong, nonatomic)ZYNavigationSubView *mNavigationSubView;
 @property(strong, nonatomic)ZYNavigationView *mNavigationView;
-
+- (void)hideSubView;
 
 
 @end
