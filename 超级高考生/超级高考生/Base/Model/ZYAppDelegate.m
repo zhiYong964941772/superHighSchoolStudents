@@ -9,12 +9,29 @@
 #import "ZYAppDelegate.h"
 #import "ZYNavigationController.h"
 #import "ZYLoginViewController.h"
+#import "ZYLoginServer.h"
+#import "ZYTabBarViewController.h"
 @implementation ZYAppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    ZYLoginViewController *login = [[ZYLoginViewController alloc]initWithNibName:@"ZYLoginViewController" bundle:nil];
-    ZYNavigationController *navi = [[ZYNavigationController alloc]initWithRootViewController:login];
-    [self.window setRootViewController:navi];
+    
+    [MBProgressHUD showMessage:@"加载中~" toView:self.window];
+    [ZYLoginServer check_loginWithSuccess:^(id obj) {
+        NSInteger i = [obj integerValue];
+        [MBProgressHUD hideHUDForView:self.window];
+        if (i == 1) {
+            ZYTabBarViewController *tabVC = [[ZYTabBarViewController alloc]init];
+            [self.window setRootViewController:tabVC];
+
+        }else{
+            ZYLoginViewController *login = [[ZYLoginViewController alloc]initWithNibName:@"ZYLoginViewController" bundle:nil];
+            ZYNavigationController *navi = [[ZYNavigationController alloc]initWithRootViewController:login];
+            [self.window setRootViewController:navi];
+
+        }
+    } WithFailt:^(id obj) {
+        [MBProgressHUD hideHUDForView:self.window];
+    }];
     [self.window makeKeyAndVisible];
     
     return YES;

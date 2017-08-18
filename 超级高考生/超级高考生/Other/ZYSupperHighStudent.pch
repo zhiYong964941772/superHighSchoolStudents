@@ -20,6 +20,9 @@
 #import "UIImageView+pd.h"
 #import <ReactiveObjC.h>
 #import "UIButton+ZYExtension.h"
+#import "HttpTool.h"
+#import "NSString+Check.h"
+#import "ZYHeaderModel.h"
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 

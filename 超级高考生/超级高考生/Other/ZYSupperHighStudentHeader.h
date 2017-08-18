@@ -19,4 +19,5 @@
 #define HomeDirectory [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"]
 #define WS(weakSelf)  __weak typeof(self)weakSelf = self;
 #define ZHI_NSNotificationCenter [NSNotificationCenter defaultCenter]
+#define SERVERAPI @"http://118.89.63.156:3000/api"
 #endif /* ZYSupperHighStudentHeader_h */

@@ -39,6 +39,11 @@
 		7C5B73231F2F7819006036D8 /* ZYForgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B73211F2F7819006036D8 /* ZYForgetViewController.xib */; };
 		7C5B73271F2F7D1E006036D8 /* ZYForgetNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B73251F2F7D1E006036D8 /* ZYForgetNextViewController.m */; };
 		7C5B73281F2F7D1E006036D8 /* ZYForgetNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C5B73261F2F7D1E006036D8 /* ZYForgetNextViewController.xib */; };
+		7C6C55DB1F45384500B639F5 /* ZYJiangLiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C55D91F45384500B639F5 /* ZYJiangLiViewController.m */; };
+		7C6C55DC1F45384500B639F5 /* ZYJiangLiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C55DA1F45384500B639F5 /* ZYJiangLiViewController.xib */; };
+		7C6C55DF1F453ACA00B639F5 /* ZYLoginServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C55DE1F453ACA00B639F5 /* ZYLoginServer.m */; };
+		7C6C55E21F45806600B639F5 /* ZYHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C55E11F45806600B639F5 /* ZYHeaderModel.m */; };
+		7C6C55E51F45B37500B639F5 /* ZYProFressionalServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C55E41F45B37500B639F5 /* ZYProFressionalServer.m */; };
 		7CD4BC761F37EB09006E4559 /* ZYBiJiDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BC751F37EB09006E4559 /* ZYBiJiDetailsViewController.m */; };
 		7CD4BC791F38BC42006E4559 /* ZYBiJiDetailsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BC781F38BC42006E4559 /* ZYBiJiDetailsTableView.m */; };
 		7CD4BC7D1F38BD5E006E4559 /* ZYBiJiDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4BC7B1F38BD5E006E4559 /* ZYBiJiDetailsTableViewCell.m */; };
@@ -230,6 +235,15 @@
 		7C5B73241F2F7D1E006036D8 /* ZYForgetNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYForgetNextViewController.h; sourceTree = "<group>"; };
 		7C5B73251F2F7D1E006036D8 /* ZYForgetNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYForgetNextViewController.m; sourceTree = "<group>"; };
 		7C5B73261F2F7D1E006036D8 /* ZYForgetNextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYForgetNextViewController.xib; sourceTree = "<group>"; };
+		7C6C55D81F45384500B639F5 /* ZYJiangLiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJiangLiViewController.h; sourceTree = "<group>"; };
+		7C6C55D91F45384500B639F5 /* ZYJiangLiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJiangLiViewController.m; sourceTree = "<group>"; };
+		7C6C55DA1F45384500B639F5 /* ZYJiangLiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYJiangLiViewController.xib; sourceTree = "<group>"; };
+		7C6C55DD1F453ACA00B639F5 /* ZYLoginServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLoginServer.h; sourceTree = "<group>"; };
+		7C6C55DE1F453ACA00B639F5 /* ZYLoginServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLoginServer.m; sourceTree = "<group>"; };
+		7C6C55E01F45806600B639F5 /* ZYHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHeaderModel.h; sourceTree = "<group>"; };
+		7C6C55E11F45806600B639F5 /* ZYHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHeaderModel.m; sourceTree = "<group>"; };
+		7C6C55E31F45B37500B639F5 /* ZYProFressionalServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYProFressionalServer.h; sourceTree = "<group>"; };
+		7C6C55E41F45B37500B639F5 /* ZYProFressionalServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYProFressionalServer.m; sourceTree = "<group>"; };
 		7CD4BC741F37EB09006E4559 /* ZYBiJiDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBiJiDetailsViewController.h; sourceTree = "<group>"; };
 		7CD4BC751F37EB09006E4559 /* ZYBiJiDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBiJiDetailsViewController.m; sourceTree = "<group>"; };
 		7CD4BC771F38BC42006E4559 /* ZYBiJiDetailsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBiJiDetailsTableView.h; sourceTree = "<group>"; };
@@ -932,6 +946,8 @@
 				7CFB5E2C1F2CAC9C0091A7EC /* ZYAppDelegate.m */,
 				7CFB5E371F2CAE2F0091A7EC /* BaseService.h */,
 				7CFB5E381F2CAE2F0091A7EC /* BaseService.m */,
+				7C6C55E01F45806600B639F5 /* ZYHeaderModel.h */,
+				7C6C55E11F45806600B639F5 /* ZYHeaderModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1010,6 +1026,10 @@
 		7CFB5E1C1F2CAB380091A7EC /* Server */ = {
 			isa = PBXGroup;
 			children = (
+				7C6C55DD1F453ACA00B639F5 /* ZYLoginServer.h */,
+				7C6C55DE1F453ACA00B639F5 /* ZYLoginServer.m */,
+				7C6C55E31F45B37500B639F5 /* ZYProFressionalServer.h */,
+				7C6C55E41F45B37500B639F5 /* ZYProFressionalServer.m */,
 			);
 			path = Server;
 			sourceTree = "<group>";
@@ -1068,6 +1088,9 @@
 				7CEDE4A81F30AD5D005EFFEF /* ZYSignViewController.h */,
 				7CEDE4A91F30AD5D005EFFEF /* ZYSignViewController.m */,
 				7CEDE4AA1F30AD5D005EFFEF /* ZYSignViewController.xib */,
+				7C6C55D81F45384500B639F5 /* ZYJiangLiViewController.h */,
+				7C6C55D91F45384500B639F5 /* ZYJiangLiViewController.m */,
+				7C6C55DA1F45384500B639F5 /* ZYJiangLiViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1116,7 +1139,7 @@
 					7CFB5DC01F2B94610091A7EC = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 998M9T58PH;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1151,6 +1174,7 @@
 				7CFB5E831F2E1ED30091A7EC /* ZYTableViewCell.xib in Resources */,
 				7CD4BC9C1F39968E006E4559 /* ZXShuChengTableViewCell.xib in Resources */,
 				7CD4BCCE1F3999AA006E4559 /* areaArray.plist in Resources */,
+				7C6C55DC1F45384500B639F5 /* ZYJiangLiViewController.xib in Resources */,
 				7CD4BCD91F399F77006E4559 /* ZYZuoPinShengheViewController.xib in Resources */,
 				7CD4BD171F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.xib in Resources */,
 				7C0009211F346C9100A9BF1D /* ZYGouWuCheTool.xib in Resources */,
@@ -1274,6 +1298,7 @@
 				7CFB5E8E1F2E28000091A7EC /* ZYCreationTableView.m in Sources */,
 				7CD4BCF71F3AA46A006E4559 /* ZYJingPingSelectTableView.m in Sources */,
 				7C0008F81F32C01B00A9BF1D /* ZYGrowthXueFenTableView.m in Sources */,
+				7C6C55E51F45B37500B639F5 /* ZYProFressionalServer.m in Sources */,
 				7C5B73271F2F7D1E006036D8 /* ZYForgetNextViewController.m in Sources */,
 				7CFB5E6B1F2DEB5E0091A7EC /* ZYUserTableViewCell.m in Sources */,
 				7CD4BD161F3AAEE4006E4559 /* ZYMyZuoPingTableViewCell.m in Sources */,
@@ -1306,6 +1331,7 @@
 				7CFB5E2D1F2CAC9C0091A7EC /* ZYAppDelegate.m in Sources */,
 				7CD4BD611F3AF7E0006E4559 /* ZYYaZhouViewController.m in Sources */,
 				7CFB5E791F2E0DBD0091A7EC /* ZYProfessionItemView.m in Sources */,
+				7C6C55DB1F45384500B639F5 /* ZYJiangLiViewController.m in Sources */,
 				7CD4BCB21F3996DE006E4559 /* ZXAddressTableViewController.m in Sources */,
 				7CD4BC761F37EB09006E4559 /* ZYBiJiDetailsViewController.m in Sources */,
 				7CFB5E521F2CB54C0091A7EC /* UIBarButtonItem+Extension.m in Sources */,
@@ -1313,6 +1339,7 @@
 				7CD4BCCF1F3999AA006E4559 /* BLAreaPickerView.m in Sources */,
 				7CFB5E671F2DE9920091A7EC /* ZYUserTableView.m in Sources */,
 				7CFB5E1B1F2CA0150091A7EC /* UIView+Extension.m in Sources */,
+				7C6C55DF1F453ACA00B639F5 /* ZYLoginServer.m in Sources */,
 				7CD4BD551F3AE96B006E4559 /* ZYDownloadViewController.m in Sources */,
 				7CD4BC7D1F38BD5E006E4559 /* ZYBiJiDetailsTableViewCell.m in Sources */,
 				7CFB5E8B1F2E22DE0091A7EC /* ZYHumanitieTableView.m in Sources */,
@@ -1344,6 +1371,7 @@
 				7CFB5E121F2CA0150091A7EC /* NSString+Mine.m in Sources */,
 				7CFB5E871F2E22C90091A7EC /* ZYHumanitieTableViewCell.m in Sources */,
 				7C0009331F347A3C00A9BF1D /* BaseTableView.m in Sources */,
+				7C6C55E21F45806600B639F5 /* ZYHeaderModel.m in Sources */,
 				7CD4BC9B1F39968E006E4559 /* ZXShuChengTableViewCell.m in Sources */,
 				7C0009171F3321FD00A9BF1D /* ZYKaoDianTableView.m in Sources */,
 				7CD4BD581F3AE9AA006E4559 /* ZYLiShiViewController.m in Sources */,
@@ -1489,16 +1517,16 @@
 			baseConfigurationReference = AC2B889F149C1AA7B36BA1EC /* Pods-超级高考生.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 998M9T58PH;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/超级高考生/Other/ZYSupperHighStudent.pch";
 				INFOPLIST_FILE = "超级高考生/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.superHigtStudents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "96c34406-ffea-430c-b0fc-92da029e95cb";
-				PROVISIONING_PROFILE_SPECIFIER = com.superHigtStudents;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1508,16 +1536,16 @@
 			baseConfigurationReference = 8D0460FB37F341642CDBEA9D /* Pods-超级高考生.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 998M9T58PH;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/超级高考生/Other/ZYSupperHighStudent.pch";
 				INFOPLIST_FILE = "超级高考生/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.superHigtStudents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "96c34406-ffea-430c-b0fc-92da029e95cb";
-				PROVISIONING_PROFILE_SPECIFIER = com.superHigtStudents;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

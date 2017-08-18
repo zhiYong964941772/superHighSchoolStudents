@@ -15,6 +15,7 @@
 #import "ZYJiaoXueViewController.h"
 #import "ZYYaZhouViewController.h"
 #import "ZYJiaoPeiViewController.h"
+#import "ZYProFressionalServer.h"
 @interface ZYProfessionalViewController ()
 
 @end
@@ -34,6 +35,11 @@
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
     [self creatUI];
+    [ZYProFressionalServer getAreasWithPageCount:@"4" WithSuccess:^(id obj) {
+        
+    } WithFailt:^(id obj) {
+        
+    }];
 }
 - (void)creatUI{
     ZYProfessionItemView *itemView = [ZYProfessionItemView showItemViewWithBtnAction:^(ZYProfessionItemView *view) {

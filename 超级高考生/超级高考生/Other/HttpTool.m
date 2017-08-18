@@ -39,7 +39,7 @@
 
 @end
 
-static NSString *sg_privateNetworkBaseUrl = nil;
+static NSString *sg_privateNetworkBaseUrl = SERVERAPI;
 static BOOL sg_isEnableInterfaceDebug = NO;
 static BOOL sg_shouldAutoEncode = NO;
 static NSDictionary *sg_httpHeaders = nil;
@@ -291,9 +291,15 @@ static inline NSString *cachePath() {
   if ([self shouldEncode]) {
     url = [self encodeUrl:url];
   }
+  
   AFHTTPSessionManager *manager = [self manager];
   NSString *absolute = [self absoluteUrlWithPath:url];
-  
+    NSDictionary *dic = @{@"client":@"ios"};
+    NSMutableDictionary *mutableDic = [[NSMutableDictionary alloc]initWithDictionary:dic];
+    if (TOKEN.length>0) {
+        [mutableDic setObject:TOKEN forKey:@"token"];
+    }
+    [self configCommonHttpHeaders:mutableDic];
   if ([self baseUrl] == nil) {
     if ([NSURL URLWithString:url] == nil) {
       AppLog(@"URLString无效，无法生成URL。可能是URL中有中文，请尝试Encode URL");
